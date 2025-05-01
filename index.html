@@ -26,18 +26,26 @@
       background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
       color: var(--text);
       line-height: 1.6;
-      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 960px;
+      width: 100%;
     }
 
     header {
       padding: 2rem 0;
-      text-align: center;
     }
 
     .site-title {
       font-size: 2.5rem;
       font-weight: 700;
-      text-align: center;
       margin-bottom: 1rem;
     }
 
@@ -59,21 +67,28 @@
     nav ul {
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       gap: 1.5rem;
       padding: 0;
       list-style: none;
+      margin-bottom: 2rem;
     }
 
-    nav ul li a {
+    nav ul li a, nav ul li button {
       text-decoration: none;
       color: var(--text);
       font-weight: 500;
       padding: 0.25rem 0.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1rem;
       transition: color 0.3s ease;
     }
 
-    nav ul li a:hover {
+    nav ul li a:hover, nav ul li button:hover {
       color: var(--accent);
       text-decoration: underline;
     }
@@ -107,8 +122,6 @@
     footer {
       margin-top: 3rem;
       padding: 1rem 0;
-      text-align: center;
-      border-top: 1px solid #eee;
       font-size: 0.9rem;
     }
 
@@ -142,88 +155,90 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1 class="site-title">Paulina Olszowy Creative Studio</h1>
-    <img class="hero-image" src="/mnt/data/zdjęcie pauliny.jpg" alt="Paulina Olszowy">
-    <nav>
-      <ul>
-        <li><a href="#about">O mnie</a></li>
-        <li><a href="#services">Usługi</a></li>
-        <li><a href="#shop">Sklep</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-        <li><button onclick="toggleLang()">EN</button></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header>
+      <h1 class="site-title">Paulina Olszowy Creative Studio</h1>
+      <img class="hero-image" src="/mnt/data/zdjęcie pauliny.jpg" alt="Paulina Olszowy">
+      <nav>
+        <ul>
+          <li><a href="#about">O mnie</a></li>
+          <li><a href="#services">Usługi</a></li>
+          <li><a href="#shop">Sklep</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li><button onclick="toggleLang()">EN</button></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section id="hero">
-      <h2 class="pl">Tworzę przestrzeń i uczę rysunku</h2>
-      <h2 class="en hidden">I design spaces and teach drawing</h2>
-    </section>
+    <main>
+      <section id="hero">
+        <h2 class="pl">Tworzę przestrzeń i uczę rysunku</h2>
+        <h2 class="en hidden">I design spaces and teach drawing</h2>
+      </section>
 
-    <section id="about">
-      <h3 class="pl">Kim jestem?</h3>
-      <h3 class="en hidden">About me</h3>
-      <p class="pl">
-        Nazywam się Paulina Olszowy. Jestem architektką i artystką. Udzielam lekcji rysunku i realizuję projekty architektoniczne.
-      </p>
-      <p class="en hidden">
-        My name is Paulina Olszowy. I'm an architect and artist. I teach drawing and design architectural projects.
-      </p>
-    </section>
+      <section id="about">
+        <h3 class="pl">Kim jestem?</h3>
+        <h3 class="en hidden">About me</h3>
+        <p class="pl">
+          Nazywam się Paulina Olszowy. Jestem architektką i artystką. Udzielam lekcji rysunku i realizuję projekty architektoniczne.
+        </p>
+        <p class="en hidden">
+          My name is Paulina Olszowy. I'm an architect and artist. I teach drawing and design architectural projects.
+        </p>
+      </section>
 
-    <section id="gallery">
-      <h3 class="pl">Przykładowe prace</h3>
-      <h3 class="en hidden">Sample Works</h3>
-      <div class="gallery">
-        <img src="/mnt/data/20231028_212950.jpg" alt="Rysunek 1">
-        <img src="/mnt/data/20231101_122837.jpg" alt="Rysunek 2">
-        <img src="https://images.unsplash.com/photo-1579942411628-7d72ce2b3c1c" alt="rysunek 3">
-      </div>
-    </section>
+      <section id="gallery">
+        <h3 class="pl">Przykładowe prace</h3>
+        <h3 class="en hidden">Sample Works</h3>
+        <div class="gallery">
+          <img src="/mnt/data/20231028_212950.jpg" alt="Rysunek 1">
+          <img src="/mnt/data/20231101_122837.jpg" alt="Rysunek 2">
+          <img src="https://images.unsplash.com/photo-1579942411628-7d72ce2b3c1c" alt="rysunek 3">
+        </div>
+      </section>
 
-    <section id="services">
-      <h3 class="pl">Usługi</h3>
-      <h3 class="en hidden">Services</h3>
-      <ul>
-        <li class="pl">Lekcje rysunku indywidualne i grupowe</li>
-        <li class="en hidden">Individual and group drawing lessons</li>
-        <li class="pl">Projekty wnętrz mieszkalnych i komercyjnych</li>
-        <li class="en hidden">Interior design for residential and commercial spaces</li>
-      </ul>
-    </section>
+      <section id="services">
+        <h3 class="pl">Usługi</h3>
+        <h3 class="en hidden">Services</h3>
+        <ul>
+          <li class="pl">Lekcje rysunku indywidualne i grupowe</li>
+          <li class="en hidden">Individual and group drawing lessons</li>
+          <li class="pl">Projekty wnętrz mieszkalnych i komercyjnych</li>
+          <li class="en hidden">Interior design for residential and commercial spaces</li>
+        </ul>
+      </section>
 
-    <section id="shop">
-      <h3 class="pl">Sklep</h3>
-      <h3 class="en hidden">Shop</h3>
-      <div class="product">
-        <h4 class="pl">Lekcja rysunku (1h)</h4>
-        <h4 class="en hidden">Drawing Lesson (1h)</h4>
-        <p class="pl">Cena: 120 zł</p>
-        <p class="en hidden">Price: 120 PLN</p>
-        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
-      </div>
+      <section id="shop">
+        <h3 class="pl">Sklep</h3>
+        <h3 class="en hidden">Shop</h3>
+        <div class="product">
+          <h4 class="pl">Lekcja rysunku (1h)</h4>
+          <h4 class="en hidden">Drawing Lesson (1h)</h4>
+          <p class="pl">Cena: 120 zł</p>
+          <p class="en hidden">Price: 120 PLN</p>
+          <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+        </div>
 
-      <div class="product">
-        <h4 class="pl">Konsultacja architektoniczna (1h)</h4>
-        <h4 class="en hidden">Architectural Consultation (1h)</h4>
-        <p class="pl">Cena: 200 zł</p>
-        <p class="en hidden">Price: 200 PLN</p>
-        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
-      </div>
-    </section>
+        <div class="product">
+          <h4 class="pl">Konsultacja architektoniczna (1h)</h4>
+          <h4 class="en hidden">Architectural Consultation (1h)</h4>
+          <p class="pl">Cena: 200 zł</p>
+          <p class="en hidden">Price: 200 PLN</p>
+          <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+        </div>
+      </section>
 
-    <section id="contact">
-      <h3 class="pl">Kontakt</h3>
-      <h3 class="en hidden">Contact</h3>
-      <p>Email: <a href="mailto:studio@paulinaolszowy.pl">studio@paulinaolszowy.pl</a></p>
-    </section>
-  </main>
+      <section id="contact">
+        <h3 class="pl">Kontakt</h3>
+        <h3 class="en hidden">Contact</h3>
+        <p>Email: <a href="mailto:studio@paulinaolszowy.pl">studio@paulinaolszowy.pl</a></p>
+      </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 Paulina Olszowy Creative Studio</p>
-  </footer>
+    <footer>
+      <p>&copy; 2025 Paulina Olszowy Creative Studio</p>
+    </footer>
+  </div>
 
   <script>
     function toggleLang() {
