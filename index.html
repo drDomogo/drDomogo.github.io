@@ -1,1 +1,89 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulina Olszowy Creative Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Paulina Olszowy</h1>
+      <ul>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#shop">Sklep</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><button onclick="toggleLang()">EN</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2 class="pl">Tworzę przestrzeń i uczę rysunku</h2>
+      <h2 class="en hidden">I design spaces and teach drawing</h2>
+    </section>
+
+    <section id="about">
+      <h3 class="pl">Kim jestem?</h3>
+      <h3 class="en hidden">About me</h3>
+      <p class="pl">
+        Nazywam się Paulina Olszowy. Jestem architektką i artystką. Udzielam lekcji rysunku i realizuję projekty architektoniczne.
+      </p>
+      <p class="en hidden">
+        My name is Paulina Olszowy. I'm an architect and artist. I teach drawing and design architectural projects.
+      </p>
+    </section>
+
+    <section id="services">
+      <h3 class="pl">Usługi</h3>
+      <h3 class="en hidden">Services</h3>
+      <ul>
+        <li class="pl">Lekcje rysunku indywidualne i grupowe</li>
+        <li class="en hidden">Individual and group drawing lessons</li>
+        <li class="pl">Projekty wnętrz mieszkalnych i komercyjnych</li>
+        <li class="en hidden">Interior design for residential and commercial spaces</li>
+      </ul>
+    </section>
+
+    <section id="shop">
+      <h3 class="pl">Sklep</h3>
+      <h3 class="en hidden">Shop</h3>
+      <div class="product">
+        <h4 class="pl">Lekcja rysunku (1h)</h4>
+        <h4 class="en hidden">Drawing Lesson (1h)</h4>
+        <p class="pl">Cena: 120 zł</p>
+        <p class="en hidden">Price: 120 PLN</p>
+        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+      </div>
+
+      <div class="product">
+        <h4 class="pl">Konsultacja architektoniczna (1h)</h4>
+        <h4 class="en hidden">Architectural Consultation (1h)</h4>
+        <p class="pl">Cena: 200 zł</p>
+        <p class="en hidden">Price: 200 PLN</p>
+        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3 class="pl">Kontakt</h3>
+      <h3 class="en hidden">Contact</h3>
+      <p>Email: <a href="mailto:studio@paulinaolszowy.pl">studio@paulinaolszowy.pl</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Paulina Olszowy Creative Studio</p>
+  </footer>
+
+  <script>
+    function toggleLang() {
+      document.querySelectorAll('.pl').forEach(el => el.classList.toggle('hidden'));
+      document.querySelectorAll('.en').forEach(el => el.classList.toggle('hidden'));
+    }
+  </script>
+</body>
+</html>
