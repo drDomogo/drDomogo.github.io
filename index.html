@@ -1,3 +1,185 @@
 <!DOCTYPE html>
-<!-- zawartość HTML, skrócona -->
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulina Olszowy Creative Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111;
+      --accent: #222;
+      --font: 'Helvetica Neue', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+
+    header {
+      padding: 2rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+    }
+
+    nav ul li {
+      font-size: 1rem;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      background: #f9f9f9;
+    }
+
+    .buy-button {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+
+    .buy-button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem 0;
+      text-align: center;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .product {
+        padding: 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Paulina Olszowy</h1>
+      <ul>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#shop">Sklep</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><button onclick="toggleLang()">EN</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2 class="pl">Tworzę przestrzeń i uczę rysunku</h2>
+      <h2 class="en hidden">I design spaces and teach drawing</h2>
+    </section>
+
+    <section id="about">
+      <h3 class="pl">Kim jestem?</h3>
+      <h3 class="en hidden">About me</h3>
+      <p class="pl">
+        Nazywam się Paulina Olszowy. Jestem architektką i artystką. Udzielam lekcji rysunku i realizuję projekty architektoniczne.
+      </p>
+      <p class="en hidden">
+        My name is Paulina Olszowy. I'm an architect and artist. I teach drawing and design architectural projects.
+      </p>
+    </section>
+
+    <section id="services">
+      <h3 class="pl">Usługi</h3>
+      <h3 class="en hidden">Services</h3>
+      <ul>
+        <li class="pl">Lekcje rysunku indywidualne i grupowe</li>
+        <li class="en hidden">Individual and group drawing lessons</li>
+        <li class="pl">Projekty wnętrz mieszkalnych i komercyjnych</li>
+        <li class="en hidden">Interior design for residential and commercial spaces</li>
+      </ul>
+    </section>
+
+    <section id="shop">
+      <h3 class="pl">Sklep</h3>
+      <h3 class="en hidden">Shop</h3>
+      <div class="product">
+        <h4 class="pl">Lekcja rysunku (1h)</h4>
+        <h4 class="en hidden">Drawing Lesson (1h)</h4>
+        <p class="pl">Cena: 120 zł</p>
+        <p class="en hidden">Price: 120 PLN</p>
+        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+      </div>
+
+      <div class="product">
+        <h4 class="pl">Konsultacja architektoniczna (1h)</h4>
+        <h4 class="en hidden">Architectural Consultation (1h)</h4>
+        <p class="pl">Cena: 200 zł</p>
+        <p class="en hidden">Price: 200 PLN</p>
+        <a href="https://buy.stripe.com/test_XXX" class="buy-button">Kup teraz / Buy Now</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3 class="pl">Kontakt</h3>
+      <h3 class="en hidden">Contact</h3>
+      <p>Email: <a href="mailto:studio@paulinaolszowy.pl">studio@paulinaolszowy.pl</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Paulina Olszowy Creative Studio</p>
+  </footer>
+
+  <script>
+    function toggleLang() {
+      document.querySelectorAll('.pl').forEach(el => el.classList.toggle('hidden'));
+      document.querySelectorAll('.en').forEach(el => el.classList.toggle('hidden'));
+    }
+  </script>
+</body>
 </html>
