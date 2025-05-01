@@ -21,7 +21,7 @@
 
     body {
       font-family: var(--font);
-      background: var(--bg);
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
       color: var(--text);
       line-height: 1.6;
       padding: 0 1rem;
@@ -29,6 +29,16 @@
 
     header {
       padding: 2rem 0;
+      text-align: center;
+    }
+
+    .hero-image {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 50%;
+      margin: 1rem auto;
+      display: block;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     nav {
@@ -90,6 +100,19 @@
       display: none;
     }
 
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
     @media (max-width: 768px) {
       nav ul {
         flex-direction: column;
@@ -114,6 +137,7 @@
         <li><button onclick="toggleLang()">EN</button></li>
       </ul>
     </nav>
+    <img class="hero-image" src="/mnt/data/zdjęcie pauliny.jpg" alt="Paulina Olszowy">
   </header>
 
   <main>
@@ -131,6 +155,16 @@
       <p class="en hidden">
         My name is Paulina Olszowy. I'm an architect and artist. I teach drawing and design architectural projects.
       </p>
+    </section>
+
+    <section id="gallery">
+      <h3 class="pl">Przykładowe prace</h3>
+      <h3 class="en hidden">Sample Works</h3>
+      <div class="gallery">
+        <img src="/mnt/data/20231028_212950.jpg" alt="Rysunek 1">
+        <img src="/mnt/data/20231101_122837.jpg" alt="Rysunek 2">
+        <img src="https://images.unsplash.com/photo-1579942411628-7d72ce2b3c1c" alt="rysunek 3">
+      </div>
     </section>
 
     <section id="services">
