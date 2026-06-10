@@ -235,10 +235,10 @@ HTML
         document.getElementById('det-momentum').innerText = data.momentum_summary;
 
         // Ścieżki do obrazków
-        document.getElementById('img-tech').src = `${folderPath}/technical_chart.png`;
-        document.getElementById('img-fund').src = `${folderPath}/fundamental_chart.png`;
-        document.getElementById('img-surprise').src = `${folderPath}/earnings_surprise_chart.png`;
-        document.getElementById('img-div').src = `${folderPath}/dividend_history_chart.png`;
+        document.getElementById('img-tech').src = `/${folderPath}/technical_chart.png`;
+        document.getElementById('img-fund').src = `/${folderPath}/fundamental_chart.png`;
+        document.getElementById('img-surprise').src = `/${folderPath}/earnings_surprise_chart.png`;
+        document.getElementById('img-div').src = `/${folderPath}/dividend_history_chart.png`;
 
         // Ukrywanie sekcji fundamentalnej jeśli brak danych
         const fundSection = document.getElementById('fund-section');
