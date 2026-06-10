@@ -1,0 +1,74 @@
+{
+    "ticker": "EQIX",
+    "analysis_date": "2026-06-10",
+    "current_price": 1044.99,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Przychody rosną stabilnie (CAGR ~8.2%), jednak zysk netto wykazuje zmienność, z silnym odbiciem prognozowanym na 2025. Prognoza EPS na 2026 wskazuje na kontynuację wzrostu.",
+    "fcf_and_operations": "Zdolność do generowania FCF jest słaba, z ujemnymi wartościami od 2025, co budzi obawy o finansowanie operacji i dywidend. FCF jest znacznie niższy niż zysk netto.",
+    "balance_sheet_debt": "Dźwignia finansowa jest wysoka (D/E 163%), a dług netto rośnie, co wskazuje na podwyższone ryzyko finansowe.",
+    "dividend_policy": "Dywidenda jest niepokryta ujemnym FCF i przewyższa zysk netto, co sugeruje jej niezrównoważony charakter.",
+    "market_expectations": "Spółka regularnie przekraczała prognozy EPS w latach 2024-2025, jednak ostatnie dwa kwartały (2026Q1, 2026Q2) przyniosły negatywne zaskoczenia.",
+    "valuation_status": "Droga",
+    "key_valuation_metrics": "Wskaźniki P/E (72.5x) i P/B (7.2x) są wysokie, a PEG Ratio (3.49) sugeruje przewartościowanie względem tempa wzrostu. ROE na poziomie 10% jest umiarkowane przy tak wysokiej wycenie.",
+    "price_strong_opportunity": 875.0,
+    "price_attractive": 950.0,
+    "price_fair_value": 1000.0,
+    "price_overvalued": 1100.0,
+    "price_valuation_justification": "Poziomy wyceny oparto na historycznych zakresach wskaźników P/E i P/B oraz kluczowych średnich kroczących (SMA50, SMA200) jako wsparcia.",
+    "trend_short_term": "Konsolidacja",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 1040.0,
+    "resistance_level": 1100.0,
+    "momentum_summary": "Obecny moment sprzyja akumulacji jedynie przy wyraźnym odbiciu od wsparcia lub przebiciu oporu.",
+    "scorecard": [
+        {
+            "criterion": "Przychody i Marże",
+            "score": 6,
+            "reason": "Stabilny wzrost przychodów, słaby FCF"
+        },
+        {
+            "criterion": "Zyski i EPS",
+            "score": 5,
+            "reason": "Zmienna dynamika zysków, ostatnie rozczarowania"
+        },
+        {
+            "criterion": "Bilans i Dług",
+            "score": 3,
+            "reason": "Wysokie zadłużenie, rosnący dług"
+        },
+        {
+            "criterion": "Generowanie Gotówki",
+            "score": 2,
+            "reason": "Ujemny FCF, brak pokrycia dywidendy"
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 4,
+            "reason": "Dywidenda niepokryta FCF/zyskiem"
+        },
+        {
+            "criterion": "Wycena Wskaźnikowa",
+            "score": 3,
+            "reason": "Wysokie wskaźniki, przewartościowanie"
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 5,
+            "reason": "Ostatnie rozczarowania EPS"
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 7,
+            "reason": "Silny trend długoterminowy"
+        },
+        {
+            "criterion": "Momentum",
+            "score": 5,
+            "reason": "Konsolidacja, brak silnego impulsu"
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Rosnący dług i ujemny FCF zagrażają stabilności finansowej i dywidendzie."
+}

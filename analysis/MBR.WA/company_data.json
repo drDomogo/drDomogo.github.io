@@ -1,0 +1,148 @@
+{
+    "ticker": "MBR.WA",
+    "generated_at": "2026-06-10 19:48:48.002996",
+    "current_snapshot": {
+        "shortName": "MOBRUK",
+        "sector": "Industrials",
+        "industry": "Waste Management",
+        "country": "Poland",
+        "currency": "PLN",
+        "currentPrice": 360.0,
+        "marketCap": 1264638592,
+        "trailingPE": 450.0,
+        "forwardPE": 14.162077,
+        "trailingEps": 0.8,
+        "forwardEps": null,
+        "pegRatio": null,
+        "priceToBook": 6.780299,
+        "returnOnEquity": 0.07418,
+        "debtToEquity": 70.916,
+        "beta": 0.231,
+        "dividendYield": 4.21,
+        "dividendRate": 15.23,
+        "fiveYearAvgDividendYield": 5.88,
+        "sharesOutstanding": 3512885
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-09-30",
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": 13.17
+        },
+        {
+            "Quarter": "2024-12-31",
+            "Currency": "PLN",
+            "Revenue": 83736300.0,
+            "NetIncome": 15393900.0,
+            "OperatingIncome": 23723547.0,
+            "Debt": 113120403.0,
+            "Cash": 43910951.0,
+            "FreeCashFlow": 19871783.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "PLN",
+            "Revenue": 59594426.0,
+            "NetIncome": 12499633.0,
+            "OperatingIncome": 17068881.0,
+            "Debt": 109056597.0,
+            "Cash": 51714177.0,
+            "FreeCashFlow": -1432739.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "PLN",
+            "Revenue": 67467712.0,
+            "NetIncome": 13895604.0,
+            "OperatingIncome": 19713060.0,
+            "Debt": 105880891.0,
+            "Cash": 40612812.0,
+            "FreeCashFlow": 9843753.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-09-30",
+            "Currency": "PLN",
+            "Revenue": 83098064.0,
+            "NetIncome": -38755120.0,
+            "OperatingIncome": -23317777.0,
+            "Debt": 119255869.0,
+            "Cash": 35247080.0,
+            "FreeCashFlow": -16640530.0,
+            "DividendPaid": 13.17
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "PLN",
+            "Revenue": 79024548.0,
+            "NetIncome": 15615277.0,
+            "OperatingIncome": 22766823.0,
+            "Debt": 164118909.0,
+            "Cash": 29833927.0,
+            "FreeCashFlow": 11016208.0,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2021,
+            "Currency": "PLN",
+            "Revenue": 267214397.0,
+            "NetIncome": 114986882.0,
+            "OperatingIncome": 150367624.0,
+            "Debt": 2001107.0,
+            "Cash": 108626549.0,
+            "FreeCashFlow": 134897954.0,
+            "DividendPaid": 20.15
+        },
+        {
+            "Year": 2022,
+            "Currency": "PLN",
+            "Revenue": 243387907.0,
+            "NetIncome": 92154473.0,
+            "OperatingIncome": 112666820.0,
+            "Debt": 1971646.0,
+            "Cash": 82636658.0,
+            "FreeCashFlow": 80706919.0,
+            "DividendPaid": 31.5
+        },
+        {
+            "Year": 2023,
+            "Currency": "PLN",
+            "Revenue": 237013180.0,
+            "NetIncome": 78864161.0,
+            "OperatingIncome": 95822951.0,
+            "Debt": 26820315.0,
+            "Cash": 11854211.0,
+            "FreeCashFlow": 5300812.0,
+            "DividendPaid": 13.17
+        },
+        {
+            "Year": 2024,
+            "Currency": "PLN",
+            "Revenue": 283910185.0,
+            "NetIncome": 70521972.0,
+            "OperatingIncome": 95931153.0,
+            "Debt": 113120403.0,
+            "Cash": 43910951.0,
+            "FreeCashFlow": -26468859.0,
+            "DividendPaid": 13.17
+        }
+    ],
+    "earnings_surprises": [
+        {
+            "EarningsDate": "2026-05-28 01:00:00",
+            "EPSEstimate": 3.6,
+            "EPSActual": 4.44,
+            "SurprisePercent": 23.33
+        }
+    ]
+}

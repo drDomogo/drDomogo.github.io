@@ -1,0 +1,23 @@
+[
+    {
+        "ticker": "CTRE",
+        "verdict": "TRZYMAJ",
+        "price": 37.605,
+        "currency": "USD",
+        "filePath": "analysis/CTRE/ai-comment-2026-06-10.json"
+    },
+    {
+        "ticker": "DLR",
+        "verdict": "TRZYMAJ",
+        "price": 182.31,
+        "currency": "USD",
+        "filePath": "analysis/DLR/ai-comment-2026-06-10.json"
+    },
+    {
+        "ticker": "EQIX",
+        "verdict": "REDUKUJ",
+        "price": 1044.99,
+        "currency": "USD",
+        "filePath": "analysis/EQIX/ai-comment-2026-06-10.json"
+    }
+]
