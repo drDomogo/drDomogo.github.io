@@ -1,85 +1,83 @@
+HTML
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Portfolio Dashboard</title>
+    <title>AI Financial Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --bg-main: #0f172a;
-            --bg-card: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent-blue: #3b82f6;
-            --accent-green: #10b981;
-            --accent-red: #ef4444;
-            --accent-orange: #f59e0b;
-            --border: #334155;
+            --bg-body: #f1f5f9;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent-primary: #0f172a; /* Ciemny granat */
+            --accent-blue: #1f77b4;    /* Kolor z Twoich wykresów */
+            --accent-green: #2ca02c;   /* Kolor dywidend/zysku */
+            --accent-red: #d62728;     /* Kolor długu/ryzyka */
+            --border: #e2e8f0;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
-        body { background-color: var(--bg-main); color: var(--text-main); padding: 30px; }
-        .container { max-width: 1100px; margin: 0 auto; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, sans-serif; }
+        body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.6; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
 
-        /* WSPÓLNE STYLE DLA WERDYKTÓW */
-        .badge { padding: 4px 10px; border-radius: 6px; font-weight: bold; text-transform: uppercase; font-size: 0.85rem; }
-        .badge.akumuluj { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); border: 1px solid var(--accent-green); }
-        .badge.trzymaj { background: rgba(245, 158, 11, 0.15); color: var(--accent-orange); border: 1px solid var(--accent-orange); }
-        .badge.redukuj { background: rgba(239, 68, 68, 0.15); color: var(--accent-red); border: 1px solid var(--accent-red); }
-        .badge.sprzedaj { background: rgba(239, 68, 68, 0.3); color: var(--accent-red); border: 1px solid var(--accent-red); }
-
-        /* EKRAN 1: LISTA SPÓŁEK */
-        #list-view h1 { margin-bottom: 25px; font-size: 2rem; color: #fff; }
-        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+        /* --- WIDOK LISTY --- */
+        .page-title { margin-bottom: 30px; font-weight: 800; font-size: 2rem; color: var(--accent-primary); border-left: 5px solid var(--accent-blue); padding-left: 15px; }
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
         
         .ticker-card { 
-            background-color: var(--bg-card); 
-            border: 1px solid var(--border); 
-            border-radius: 12px; 
-            padding: 20px; 
-            cursor: pointer; 
-            transition: transform 0.2s, border-color 0.2s;
+            background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; 
+            cursor: pointer; transition: all 0.2s ease; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
         }
-        .ticker-card:hover { 
-            transform: translateY(-3px); 
-            border-color: var(--accent-blue); 
-        }
-        .ticker-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
-        .ticker-name { font-size: 1.4rem; font-weight: bold; }
-        .ticker-price { font-size: 1.2rem; font-weight: 600; margin-top: 5px; }
+        .ticker-card:hover { transform: translateY(-4px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border-color: var(--accent-blue); }
+        .ticker-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+        .ticker-name { font-size: 1.5rem; font-weight: 800; color: var(--accent-primary); }
+        
+        /* Werdykty */
+        .badge { padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; border: 1px solid transparent; }
+        .akumuluj { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+        .trzymaj { background: #fef9c3; color: #854d0e; border-color: #fef08a; }
+        .redukuj { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+        .sprzedaj { background: #7f1d1d; color: white; }
 
-        /* EKRAN 2: DETALE KARTY */
+        /* --- WIDOK DETALI --- */
         .back-btn { 
-            background-color: var(--bg-card); color: var(--text-main); border: 1px solid var(--border);
-            padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 600; margin-bottom: 25px;
-            transition: background 0.2s;
+            background: var(--accent-primary); color: white; border: none; padding: 10px 24px; 
+            border-radius: 8px; cursor: pointer; font-weight: 600; margin-bottom: 20px; display: inline-flex; align-items: center; gap: 8px;
         }
-        .back-btn:hover { background-color: var(--border); }
+        .back-btn:hover { opacity: 0.9; }
 
         .header-detail { 
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 25px; 
-            border-radius: 12px; border: 1px solid var(--border); margin-bottom: 20px;
-            display: flex; justify-content: space-between; align-items: center;
+            background: var(--bg-card); padding: 30px; border-radius: 16px; border: 1px solid var(--border); 
+            margin-bottom: 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
 
-        .main-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 20px; margin-bottom: 20px; }
-        .card { background-color: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
-        .card h2 { font-size: 1.1rem; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 15px; color: var(--accent-blue); }
-        
-        .info-block { margin-bottom: 15px; }
-        .info-block label { font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 4px; font-weight: 600; }
-        .info-block p { font-size: 0.95rem; line-height: 1.5; }
+        /* Sekcje raportu */
+        .report-section { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px; align-items: start; }
+        @media (max-width: 1100px) { .report-section { grid-template-columns: 1fr; } }
 
-        .price-tiers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 15px; }
-        .tier { background-color: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px; border: 1px solid var(--border); text-align: center; }
-        .tier span { font-size: 0.75rem; color: var(--text-muted); display: block; }
+        .analysis-text { background: var(--bg-card); padding: 30px; border-radius: 16px; border: 1px solid var(--border); height: 100%; }
+        .analysis-text h2 { font-size: 1.25rem; margin-bottom: 20px; color: var(--accent-primary); border-bottom: 2px solid var(--bg-body); padding-bottom: 10px; }
         
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
-        th { color: var(--text-muted); }
-        .score-badge { background-color: #334155; padding: 2px 8px; border-radius: 4px; font-weight: bold; }
-        .score-badge.high { color: var(--accent-green); }
-        .score-badge.low { color: var(--accent-red); }
+        .chart-container { background: white; padding: 15px; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .chart-container img { width: 100%; height: auto; border-radius: 8px; display: block; }
+        .chart-title { font-size: 0.85rem; color: var(--text-muted); text-align: center; margin-top: 10px; font-weight: 600; }
+
+        .info-group { margin-bottom: 20px; }
+        .info-group label { display: block; font-size: 0.8rem; font-weight: 700; color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px; }
+        .info-group p { font-size: 1rem; color: #334155; }
+
+        /* Tabela punktowa */
+        .score-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .score-table td { padding: 12px 10px; border-bottom: 1px solid #f1f5f9; }
+        .score-num { font-weight: 800; width: 40px; text-align: center; border-radius: 6px; background: #f8fafc; }
+
+        .price-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 15px; }
+        .price-box { background: #f8fafc; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #e2e8f0; }
+        .price-box small { display: block; font-size: 0.7rem; color: var(--text-muted); font-weight: 700; margin-bottom: 5px; }
+        .price-box span { font-size: 1.1rem; font-weight: 800; color: var(--accent-primary); }
 
         .hidden { display: none !important; }
     </style>
@@ -87,71 +85,93 @@
 <body>
 
 <div class="container">
-
     <div id="list-view">
-        <h1>Mój Portfel AI</h1>
+        <h1 class="page-title">Mój Portfel AI</h1>
         <div class="portfolio-grid" id="grid-container">
             </div>
     </div>
 
     <div id="detail-view" class="hidden">
-        <button class="back-btn" onclick="showListView()">← Powrót do listy</button>
+        <button class="back-btn" onclick="showListView()">
+            <i class="fa-solid fa-arrow-left"></i> Powrót do portfela
+        </button>
         
         <div class="header-detail">
             <div>
-                <span id="det-ticker" style="background-color: var(--accent-blue); padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 1.2rem;">---</span>
-                <span id="det-date" style="margin-left: 15px; color: var(--text-muted);">--</span>
-                <h2 style="font-size: 1.8rem; margin-top: 12px;">Cena: <span id="det-price">--</span> <span id="det-currency">--</span></h2>
+                <h1 id="det-ticker" style="font-size: 2.5rem; letter-spacing: -1px;">---</h1>
+                <p id="det-date" style="color: var(--text-muted); font-weight: 500;">--</p>
             </div>
-            <div id="det-verdict" class="badge" style="font-size: 1.4rem; padding: 8px 20px;">---</div>
+            <div style="text-align: right;">
+                <div id="det-price-large" style="font-size: 2rem; font-weight: 800;">--</div>
+                <div id="det-verdict" class="badge" style="font-size: 1rem; padding: 6px 20px;">---</div>
+            </div>
         </div>
 
-        <div class="main-grid">
-            <div class="card" id="card-fundamentals">
-                <h2>Analiza Fundamentalna</h2>
-                <div class="info-block"><label>Przychody i Zyski (EPS)</label><p id="det-rev-eps">--</p></div>
-                <div class="info-block"><label>Przepływy pieniężne (FCF)</label><p id="det-fcf">--</p></div>
-                <div class="info-block"><label>Bilans i Zadłużenie</label><p id="det-debt">--</p></div>
-                <div class="info-block"><label>Polityka Dywidendowa</label><p id="det-dividend">--</p></div>
+        <div class="report-section">
+            <div class="analysis-text">
+                <h2><i class="fa-solid fa-chart-line"></i> Analiza Techniczna</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px;">
+                    <div class="info-group"><label>Trend Krótki</label><p id="det-trend-st">--</p></div>
+                    <div class="info-group"><label>Trend Długi</label><p id="det-trend-lt">--</p></div>
+                    <div class="info-group"><label>vs SMA50</label><p id="det-sma50">--</p></div>
+                    <div class="info-group"><label>vs SMA200</label><p id="det-sma200">--</p></div>
+                </div>
+                <div class="info-group">
+                    <label>Podsumowanie Momentum</label>
+                    <p id="det-momentum">--</p>
+                </div>
+                <div style="display: flex; gap: 30px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #f1f5f9;">
+                    <div><small style="color:var(--accent-green); font-weight: 800;">WSPARCIE</small><div id="det-support" style="font-size: 1.2rem; font-weight: 700;">--</div></div>
+                    <div><small style="color:var(--accent-red); font-weight: 800;">OPÓR</small><div id="det-resistance" style="font-size: 1.2rem; font-weight: 700;">--</div></div>
+                </div>
             </div>
-
-            <div class="card">
-                <h2>Analiza Techniczna Trendu</h2>
-                <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
-                    <div><span style="color:var(--text-muted)">Trend Krótki:</span> <strong id="det-trend-st">--</strong></div>
-                    <div><span style="color:var(--text-muted)">Trend Długi:</span> <strong id="det-trend-lt">--</strong></div>
-                </div>
-                <div style="display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px dashed var(--border); padding-bottom: 10px;">
-                    <div><span style="color:var(--text-muted)">vs SMA50:</span> <strong id="det-sma50">--</strong></div>
-                    <div><span style="color:var(--text-muted)">vs SMA200:</span> <strong id="det-sma200">--</strong></div>
-                </div>
-                <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
-                    <div><span style="color:var(--text-muted)">Wsparcie:</span> <strong id="det-support" style="color:var(--accent-green)">--</strong></div>
-                    <div><span style="color:var(--text-muted)">Opór:</span> <strong id="det-resistance" style="color:var(--accent-red)">--</strong></div>
-                </div>
-                <div class="info-block"><label>Podsumowanie Momentum</label><p id="det-momentum">--</p></div>
+            <div class="chart-container">
+                <img id="img-tech" src="" alt="Wykres Techniczny">
+                <div class="chart-title">Analiza Techniczna: Cena + SMA + Wolumen</div>
             </div>
+        </div>
 
-            <div class="card">
-                <h2>Wycena Modelowa (Poziomy Cenowe)</h2>
-                <div class="price-tiers">
-                    <div class="tier" style="border-color: var(--accent-green)"><span>Mocna Okazja</span><strong id="det-p-strong">--</strong></div>
-                    <div class="tier" style="border-color: var(--accent-blue)"><span>Cena Atrakcyjna</span><strong id="det-p-attractive">--</strong></div>
-                    <div class="tier"><span>Fair Value</span><strong id="det-p-fair">--</strong></div>
-                    <div class="tier" style="border-color: var(--accent-red)"><span>Przewartościowanie</span><strong id="det-p-over">--</strong></div>
-                </div>
-                <div class="info-block"><label>Uzasadnienie Wyceny</label><p id="det-price-justification" style="font-style: italic;">--</p></div>
+        <div id="fund-section" class="report-section">
+            <div class="analysis-text">
+                <h2><i class="fa-solid fa-file-invoice-dollar"></i> Analiza Fundamentalna</h2>
+                <div class="info-group"><label>Wyniki i EPS</label><p id="det-rev-eps">--</p></div>
+                <div class="info-group"><label>Cash Flow (FCF)</label><p id="det-fcf">--</p></div>
+                <div class="info-group"><label>Zadłużenie</label><p id="det-debt">--</p></div>
+                <div class="info-group"><label>Dywidenda</label><p id="det-dividend">--</p></div>
             </div>
+            <div class="chart-container">
+                <img id="img-fund" src="" alt="Wykres Fundamentalny">
+                <div class="chart-title">Historia Roczna: Przychody, Zyski i FCF</div>
+            </div>
+        </div>
 
-            <div class="card">
-                <h2>Karta Wyników i Ryzyko</h2>
-                <table>
-                    <thead><tr><th>Kryterium</th><th>Ocena</th><th>Powód</th></tr></thead>
-                    <tbody id="det-scorecard-body"></tbody>
-                </table>
-                <div style="margin-top: 20px; background: rgba(239, 68, 68, 0.05); padding: 12px; border-radius: 8px; border: 1px dashed rgba(239, 68, 68, 0.3)">
-                    <span style="color: var(--accent-red); font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 4px;">GŁÓWNE RYZYKO:</span>
-                    <p id="det-main-risk" style="font-size: 0.9rem;">--</p>
+        <div class="report-section">
+            <div class="analysis-text">
+                <h2><i class="fa-solid fa-scale-balanced"></i> Wycena Modelowa</h2>
+                <p id="det-price-justification" style="margin-bottom: 20px; font-style: italic; color: var(--text-muted);"></p>
+                <div class="price-grid">
+                    <div class="price-box" style="border-bottom: 4px solid var(--accent-green);"><small>OKAZJA</small><span id="det-p-strong">--</span></div>
+                    <div class="price-box" style="border-bottom: 4px solid var(--accent-blue);"><small>ATRAKCYJNA</small><span id="det-p-attractive">--</span></div>
+                    <div class="price-box"><small>FAIR VALUE</small><span id="det-p-fair">--</span></div>
+                    <div class="price-box" style="border-bottom: 4px solid var(--accent-red);"><small>DROGO</small><span id="det-p-over">--</span></div>
+                </div>
+
+                <h2 style="margin-top: 40px;"><i class="fa-solid fa-list-check"></i> Scorecard</h2>
+                <table class="score-table" id="det-scorecard-body"></table>
+                
+                <div style="margin-top: 30px; padding: 20px; background: #fff1f2; border-radius: 12px; border: 1px solid #fecaca;">
+                    <label style="color: #991b1b; font-weight: 800; font-size: 0.75rem;">KLUCZOWE RYZYKO</label>
+                    <p id="det-main-risk" style="color: #991b1b; font-weight: 600;"></p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="chart-container" id="container-surprise">
+                    <img id="img-surprise" src="" alt="Wykres Zaskoczeń">
+                    <div class="chart-title">Earnings Surprise: Prognozy vs Realizacja</div>
+                </div>
+                <div class="chart-container" id="container-div">
+                    <img id="img-div" src="" alt="Wykres Dywidend">
+                    <div class="chart-title">Roczna Historia Dywidend</div>
                 </div>
             </div>
         </div>
@@ -159,68 +179,51 @@
 </div>
 
 <script>
-    // ZACZYTANIE INDEKSU SPÓŁEK NA STARCIE
+    // Ładowanie indeksu
     document.addEventListener("DOMContentLoaded", () => {
         fetch('analysis_index.json')
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => buildListView(data))
-            .catch(err => console.error("Błąd ładowania skorowidza portfela:", err));
+            .catch(err => console.error("Błąd indeksu:", err));
     });
 
-    // RENDEROWANIE EKRANU STARTOWEGO (LISTY)
     function buildListView(companies) {
         const container = document.getElementById('grid-container');
         container.innerHTML = "";
-        
         companies.forEach(co => {
             const card = document.createElement('div');
             card.className = 'ticker-card';
-            card.onclick = () => loadCompanyDetails(co.filePath);
-            
+            card.onclick = () => loadDetails(co.filePath, co.folderPath);
             card.innerHTML = `
                 <div class="ticker-card-header">
                     <span class="ticker-name">${co.ticker}</span>
                     <span class="badge ${co.verdict.toLowerCase()}">${co.verdict}</span>
                 </div>
-                <div class="ticker-price">${co.price} <span style="font-size:0.85rem; color:var(--text-muted)">${co.currency}</span></div>
+                <div style="font-size: 1.2rem; font-weight: 700;">${co.price} ${co.currency}</div>
+                <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 10px;">Kliknij po pełny raport i wykresy →</div>
             `;
             container.appendChild(card);
         });
     }
 
-    // DYNAMICZNE POBIERANIE DANYCH JEDNEJ SPÓŁKI
-    function loadCompanyDetails(jsonPath) {
+    function loadDetails(jsonPath, folderPath) {
         fetch(jsonPath)
             .then(res => res.json())
             .then(data => {
-                renderCompanyCard(data);
+                renderDetails(data, folderPath);
                 showDetailView();
-            })
-            .catch(err => alert("Nie udało się pobrać szczegółów dla tej spółki: " + err));
+            });
     }
 
-    // MAPOWANIE DANYCH Z JSON DO ELEMENTÓW KARTY PRODUKTU
-    function renderCompanyCard(data) {
+    function renderDetails(data, folderPath) {
+        // Dane tekstowe
         document.getElementById('det-ticker').innerText = data.ticker;
-        document.getElementById('det-date').innerText = "Analiza z dnia: " + data.analysis_date;
-        document.getElementById('det-price').innerText = data.current_price;
-        document.getElementById('det-currency').innerText = data.currency;
+        document.getElementById('det-date').innerText = "Raport AI z dnia: " + data.analysis_date;
+        document.getElementById('det-price-large').innerText = data.current_price + " " + data.currency;
         
-        const verdict = document.getElementById('det-verdict');
-        verdict.innerText = data.final_verdict;
-        verdict.className = `badge ${data.final_verdict.toLowerCase()}`;
-
-        // Jeśli TECH_ONLY_TICKERS (pola fundamentalne są null) - ukrywamy całą kartę fundamentów
-        const fundCard = document.getElementById('card-fundamentals');
-        if (data.revenue_and_eps_trend === null) {
-            fundCard.classList.add('hidden');
-        } else {
-            fundCard.classList.remove('hidden');
-            document.getElementById('det-rev-eps').innerText = data.revenue_and_eps_trend;
-            document.getElementById('det-fcf').innerText = data.fcf_and_operations;
-            document.getElementById('det-debt').innerText = data.balance_sheet_debt;
-            document.getElementById('det-dividend').innerText = data.dividend_policy;
-        }
+        const v = document.getElementById('det-verdict');
+        v.innerText = data.final_verdict;
+        v.className = "badge " + data.final_verdict.toLowerCase();
 
         // Techniczne
         document.getElementById('det-trend-st').innerText = data.trend_short_term;
@@ -231,28 +234,56 @@
         document.getElementById('det-resistance').innerText = data.resistance_level + " " + data.currency;
         document.getElementById('det-momentum').innerText = data.momentum_summary;
 
-        // Wycena modelowa
-        document.getElementById('det-p-strong').innerText = data.price_strong_opportunity + " " + data.currency;
-        document.getElementById('det-p-attractive').innerText = data.price_attractive + " " + data.currency;
-        document.getElementById('det-p-fair').innerText = data.price_fair_value + " " + data.currency;
-        document.getElementById('det-p-over').innerText = data.price_overvalued + " " + data.currency;
+        // Ścieżki do obrazków
+        document.getElementById('img-tech').src = `${folderPath}/technical_chart.png`;
+        document.getElementById('img-fund').src = `${folderPath}/fundamental_chart.png`;
+        document.getElementById('img-surprise').src = `${folderPath}/earnings_surprise_chart.png`;
+        document.getElementById('img-div').src = `${folderPath}/dividend_history_chart.png`;
+
+        // Ukrywanie sekcji fundamentalnej jeśli brak danych
+        const fundSection = document.getElementById('fund-section');
+        if (data.revenue_and_eps_trend === null) {
+            fundSection.classList.add('hidden');
+            document.getElementById('container-surprise').classList.add('hidden');
+            document.getElementById('container-div').classList.add('hidden');
+        } else {
+            fundSection.classList.remove('hidden');
+            document.getElementById('container-surprise').classList.remove('hidden');
+            document.getElementById('container-div').classList.remove('hidden');
+            document.getElementById('det-rev-eps').innerText = data.revenue_and_eps_trend;
+            document.getElementById('det-fcf').innerText = data.fcf_and_operations;
+            document.getElementById('det-debt').innerText = data.balance_sheet_debt;
+            document.getElementById('det-dividend').innerText = data.dividend_policy;
+        }
+
+        // Wycena
+        document.getElementById('det-p-strong').innerText = data.price_strong_opportunity;
+        document.getElementById('det-p-attractive').innerText = data.price_attractive;
+        document.getElementById('det-p-fair').innerText = data.price_fair_value;
+        document.getElementById('det-p-over').innerText = data.price_overvalued;
         document.getElementById('det-price-justification').innerText = data.price_valuation_justification;
         document.getElementById('det-main-risk').innerText = data.main_risk;
 
-        // Budowanie tabeli wynikowej (Scorecard)
+        // Scorecard
         const tbody = document.getElementById('det-scorecard-body');
         tbody.innerHTML = "";
-        data.scorecard.forEach(item => {
-            const scoreClass = item.score >= 7 ? 'high' : (item.score <= 4 && item.score > 0 ? 'low' : '');
+        data.scorecard.forEach(s => {
+            const color = s.score >= 7 ? 'var(--accent-green)' : (s.score <= 4 && s.score > 0 ? 'var(--accent-red)' : 'var(--text-main)');
             tbody.innerHTML += `<tr>
-                <td><strong>${item.criterion}</strong></td>
-                <td><span class="score-badge ${scoreClass}">${item.score}/10</span></td>
-                <td>${item.reason}</td>
+                <td class="score-num" style="color: ${color}">${s.score}</td>
+                <td style="font-weight: 600;">${s.criterion}</td>
+                <td style="color: var(--text-muted)">${s.reason}</td>
             </tr>`;
+        });
+
+        // Obsługa braku obrazków (niektóre spółki mogą nie mieć dywidend)
+        const images = ['img-tech', 'img-fund', 'img-surprise', 'img-div'];
+        images.forEach(id => {
+            const img = document.getElementById(id);
+            img.onerror = () => img.parentElement.classList.add('hidden');
         });
     }
 
-    // NAWIGACJA MIĘDZY EKRANAMI
     function showDetailView() {
         document.getElementById('list-view').classList.add('hidden');
         document.getElementById('detail-view').classList.remove('hidden');
