@@ -1,26 +1,29 @@
 [
     {
         "ticker": "CTRE",
+        "short_name": "CareTrust REIT, Inc.",
         "verdict": "TRZYMAJ",
         "price": 37.605,
         "currency": "USD",
-        "filePath": "analysis/CTRE/ai-comment-2026-06-10.json",
+        "filePath": "analysis/CTRE/ai-comment-2026-06-11.json",
         "folderPath": "analysis/CTRE"
     },
     {
         "ticker": "DLR",
-        "verdict": "TRZYMAJ",
+        "short_name": "Digital Realty Trust, Inc.",
+        "verdict": "REDUKUJ",
         "price": 182.31,
         "currency": "USD",
-        "filePath": "analysis/DLR/ai-comment-2026-06-10.json",
+        "filePath": "analysis/DLR/ai-comment-2026-06-11.json",
         "folderPath": "analysis/DLR"
     },
     {
         "ticker": "EQIX",
+        "short_name": "Equinix, Inc.",
         "verdict": "REDUKUJ",
         "price": 1044.99,
         "currency": "USD",
-        "filePath": "analysis/EQIX/ai-comment-2026-06-10.json",
+        "filePath": "analysis/EQIX/ai-comment-2026-06-11.json",
         "folderPath": "analysis/EQIX"
     }
 ]

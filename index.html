@@ -96,15 +96,19 @@ HTML
             <i class="fa-solid fa-arrow-left"></i> Powrót do portfela
         </button>
         
-        <div class="header-detail">
+		<div class="header-detail">
             <div>
-                <h1 id="det-ticker" style="font-size: 2.5rem; letter-spacing: -1px;">---</h1>
-                <p id="det-date" style="color: var(--text-muted); font-weight: 500;">--</p>
+                <h1 style="font-size: 2.5rem; letter-spacing: -1px; display: flex; align-items: center; gap: 15px;">
+                    <span id="det-short-name">---</span> 
+                    <span id="det-ticker" style="background-color: var(--accent-blue); color: white; padding: 3px 10px; border-radius: 6px; font-weight: bold; font-size: 1rem; letter-spacing: 0;">---</span>
+                </h1>
+                <p id="det-date" style="color: var(--text-muted); font-weight: 500; margin-top: 5px;">--</p>
             </div>
             <div style="text-align: right;">
                 <div id="det-price-large" style="font-size: 2rem; font-weight: 800;">--</div>
                 <div id="det-verdict" class="badge" style="font-size: 1rem; padding: 6px 20px;">---</div>
             </div>
+        </div>
         </div>
 
         <div class="report-section">
@@ -187,19 +191,24 @@ HTML
             .catch(err => console.error("Błąd indeksu:", err));
     });
 
-    function buildListView(companies) {
+	function buildListView(companies) {
         const container = document.getElementById('grid-container');
         container.innerHTML = "";
         companies.forEach(co => {
             const card = document.createElement('div');
             card.className = 'ticker-card';
             card.onclick = () => loadDetails(co.filePath, co.folderPath);
+            
+            // Wyświetlamy Czytelną Nazwę, a pod spodem ticker mniejszą czcionką
             card.innerHTML = `
                 <div class="ticker-card-header">
-                    <span class="ticker-name">${co.ticker}</span>
+                    <div>
+                        <span class="ticker-name" style="display:block;">${co.short_name || co.ticker}</span>
+                        <small style="color: var(--text-muted); font-weight: bold;">${co.ticker}</small>
+                    </div>
                     <span class="badge ${co.verdict.toLowerCase()}">${co.verdict}</span>
                 </div>
-                <div style="font-size: 1.2rem; font-weight: 700;">${co.price} ${co.currency}</div>
+                <div style="font-size: 1.2rem; font-weight: 700; margin-top: 5px;">${co.price} ${co.currency}</div>
                 <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 10px;">Kliknij po pełny raport i wykresy →</div>
             `;
             container.appendChild(card);
@@ -215,11 +224,13 @@ HTML
             });
     }
 
-    function renderDetails(data, folderPath) {
-        // Dane tekstowe
+	function renderDetails(data, folderPath) {
+        // Dane tekstowe - NOWE POLE SHORT NAME:
+        document.getElementById('det-short-name').innerText = data.short_name || data.ticker;
+        
         document.getElementById('det-ticker').innerText = data.ticker;
         document.getElementById('det-date').innerText = "Raport AI z dnia: " + data.analysis_date;
-        document.getElementById('det-price-large').innerText = data.current_price + " " + data.currency;
+        document.getElementById('det-price-large').innerText = data.current_price + " " + data.currency
         
         const v = document.getElementById('det-verdict');
         v.innerText = data.final_verdict;
