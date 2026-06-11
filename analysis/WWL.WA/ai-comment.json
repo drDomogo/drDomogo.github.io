@@ -1,0 +1,75 @@
+{
+    "ticker": "WWL.WA",
+    "short_name": "WAWEL",
+    "analysis_date": "2026-06-11",
+    "current_price": 730.0,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczne przychody i zyski netto wykazują stabilny wzrost w latach 2022-2025. Marże operacyjne i netto utrzymują się na zdrowym poziomie. Kwartalne wyniki są sezonowe, z Q1 2026 wyższym NetIncome niż Q1 2025, ale niższymi przychodami.",
+    "fcf_and_operations": "Roczne FCF było stabilne do 2024, z wyraźnym spadkiem w 2025 (z 66.1M do 20.7M), co wymaga uwagi. Kwartalne FCF jest wysoce zmienne, z silnym odbiciem w Q1 2026.",
+    "balance_sheet_debt": "Bilans jest bardzo mocny. Zadłużenie jest minimalne i malejące (6M PLN w 2025), a spółka utrzymuje wysoką pozycję gotówkową, znacznie przewyższającą dług. Wskaźnik Debt/Equity na poziomie 0.504 jest niski.",
+    "dividend_policy": "Polityka dywidendowa jest nieregularna (25 PLN w 2021, 10 PLN w 2023, 35 PLN w 2024, 10 PLN w 2025). Obecna stopa dywidendy (4.82%) jest atrakcyjna, ale zmienność wypłat utrudnia prognozowanie.",
+    "market_expectations": null,
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (Trailing & Forward), P/B",
+    "price_strong_opportunity": 520.0,
+    "price_attractive": 625.0,
+    "price_fair_value": 730.0,
+    "price_overvalued": 833.0,
+    "price_valuation_justification": "Wycena oparta na wskaźnikach P/E (Trailing 10.52, Forward 10.49) oraz P/B (1.24), które są zgodne z historycznymi poziomami dla stabilnych spółek z sektora dóbr konsumpcyjnych. Poziomy cenowe wyznaczone na podstawie odchyleń od godziwego P/E.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 717.0,
+    "resistance_level": 765.0,
+    "momentum_summary": "Cena znajduje się poniżej SMA50, ale powyżej SMA200, co sygnalizuje krótkoterminową słabość w ramach dłuższego trendu wzrostowego. Objętość obrotu jest niska, co może wskazywać na brak silnej presji sprzedażowej.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysków",
+            "score": 7,
+            "reason": "Roczny wzrost stabilny, kwartalny zmienny, ale z pozytywnymi sygnałami w Q1 2026."
+        },
+        {
+            "criterion": "Marże",
+            "score": 8,
+            "reason": "Stabilne, zdrowe marże operacyjne i netto."
+        },
+        {
+            "criterion": "Bilans/Dług",
+            "score": 10,
+            "reason": "Bardzo niski dług, wysoka gotówka, mocny bilans."
+        },
+        {
+            "criterion": "FCF",
+            "score": 6,
+            "reason": "Roczny FCF spadł w 2025, kwartalny zmienny, ale Q1 2026 silne. Wymaga monitorowania."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 5,
+            "reason": "Atrakcyjny yield, ale nieregularna polityka."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Wycena godziwa, nie ma wyraźnego przewartościowania ani niedowartościowania."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 7,
+            "reason": "Długoterminowy trend wzrostowy, choć obecnie w korekcie."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 4,
+            "reason": "Krótkoterminowy trend spadkowy."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 5,
+            "reason": "Cena pod SMA50, ale nad SMA200, brak silnego momentum."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Zmienność wolnych przepływów pieniężnych (FCF) oraz nieregularna polityka dywidendowa."
+}

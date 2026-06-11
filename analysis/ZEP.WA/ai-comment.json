@@ -1,0 +1,55 @@
+{
+    "ticker": "ZEP.WA",
+    "short_name": "ZEPAK",
+    "analysis_date": "2026-06-11",
+    "current_price": 17.5,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczne przychody spadły w 2024 i 2025. Zysk netto ujemny w 2025 oraz w ostatnich kwartałach (Q1-Q3 2025, Q1 2026).",
+    "fcf_and_operations": "Roczne FCF ujemne w 2022, 2023, 2025. Kwartałowe FCF konsekwentnie ujemne, z wyjątkiem Q4 2025. Zysk operacyjny ujemny w ostatnich kwartałach.",
+    "balance_sheet_debt": "Wskaźnik Dług/Kapitał własny wysoki (59.91). Roczny dług wzrósł znacząco w 2025. Kwartałowy dług wzrósł do 1.2 mld PLN w Q1 2026 z 600 mln PLN w Q4 2025. Pozycja gotówkowa silna, lecz niewystarczająca na pokrycie długu.",
+    "dividend_policy": "Brak historii dywidend.",
+    "market_expectations": null,
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/B: 0.433, Forward P/E: 5.0",
+    "price_strong_opportunity": 20.0,
+    "price_attractive": 24.0,
+    "price_fair_value": 28.0,
+    "price_overvalued": 40.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/B (0.433), który jest znacznie poniżej historycznych i sektorowych norm, sugerując głęboką niedowartościowanie aktywów. Forward P/E 5.0 wskazuje na oczekiwany powrót do zyskowności, co czyni wycenę atrakcyjną przy realizacji prognoz. Poziomy cenowe wyznaczone na podstawie docelowego P/B (0.5-1.0).",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 17.0,
+    "resistance_level": 18.5,
+    "momentum_summary": "Cena poniżej kluczowych średnich kroczących (SMA50, SMA200), które również wykazują tendencję spadkową. Momentum słabe, trend spadkowy dominujący.",
+    "scorecard": [
+        {
+            "criterion": "Przychody i Zyski",
+            "score": 3,
+            "reason": "Spadające przychody i konsekwentne straty netto w ostatnich okresach."
+        },
+        {
+            "criterion": "FCF i Operacje",
+            "score": 2,
+            "reason": "Ujemne wolne przepływy pieniężne i ujemny zysk operacyjny wskazują na problemy z generowaniem gotówki z działalności podstawowej."
+        },
+        {
+            "criterion": "Bilans i Zadłużenie",
+            "score": 4,
+            "reason": "Wysoki wskaźnik Dług/Kapitał własny i znaczący wzrost zadłużenia w ostatnim kwartale, mimo silnej pozycji gotówkowej."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Ekstremalnie niski wskaźnik P/B oraz niski forward P/E sugerują głęboką niedowartościowanie, pod warunkiem realizacji prognoz zysków."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 2,
+            "reason": "Silny trend spadkowy, cena poniżej obu kluczowych średnich kroczących."
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Dalsze pogorszenie wyników operacyjnych i finansowych, brak realizacji prognoz zysków, wzrost zadłużenia i ryzyko utraty płynności."
+}

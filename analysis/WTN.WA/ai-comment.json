@@ -1,0 +1,60 @@
+{
+    "ticker": "WTN.WA",
+    "short_name": "WITTCHEN",
+    "analysis_date": "2026-06-11",
+    "current_price": 12.4,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczne przychody stabilne z lekką tendencją wzrostową, ale zyski netto i operacyjne roczne spadły w 2024 i prognozowany jest tylko niewielki wzrost w 2025. Ostatni kwartał (Q1 2026) wykazuje spadek przychodów i stratę netto, co jest negatywną anomalią.",
+    "fcf_and_operations": "Zyski operacyjne wykazują trend spadkowy od 2022. Wolne przepływy pieniężne (FCF) są zmienne, z silnym Q4, ale Q1 2026 odnotował ujemny FCF i ujemny zysk operacyjny, co wskazuje na bieżące wyzwania operacyjne.",
+    "balance_sheet_debt": "Wskaźnik Dług do Kapitału (D/E) jest wysoki (28.28). Zadłużenie roczne wzrosło w 2024, ale prognozowany jest spadek w 2025. Gotówka kwartalna wzrosła znacząco w Q1 2026, co jest pozytywne, ale ogólny poziom zadłużenia pozostaje podwyższony.",
+    "dividend_policy": "Spółka konsekwentnie wypłaca rosnące dywidendy w ostatnich latach (3.03 PLN w 2022, 3.33 PLN w 2023, 3.57 PLN w 2024), co wskazuje na pro-dywidendową politykę.",
+    "market_expectations": null,
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (8.86), P/B (1.12), ROE (12.8%)",
+    "price_strong_opportunity": 8.4,
+    "price_attractive": 10.5,
+    "price_fair_value": 12.6,
+    "price_overvalued": 16.8,
+    "price_valuation_justification": "Wycena oparta na wskaźniku C/Z (TTM 8.86) w kontekście historycznych wyników i prognoz. Aktualna cena 12.4 PLN jest bliska godziwej wartości 12.6 PLN (C/Z 9.0), przy założeniu stabilizacji zysków. Ryzyko spadku zysków w Q1 2026 może obniżyć tę wartość.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 12.0,
+    "resistance_level": 12.92,
+    "momentum_summary": "Silne negatywne momentum. Cena znajduje się znacznie poniżej obu średnich kroczących (SMA50, SMA200), co sygnalizuje silną presję sprzedażową. Ostatnie spadki były gwałtowne, z wolumenem wskazującym na kontynuację trendu.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przychody/Zyski",
+            "score": 4,
+            "reason": "Przychody stabilne, ale zyski netto i operacyjne spadają, a Q1 2026 to strata netto i operacyjna."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 5,
+            "reason": "Wysoki wskaźnik Dług do Kapitału, choć gotówka rośnie, a zadłużenie roczne ma spadać."
+        },
+        {
+            "criterion": "Wolne Przepływy Pieniężne (FCF)",
+            "score": 6,
+            "reason": "FCF jest zmienny, roczny FCF jest solidny, ale Q1 2026 odnotował ujemny przepływ."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 8,
+            "reason": "Spółka konsekwentnie wypłaca rosnące dywidendy w ostatnich latach."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Wskaźnik C/Z poniżej średniej rynkowej, blisko wartości godziwej, ale z ryzykiem spadku zysków."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 2,
+            "reason": "Silny trend spadkowy, cena znacznie poniżej kluczowych średnich kroczących."
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Dalsze pogorszenie wyników finansowych, w szczególności utrzymanie się strat netto i operacyjnych, oraz wysoki poziom zadłużenia w obliczu spowolnienia gospodarczego."
+}

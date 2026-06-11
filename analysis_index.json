@@ -3,27 +3,144 @@
         "ticker": "CTRE",
         "short_name": "CareTrust REIT, Inc.",
         "verdict": "TRZYMAJ",
-        "price": 37.605,
+        "price": 37.215,
         "currency": "USD",
-        "filePath": "analysis/CTRE/ai-comment-2026-06-11.json",
+        "filePath": "analysis/CTRE/company_data.json",
         "folderPath": "analysis/CTRE"
+    },
+    {
+        "ticker": "DIG.WA",
+        "short_name": "DIGITANET",
+        "verdict": "TRZYMAJ",
+        "price": 231.6,
+        "currency": "PLN",
+        "filePath": "analysis/DIG.WA/company_data.json",
+        "folderPath": "analysis/DIG.WA"
     },
     {
         "ticker": "DLR",
         "short_name": "Digital Realty Trust, Inc.",
         "verdict": "REDUKUJ",
-        "price": 182.31,
+        "price": 183.525,
         "currency": "USD",
-        "filePath": "analysis/DLR/ai-comment-2026-06-11.json",
+        "filePath": "analysis/DLR/company_data.json",
         "folderPath": "analysis/DLR"
     },
     {
         "ticker": "EQIX",
         "short_name": "Equinix, Inc.",
         "verdict": "REDUKUJ",
-        "price": 1044.99,
+        "price": 1044.63,
         "currency": "USD",
-        "filePath": "analysis/EQIX/ai-comment-2026-06-11.json",
+        "filePath": "analysis/EQIX/company_data.json",
         "folderPath": "analysis/EQIX"
+    },
+    {
+        "ticker": "KGH.WA",
+        "short_name": "KGHM",
+        "verdict": "REDUKUJ",
+        "price": 333.8,
+        "currency": "PLN",
+        "filePath": "analysis/KGH.WA/company_data.json",
+        "folderPath": "analysis/KGH.WA"
+    },
+    {
+        "ticker": "KRU.WA",
+        "short_name": "KRUK",
+        "verdict": "AKUMULUJ",
+        "price": 395.2,
+        "currency": "PLN",
+        "filePath": "analysis/KRU.WA/company_data.json",
+        "folderPath": "analysis/KRU.WA"
+    },
+    {
+        "ticker": "LPP.WA",
+        "short_name": "LPP",
+        "verdict": "TRZYMAJ",
+        "price": 21920.0,
+        "currency": "PLN",
+        "filePath": "analysis/LPP.WA/company_data.json",
+        "folderPath": "analysis/LPP.WA"
+    },
+    {
+        "ticker": "MBR.WA",
+        "short_name": "MOBRUK",
+        "verdict": "TRZYMAJ",
+        "price": 357.0,
+        "currency": "PLN",
+        "filePath": "analysis/MBR.WA/company_data.json",
+        "folderPath": "analysis/MBR.WA"
+    },
+    {
+        "ticker": "NNN",
+        "short_name": "NNN REIT, Inc.",
+        "verdict": "TRZYMAJ",
+        "price": 46.41,
+        "currency": "USD",
+        "filePath": "analysis/NNN/company_data.json",
+        "folderPath": "analysis/NNN"
+    },
+    {
+        "ticker": "PEP.WA",
+        "short_name": "PEP",
+        "verdict": "REDUKUJ",
+        "price": 53.4,
+        "currency": "PLN",
+        "filePath": "analysis/PEP.WA/company_data.json",
+        "folderPath": "analysis/PEP.WA"
+    },
+    {
+        "ticker": "PKN.WA",
+        "short_name": "PKNORLEN",
+        "verdict": "TRZYMAJ",
+        "price": 148.68,
+        "currency": "PLN",
+        "filePath": "analysis/PKN.WA/company_data.json",
+        "folderPath": "analysis/PKN.WA"
+    },
+    {
+        "ticker": "WTN.WA",
+        "short_name": "WITTCHEN",
+        "verdict": "REDUKUJ",
+        "price": 12.4,
+        "currency": "PLN",
+        "filePath": "analysis/WTN.WA/company_data.json",
+        "folderPath": "analysis/WTN.WA"
+    },
+    {
+        "ticker": "WWD",
+        "short_name": "Woodward, Inc.",
+        "verdict": "REDUKUJ",
+        "price": 384.15,
+        "currency": "USD",
+        "filePath": "analysis/WWD/company_data.json",
+        "folderPath": "analysis/WWD"
+    },
+    {
+        "ticker": "WWL.WA",
+        "short_name": "WAWEL",
+        "verdict": "TRZYMAJ",
+        "price": 730.0,
+        "currency": "PLN",
+        "filePath": "analysis/WWL.WA/company_data.json",
+        "folderPath": "analysis/WWL.WA"
+    },
+    {
+        "ticker": "XTB.WA",
+        "short_name": "XTB",
+        "verdict": "AKUMULUJ",
+        "price": 109.0,
+        "currency": "PLN",
+        "filePath": "analysis/XTB.WA/company_data.json",
+        "folderPath": "analysis/XTB.WA"
+    },
+    {
+        "ticker": "ZEP.WA",
+        "short_name": "ZEPAK",
+        "verdict": "REDUKUJ",
+        "price": 17.5,
+        "currency": "PLN",
+        "filePath": "analysis/ZEP.WA/company_data.json",
+        "folderPath": "analysis/ZEP.WA"
     }
 ]

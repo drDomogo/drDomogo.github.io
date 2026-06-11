@@ -1,0 +1,60 @@
+{
+    "ticker": "KRU.WA",
+    "short_name": "KRUK",
+    "analysis_date": "2026-06-11",
+    "current_price": 395.2,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Spółka wykazuje konsekwentny wzrost przychodów i zysków netto w ujęciu rocznym. Kwartalne wyniki zysku netto są zmienne, ale trend wzrostowy jest zachowany.",
+    "fcf_and_operations": "Zysk operacyjny rośnie stabilnie. Wolne przepływy pieniężne (FCF) były historycznie ujemne z uwagi na inwestycje w portfele, jednak w 2025 roku odnotowano roczny FCF dodatni, co stanowi pozytywną zmianę.",
+    "balance_sheet_debt": "Zadłużenie rośnie, co jest typowe dla modelu biznesowego spółki (finansowanie zakupu portfeli). Wskaźnik D/E jest wysoki (131%), lecz wysokie ROE (21%) wskazuje na efektywne wykorzystanie kapitału i dźwigni.",
+    "dividend_policy": "Spółka ma historię konsekwentnego wzrostu dywidendy, obecnie stabilizującą się na wysokim poziomie (stopa dywidendy 5.03%), co świadczy o zaangażowaniu w zwrot dla akcjonariuszy.",
+    "market_expectations": null,
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (trailing) 7.41, P/E (forward) 6.78, P/B 1.36, ROE 21.06%",
+    "price_strong_opportunity": 400.0,
+    "price_attractive": 460.0,
+    "price_fair_value": 580.0,
+    "price_overvalued": 670.0,
+    "price_valuation_justification": "Wycena oparta na wskaźnikach P/E i P/B, które są znacząco poniżej średnich sektorowych dla spółek o podobnym wzroście i wysokim ROE. Fair Value wyznaczono przy P/E ok. 10x (forward EPS) i P/B ok. 2.0x.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 386.7,
+    "resistance_level": 410.0,
+    "momentum_summary": "Cena znajduje się poniżej obu kluczowych średnich kroczących (SMA50 i SMA200), co sygnalizuje negatywne momentum i dominację podaży w krótkim i średnim terminie. Ostatnie spadki są wyraźne.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 6,
+            "reason": "Wysokie zadłużenie, lecz efektywnie wykorzystywane (wysokie ROE)."
+        },
+        {
+            "criterion": "Marże",
+            "score": 8,
+            "reason": "Stabilny wzrost zysku operacyjnego i netto."
+        },
+        {
+            "criterion": "Trend",
+            "score": 4,
+            "reason": "Krótkoterminowy i długoterminowy trend spadkowy, cena poniżej kluczowych średnich."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 9,
+            "reason": "Wskaźniki P/E i P/B znacznie poniżej wartości godziwej."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 9,
+            "reason": "Stabilny wzrost dywidendy, wysoka stopa dywidendy."
+        },
+        {
+            "criterion": "Przepływy",
+            "score": 7,
+            "reason": "Historycznie ujemne FCF, poprawa w 2025, lecz kwartalnie zmienne."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysoki poziom zadłużenia i wrażliwość na zmiany stóp procentowych oraz regulacje rynkowe."
+}
