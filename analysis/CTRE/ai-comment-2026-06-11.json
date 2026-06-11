@@ -1,0 +1,65 @@
+{
+    "ticker": "CTRE",
+    "short_name": "CareTrust REIT, Inc.",
+    "analysis_date": "2026-06-10",
+    "current_price": 37.605,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Roczne przychody i zyski operacyjne wykazują silny, konsekwentny wzrost. Zysk netto znacząco odbił od straty w 2022 do wysokiego poziomu w 2025. Kwartalne przychody i zyski operacyjne również rosną. Wzrost EPS jest widoczny.",
+    "fcf_and_operations": "Roczny FCF wykazuje solidny wzrost, ponad dwukrotnie zwiększając się od 2022 do 2025. Kwartalny FCF również ma silną trajektorię wzrostową, wskazując na efektywne generowanie gotówki z działalności operacyjnej. Zysk operacyjny konsekwentnie rośnie rocznie i kwartalnie.",
+    "balance_sheet_debt": "Roczne zadłużenie spadło znacząco w latach 2022-2024, po czym wzrosło w 2025, jednak dane kwartalne wskazują na ostatnią stabilizację. Wskaźnik Dług/Kapitał własny na poziomie 71.95% jest umiarkowany dla REIT. Poziom gotówki jest zmienny, ale pozostaje znaczący.",
+    "dividend_policy": "Spółka utrzymuje konsekwentne roczne wypłaty dywidend z ogólnym trendem wzrostowym, choć w 2024 nastąpił niewielki spadek. Obecna stopa dywidendy 4.14% jest niższa niż 5-letnia średnia 4.73%, co sugeruje szybszy wzrost ceny akcji lub wolniejszy wzrost dywidendy. Kwartalne dywidendy ostatnio wzrosły i ustabilizowały się.",
+    "market_expectations": "Spółka konsekwentnie nie spełniała oczekiwań rynkowych dotyczących EPS w ostatnich sześciu kwartałach (od 2025-02 do 2026-05), notując znaczące negatywne zaskoczenia, co wskazuje na trudności w osiąganiu prognoz analityków.",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (TTM): 23.80, P/E (Forward): 21.58, P/B: 2.06, Dividend Yield: 4.14%",
+    "price_strong_opportunity": 27.88,
+    "price_attractive": 33.11,
+    "price_fair_value": 37.61,
+    "price_overvalued": 43.56,
+    "price_valuation_justification": "Poziomy wyceny oparte na wskaźniku P/E (Forward) w odniesieniu do bieżących i historycznych danych. Cena godziwa odpowiada obecnemu wskaźnikowi P/E (Forward) 21.58. Poziomy atrakcyjne i mocnej okazji zakładają dyskonto do tego wskaźnika (odpowiednio ~12% i ~25%), natomiast poziom przewartościowania oznacza ~16% premię.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 35.7,
+    "resistance_level": 42.1,
+    "momentum_summary": "Cena wykazuje krótkoterminową słabość po osiągnięciu szczytów, spadając poniżej SMA50. Długoterminowy trend wzrostowy pozostaje nienaruszony, wspierany przez SMA200. Wskaźniki momentum wskazują na korektę.",
+    "scorecard": [
+        {
+            "criterion": "Przychody i Zyski",
+            "score": 8,
+            "reason": "Silny wzrost przychodów i zysków, ale ostatnie kwartały z rozczarowującymi wynikami EPS."
+        },
+        {
+            "criterion": "FCF i Operacje",
+            "score": 9,
+            "reason": "Bardzo silny wzrost FCF i stabilny wzrost zysku operacyjnego."
+        },
+        {
+            "criterion": "Bilans i Zadłużenie",
+            "score": 7,
+            "reason": "Umiarkowane zadłużenie dla REIT, zarządzane, choć ostatni wzrost długu wymaga uwagi."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 7,
+            "reason": "Stabilne i rosnące dywidendy, ale obecna stopa niższa niż średnia 5-letnia."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 3,
+            "reason": "Konsekwentne negatywne zaskoczenia EPS w ostatnich kwartałach."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 5,
+            "reason": "Wycena na poziomie godziwym, ale blisko górnej granicy, z ryzykiem przewartościowania przy dalszych spadkach EPS."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 6,
+            "reason": "Długoterminowy trend wzrostowy, ale krótkoterminowa korekta i spadek poniżej SMA50."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Konsekwentne negatywne zaskoczenia wynikami EPS, co może podważyć zaufanie inwestorów i prowadzić do dalszej korekty wyceny."
+}
