@@ -1,14 +1,3 @@
-Oto kompletny, gotowy i w pełni zabezpieczony plik index.html.
-
-Zostały w nim wprowadzone następujące poprawki:
-
-Zoptymalizowana funkcja loadDetails: Teraz w pierwszej kolejności próbuje ona bezpośrednio sparsować czysty obiekt JSON (generowany automatycznie przez Pydantic do ai-comment.json). Jeśli w pliku znajdą się znaczniki markdown ```json, funkcja automatycznie je wyczyści w trybie zapasowym (fallback).
-
-Bezpieczne renderowanie werdyktu: W funkcji renderDetails dodano fallback (data.final_verdict || "TRZYMAJ"), dzięki czemu metoda .toLowerCase() nigdy więcej nie wywoła błędu TypeError: Cannot read properties of undefined, nawet jeśli w pliku JSON brakowałoby jakiegoś klucza.
-
-Skopiuj poniższą zawartość i nadpisz swój dotychczasowy plik index.html:
-
-HTML
 <!DOCTYPE html>
 <html lang="pl">
 <head>
