@@ -1,0 +1,70 @@
+{
+    "ticker": "2308.TW",
+    "short_name": "DELTA ELECTRONIC",
+    "analysis_date": "2026-06-15",
+    "current_price": 2210.0,
+    "currency": "TWD",
+    "revenue_and_eps_trend": "Silny wzrost przychodów i zysków netto w ujęciu rocznym i kwartalnym, z wyraźnym przyspieszeniem w 2025 roku. Odnotowano krótkotrwały spadek zysku netto w Q4 2024.",
+    "fcf_and_operations": "Dochód operacyjny wykazuje stabilny, silny wzrost, szczególnie w 2025 roku. Wolne przepływy pieniężne są zmienne kwartalnie, ale utrzymują ogólny trend wzrostowy w perspektywie rocznej.",
+    "balance_sheet_debt": "Bilans jest zdrowy, z rosnącą pozycją gotówkową, która konsekwentnie przewyższa zadłużenie. Wskaźnik zadłużenia do kapitału własnego (D/E 19.37%) jest niski, co świadczy o solidnej strukturze kapitałowej.",
+    "dividend_policy": "Polityka dywidendowa jest zmienna, z nieregularnym wzrostem wypłat. Obecna stopa dywidendy (0.52%) jest znacząco niższa od średniej pięcioletniej (1.91%).",
+    "market_expectations": "Spółka wykazuje zmienność w realizacji oczekiwań rynkowych, z serią negatywnych zaskoczeń EPS w ostatnich kwartałach (Q4 2024, Q1 2025, Q4 2025, Q1 2026), przeplataną pozytywnymi.",
+    "valuation_status": "Bardzo Droga",
+    "key_valuation_metrics": "P/E (T): 95.92, P/E (F): 34.02, PEG: 3.49, P/B: 19.16",
+    "price_strong_opportunity": 1169.28,
+    "price_attractive": 1429.12,
+    "price_fair_value": 1818.88,
+    "price_overvalued": 2078.72,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E (F) względem prognozowanego EPS (64.96). Poziom Fair Value odpowiada P/E (F) na poziomie 28x, Atrakcyjna na 22x, a Mocna Okazja na 18x. Obecna cena przy P/E (F) 34x jest znacznie powyżej tych poziomów, wskazując na silne przewartościowanie.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 2150.0,
+    "resistance_level": 2450.0,
+    "momentum_summary": "Cena znajduje się wyraźnie powyżej obu średnich kroczących (SMA50 i SMA200), które wykazują tendencję wzrostową. Wskazuje to na silne momentum wzrostowe. Wolumeny transakcji były wysokie podczas ruchów w górę.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 9,
+            "reason": "Solidna pozycja gotówkowa przewyższająca zadłużenie, niskie D/E."
+        },
+        {
+            "criterion": "Marże",
+            "score": 8,
+            "reason": "Stabilny wzrost dochodu operacyjnego i zysku netto, z poprawą w 2025."
+        },
+        {
+            "criterion": "Wzrost",
+            "score": 9,
+            "reason": "Silny wzrost przychodów i zysków netto w ostatnich latach i kwartałach."
+        },
+        {
+            "criterion": "FCF",
+            "score": 7,
+            "reason": "Wolne przepływy pieniężne zmienne, ale z ogólnym trendem wzrostowym."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 4,
+            "reason": "Nieregularne wypłaty, obecna stopa dywidendy poniżej średniej historycznej."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 5,
+            "reason": "Mieszane wyniki zaskoczeń EPS, z kilkoma ostatnimi negatywnymi."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 2,
+            "reason": "Wskaźniki P/E, PEG i P/B wskazują na silne przewartościowanie względem historycznych i rynkowych norm."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena znacznie powyżej kluczowych średnich kroczących."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Ekstremalnie wysoka wycena w stosunku do fundamentów, co zwiększa ryzyko korekty cenowej w przypadku pogorszenia sentymentu rynkowego lub spowolnienia wzrostu."
+}

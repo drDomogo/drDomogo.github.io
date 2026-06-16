@@ -1,0 +1,70 @@
+{
+    "ticker": "005930.KS",
+    "short_name": "SamsungElec",
+    "analysis_date": "2026-06-15",
+    "current_price": 337000.0,
+    "currency": "KRW",
+    "revenue_and_eps_trend": "Dynamiczny wzrost przychodów i zysków netto po spadku w 2023, z silnym przyspieszeniem w ostatnich kwartałach, choć zyski nie osiągnęły jeszcze szczytów z 2022.",
+    "fcf_and_operations": "Marże operacyjne i wolne przepływy pieniężne (FCF) dynamicznie odbudowują się po spadku w 2023, osiągając wysokie poziomy i wykazując silny wzrost kwartalny.",
+    "balance_sheet_debt": "Zadłużenie rośnie, ale jest wielokrotnie pokryte przez zasoby gotówkowe, co wskazuje na solidną pozycję płynnościową i brak zagrożeń zadłużeniowych.",
+    "dividend_policy": "Stabilna polityka dywidendowa z niewielkim wzrostem w 2025. Obecna stopa dywidendy jest niższa od średniej 5-letniej, co może sugerować aprecjację ceny.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe, często z dużą marżą, co świadczy o niedoszacowaniu potencjału lub silnej dynamice operacyjnej.",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "Forward P/E, PEG Ratio, ROE",
+    "price_strong_opportunity": 315000.0,
+    "price_attractive": 345000.0,
+    "price_fair_value": 430000.0,
+    "price_overvalued": 575000.0,
+    "price_valuation_justification": "Wycena oparta na bardzo niskim wskaźniku Forward P/E (5.87) i PEG (0.38), sugerującym znaczące niedowartościowanie. Poziomy cenowe wyznaczone na podstawie konserwatywnych mnożników P/E w stosunku do prognozowanych zysków.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 290000.0,
+    "resistance_level": 370000.0,
+    "momentum_summary": "Cena znacznie powyżej obu średnich kroczących (SMA50 i SMA200), co wskazuje na silne momentum wzrostowe. Ostatnia konsolidacja po dynamicznym wzroście.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 9,
+            "reason": "Gotówka znacznie przewyższa dług, solidna płynność."
+        },
+        {
+            "criterion": "Marże",
+            "score": 8,
+            "reason": "Marże operacyjne i zyski netto dynamicznie odbudowują się po spadku, wysoki ROE."
+        },
+        {
+            "criterion": "Trend przychodów/zysków",
+            "score": 9,
+            "reason": "Silny wzrost po 2023, przekraczanie oczekiwań."
+        },
+        {
+            "criterion": "FCF",
+            "score": 9,
+            "reason": "Silna odbudowa i wzrost FCF."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 7,
+            "reason": "Stabilna, ale obecny yield niższy od historycznego."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 9,
+            "reason": "Niskie P/E i PEG, sugerujące niedowartościowanie."
+        },
+        {
+            "criterion": "Trend techniczny",
+            "score": 8,
+            "reason": "Silny trend wzrostowy, cena nad SMA50/200, choć z lokalną zmiennością."
+        },
+        {
+            "criterion": "Zaskoczenia wynikami",
+            "score": 9,
+            "reason": "Konsekwentne pozytywne zaskoczenia wynikami."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Cykliczność branży technologicznej i potencjalne spowolnienie globalnego popytu."
+}

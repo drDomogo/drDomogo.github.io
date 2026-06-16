@@ -1,0 +1,75 @@
+{
+    "ticker": "2454.TW",
+    "short_name": "MEDIATEK INC",
+    "analysis_date": "2026-06-15",
+    "current_price": 4085.0,
+    "currency": "TWD",
+    "revenue_and_eps_trend": "Po spadku w 2023, przychody i zyski netto wykazują silne odbicie i wzrost w latach 2024-2025. Kwartały 2025 stabilne, z lekką tendencją spadkową zysku netto w Q4 2025.",
+    "fcf_and_operations": "Przepływy operacyjne i FCF silnie odbiły po spadku w 2023, wykazując solidny wzrost w 2024-2025. Kwartalny FCF charakteryzuje się dużą zmiennością, z silnym odbiciem w Q4 2025 po słabym Q1 2025.",
+    "balance_sheet_debt": "Bilans bardzo silny, z rosnącą pozycją gotówkową i bardzo niskim wskaźnikiem zadłużenia do kapitału własnego (Debt/Equity 6.55%).",
+    "dividend_policy": "Polityka dywidendowa zmienna. Dywidenda na akcję spadła w 2024-2025 po wzroście w 2022-2023. Obecna stopa dywidendy (1.28%) jest znacznie niższa od średniej 5-letniej (6.3%), co sugeruje, że obecna cena jest wysoka w stosunku do historycznych wypłat.",
+    "market_expectations": "Historycznie spółka regularnie przekraczała oczekiwania rynkowe dotyczące EPS, co świadczy o konserwatywnych prognozach analityków lub silnej zdolności do generowania zysków. Ostatnie zaskoczenie negatywne w Q1 2026 jest anomalią.",
+    "valuation_status": "Bardzo Droga",
+    "key_valuation_metrics": "P/E (Trailing 67.69, Forward 37.22), P/B (18.28), PEG Ratio (2.03)",
+    "price_strong_opportunity": 2400.0,
+    "price_attractive": 3000.0,
+    "price_fair_value": 3600.0,
+    "price_overvalued": 3800.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E forward (oczekiwany EPS 120.08 TWD). Poziom Fair Value przyjęto przy P/E=30, co jest konserwatywną wartością dla spółki technologicznej o stabilnym wzroście. Poziomy atrakcyjne i mocnej okazji wyznaczono przy P/E=25 i P/E=20, odzwierciedlając margines bezpieczeństwa. Obecne P/E forward 37.22 wskazuje na przewartościowanie.",
+    "trend_short_term": "Boczny",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 3880.0,
+    "resistance_level": 4650.0,
+    "momentum_summary": "Silny wzrost cenowy w ostatnich miesiącach, z dynamicznym wybiciem w kwietniu/maju 2026. Obecnie widoczna korekta po osiągnięciu szczytów, ale cena utrzymuje się znacznie powyżej kluczowych średnich kroczących, co wskazuje na utrzymujący się silny trend wzrostowy. Wolumeny wysokie podczas wzrostów i korekt.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 8,
+            "reason": "Po spadku w 2023, silne odbicie i wzrost w 2024-2025."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 7,
+            "reason": "Solidne FCF, ale z kwartalną zmiennością."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 9,
+            "reason": "Bardzo silny bilans, niska dźwignia."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 5,
+            "reason": "Zmienna, obecna stopa dywidendy niska w porównaniu do historycznej średniej."
+        },
+        {
+            "criterion": "Realizacja Oczekiwań",
+            "score": 8,
+            "reason": "Historycznie regularne pozytywne zaskoczenia, z wyjątkiem ostatniego kwartału."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 2,
+            "reason": "Wskaźniki P/E i P/B wskazują na znaczne przewartościowanie."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena znacznie powyżej SMA200."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 6,
+            "reason": "Korekta po silnym rajdzie, ale wciąż w szerszym trendzie wzrostowym."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 7,
+            "reason": "Silne momentum, choć ostatnio osłabione korektą."
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Wysoka wycena w stosunku do historycznych i sektorowych średnich, co zwiększa wrażliwość na korekty rynkowe lub spowolnienie wzrostu."
+}

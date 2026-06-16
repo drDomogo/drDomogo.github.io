@@ -1,0 +1,75 @@
+{
+    "ticker": "2330.TW",
+    "short_name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+    "analysis_date": "2026-06-15",
+    "current_price": 2375.0,
+    "currency": "TWD",
+    "revenue_and_eps_trend": "Silny wzrost przychodów i zysków netto po krótkim spowolnieniu w 2023, z dynamicznym odbiciem i prognozowaną kontynuacją wzrostu kwartalnego i rocznego.",
+    "fcf_and_operations": "Marże operacyjne stabilnie rosną po 2023. Wolne przepływy pieniężne (FCF) wykazują kwartalną zmienność, ale roczny trend jest silnie wzrostowy po znaczącym spadku w 2023, co wskazuje na efektywne generowanie gotówki.",
+    "balance_sheet_debt": "Bilans bardzo silny, z niskim wskaźnikiem zadłużenia do kapitału własnego (18.45%) i rosnącymi rezerwami gotówkowymi, znacznie przewyższającymi zadłużenie.",
+    "dividend_policy": "Spółka konsekwentnie zwiększa dywidendę roczną i kwartalną, co świadczy o stabilności finansowej i polityce dzielenia się zyskiem. Obecna stopa dywidendy (1.04%) jest niższa od średniej 5-letniej (1.71%).",
+    "market_expectations": "Spółka regularnie przekracza oczekiwania rynkowe dotyczące zysków (EPS surprise historycznie pozytywny), co buduje zaufanie inwestorów i wskazuje na konserwatywne prognozy analityków lub silną zdolność do generowania wyników.",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (Trailing: 32.23, Forward: 19.35), P/B (10.45), PEG Ratio (1.14), ROE (36.21%).",
+    "price_strong_opportunity": 1840.0,
+    "price_attractive": 2200.0,
+    "price_fair_value": 2700.0,
+    "price_overvalued": 3400.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E do prognozowanego EPS (Forward P/E), z uwzględnieniem historycznych mnożników i dynamiki wzrostu spółki. PEG Ratio 1.14 sugeruje, że wycena jest adekwatna do tempa wzrostu, a obecna cena znajduje się w przedziale atrakcyjnym do godziwej wartości.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 2200.0,
+    "resistance_level": 2430.0,
+    "momentum_summary": "Silne momentum wzrostowe, cena utrzymuje się wyraźnie powyżej obu średnich kroczących (SMA50 i SMA200). SMA50 powyżej SMA200 potwierdza trend wzrostowy. Wolumeny wspierają ruchy cenowe.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 9,
+            "reason": "Dynamiczny wzrost po krótkim spowolnieniu, silne prognozy."
+        },
+        {
+            "criterion": "Marże Operacyjne",
+            "score": 8,
+            "reason": "Stabilny wzrost marż operacyjnych, wskazujący na efektywność."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 10,
+            "reason": "Bardzo niski D/E, wysokie rezerwy gotówkowe, bilans ekstremalnie silny."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Silne roczne FCF, mimo kwartalnych wahań, zdolność do generowania gotówki."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 7,
+            "reason": "Konsekwentny wzrost dywidendy, choć obecna stopa niższa od średniej."
+        },
+        {
+            "criterion": "Realizacja Oczekiwań",
+            "score": 9,
+            "reason": "Regularne przekraczanie oczekiwań rynkowych."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 6,
+            "reason": "Wycena na poziomie godziwym, nie jest tania, ale adekwatna do wzrostu."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena nad kluczowymi średnimi."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 8,
+            "reason": "Silne momentum, wspierane przez wolumen."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Geopolityka w regionie Tajwanu oraz globalny cykl koniunkturalny w branży półprzewodników."
+}

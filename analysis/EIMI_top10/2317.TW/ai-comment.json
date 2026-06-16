@@ -1,0 +1,70 @@
+{
+    "ticker": "2317.TW",
+    "short_name": "HON HAI PRECISION INDUSTRY",
+    "analysis_date": "2026-06-15",
+    "current_price": 267.5,
+    "currency": "TWD",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów i zysków netto po spadku w 2023, z silnym odbiciem i prognozowanym wzrostem na 2024-2025. Kwartalnie widoczna sezonowość, ale ogólny trend wzrostowy.",
+    "fcf_and_operations": "Dochód operacyjny wykazuje stabilny wzrost roczny i kwartalny. Wolne przepływy pieniężne (FCF) są wysoce zmienne, z częstymi okresami ujemnymi, co wymaga uwagi, mimo silnego Q4 2025.",
+    "balance_sheet_debt": "Zadłużenie wzrosło znacząco w 2025 roku, ale spółka utrzymuje silną pozycję gotówkową. Wskaźnik zadłużenia do kapitału własnego (D/E) na umiarkowanym poziomie 66.62%.",
+    "dividend_policy": "Spółka utrzymuje stabilną, rosnącą politykę dywidendową. Obecna stopa dywidendy (2.75%) jest niższa od 5-letniej średniej (3.81%).",
+    "market_expectations": "Spółka często zaskakuje wynikami, zarówno pozytywnie, jak i negatywnie. Ostatnie kwartały 2025 były pozytywne, jednak Q1 2026 przyniósł znaczące negatywne zaskoczenie (-27.3%).",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (trailing: 19.97, forward: 12.46), P/B (2.10), PEG (1.16)",
+    "price_strong_opportunity": 214.2,
+    "price_attractive": 240.7,
+    "price_fair_value": 267.5,
+    "price_overvalued": 321.9,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E forward (12.46), który odzwierciedla oczekiwany silny wzrost zysków. Obecna cena jest zgodna z wyceną godziwą na podstawie tego wskaźnika. Poziomy atrakcyjne i przewartościowania wyznaczone jako +/- 10-20% od forward P/E.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 251.5,
+    "resistance_level": 314.0,
+    "momentum_summary": "Silne momentum wzrostowe, cena utrzymuje się powyżej obu średnich kroczących (SMA50: 239.38, SMA200: 226.945). Ostatnie sesje to korekta po dynamicznym wzroście, ale wolumeny przy wzrostach były wysokie.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 7,
+            "reason": "Umiarkowany wzrost zadłużenia w 2025, ale spółka utrzymuje silną pozycję gotówkową i umiarkowany D/E."
+        },
+        {
+            "criterion": "Marże",
+            "score": 8,
+            "reason": "Stabilny wzrost dochodu operacyjnego i netto, solidne ROE na poziomie 11.8%."
+        },
+        {
+            "criterion": "FCF",
+            "score": 4,
+            "reason": "Duża zmienność i częste okresy ujemnych wolnych przepływów pieniężnych, co budzi obawy o stabilność."
+        },
+        {
+            "criterion": "Wzrost",
+            "score": 9,
+            "reason": "Dynamiczny wzrost przychodów i zysków netto, szczególnie prognozowany na 2025, z niskim P/E forward."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 7,
+            "reason": "Stabilna polityka dywidendowa z trendem wzrostowym, choć obecna stopa dywidendy jest niższa od historycznej średniej."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 5,
+            "reason": "Częste zaskoczenia wynikami, w tym znaczące negatywne, wskazujące na nieprzewidywalność."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy w krótkim i długim terminie, cena powyżej kluczowych średnich kroczących."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 8,
+            "reason": "Atrakcyjna wycena na podstawie wskaźnika P/E forward, odzwierciedlająca oczekiwany wzrost zysków."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysoka zmienność wolnych przepływów pieniężnych (FCF) oraz nieprzewidywalność wyników kwartalnych, co prowadzi do częstych zaskoczeń rynkowych."
+}

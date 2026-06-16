@@ -1,0 +1,80 @@
+{
+    "ticker": "0700.HK",
+    "short_name": "TENCENT",
+    "analysis_date": "2026-06-15",
+    "current_price": 459.6,
+    "currency": "HKD",
+    "revenue_and_eps_trend": "Przychody wykazują stały wzrost. Zysk netto odnotował spadek w 2023, ale dynamicznie odbił w 2024 i 2025, wskazując na poprawę rentowności.",
+    "fcf_and_operations": "Zysk operacyjny i wolne przepływy pieniężne wykazują silny trend wzrostowy, potwierdzając efektywność operacyjną i zdolność do generowania gotówki.",
+    "balance_sheet_debt": "Zadłużenie do kapitału własnego na niskim poziomie (33.47%), co wskazuje na zdrowy bilans. Poziom gotówki jest niższy niż zadłużenia, ale ogólna struktura jest stabilna.",
+    "dividend_policy": "Spółka konsekwentnie zwiększa dywidendę roczną, a obecna stopa dywidendy (1.14%) jest wyższa niż średnia 5-letnia, co sugeruje rosnące zaangażowanie w zwrot dla akcjonariuszy.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe dotyczące EPS w ostatnich kwartałach, co świadczy o silnym zarządzaniu i/lub konserwatywnych prognozach analityków.",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (trailing), P/E (forward), PEG, P/B, ROE",
+    "price_strong_opportunity": 358.48,
+    "price_attractive": 404.45,
+    "price_fair_value": 459.6,
+    "price_overvalued": 542.33,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E forward (11.99) jest zgodna z obecnym kursem, co sugeruje godziwą wartość. Silny wzrost EPS i ROE uzasadniają obecne wskaźniki.",
+    "trend_short_term": "Boczny",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 423.6,
+    "resistance_level": 484.0,
+    "momentum_summary": "Cena znajduje się w długoterminowym trendzie spadkowym, poniżej obu kluczowych średnich kroczących (SMA50, SMA200). Ostatnio widoczne odbicie od poziomu 423.6, ale napotyka opór w okolicach 484 i SMA50. Wolumeny podczas spadków były podwyższone, co sugeruje presję sprzedażową.",
+    "scorecard": [
+        {
+            "criterion": "Przychody",
+            "score": 8,
+            "reason": "Stały wzrost rok do roku."
+        },
+        {
+            "criterion": "Zyski",
+            "score": 7,
+            "reason": "Silne odbicie po spadku w 2023, dynamiczny wzrost w kolejnych latach."
+        },
+        {
+            "criterion": "FCF",
+            "score": 8,
+            "reason": "Solidny i rosnący trend wolnych przepływów pieniężnych."
+        },
+        {
+            "criterion": "Bilans/Dług",
+            "score": 9,
+            "reason": "Niskie zadłużenie do kapitału własnego, stabilna struktura."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 8,
+            "reason": "Konsekwentny wzrost dywidendy, stopa powyżej średniej 5-letniej."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Spółka konsekwentnie przekracza prognozy EPS."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Wycena godziwa na podstawie P/E forward, uzasadniona wzrostem EPS."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 3,
+            "reason": "Wyraźny trend spadkowy od szczytów z 2025 roku."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 5,
+            "reason": "Boczny z ostatnim odbiciem, ale wciąż pod presją."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 4,
+            "reason": "Cena poniżej kluczowych średnich, napotyka opór."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Utrzymujący się negatywny sentyment rynkowy pomimo silnych fundamentów."
+}

@@ -1,0 +1,65 @@
+{
+    "ticker": "0939.HK",
+    "short_name": "CCB",
+    "analysis_date": "2026-06-15",
+    "current_price": 8.91,
+    "currency": "HKD",
+    "revenue_and_eps_trend": "Przychody wykazują stabilizację po krótkim spadku, zyski netto rosną konsekwentnie, choć umiarkowanie.",
+    "fcf_and_operations": "Wolne przepływy pieniężne charakteryzują się wysoką zmiennością, z silnym odbiciem w 2025 roku po wcześniejszym spadku.",
+    "balance_sheet_debt": "Spółka utrzymuje bardzo silną pozycję gotówkową, znacznie przewyższającą zadłużenie. Zadłużenie rośnie w ujęciu rocznym, ale kwartalnie wykazuje stabilizację/spadek.",
+    "dividend_policy": "Spółka konsekwentnie wypłaca dywidendy, z wyraźnym wzrostem w 2025 roku. Obecna stopa dywidendy jest niższa od średniej 5-letniej, co może wskazywać na wzrost ceny akcji lub oczekiwania rynkowe.",
+    "market_expectations": "Spółka w ostatnich kwartałach często nieznacznie rozczarowywała oczekiwania rynkowe dotyczące EPS, przeplatając to z niewielkimi pozytywnymi zaskoczeniami. Brak wyraźnego trendu.",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E, P/B, Dywidenda",
+    "price_strong_opportunity": 7.5,
+    "price_attractive": 8.25,
+    "price_fair_value": 10.5,
+    "price_overvalued": 13.5,
+    "price_valuation_justification": "Wycena oparta na niskich wskaźnikach P/E (5.94) i P/B (0.568), sugerujących znaczną niedowartościowanie względem wartości księgowej i zysków. Poziomy cenowe wyznaczone na podstawie docelowych wskaźników P/E (5.0-9.0) i P/B (0.5-0.9), z uwzględnieniem historycznej stopy dywidendy.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 8.4,
+    "resistance_level": 9.05,
+    "momentum_summary": "Cena utrzymuje się powyżej obu średnich kroczących, co sygnalizuje pozytywne momentum. Ostatnie ruchy wskazują na konsolidację po silnym wzroście.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 9,
+            "reason": "Spółka ma bardzo silną pozycję gotówkową, znacznie przewyższającą zadłużenie."
+        },
+        {
+            "criterion": "Marże",
+            "score": 7,
+            "reason": "Zyski netto rosną stabilnie, choć przychody wykazują pewną zmienność. ROE na poziomie 9.5% jest solidne dla banku."
+        },
+        {
+            "criterion": "FCF",
+            "score": 6,
+            "reason": "FCF jest bardzo zmienne, co jest typowe dla sektora bankowego, ale w 2025 roku nastąpiło silne odbicie."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 8,
+            "reason": "Konsekwentne i rosnące dywidendy, choć obecna stopa jest niższa od średniej 5-letniej."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 9,
+            "reason": "Niskie wskaźniki P/E i P/B wskazują na znaczną niedowartościowanie."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 8,
+            "reason": "Silny trend wzrostowy długo- i krótkoterminowy, cena powyżej SMA50 i SMA200."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 5,
+            "reason": "Mieszane wyniki w zakresie zaskoczeń EPS, brak wyraźnej przewagi."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Ryzyko regulacyjne i makroekonomiczne w Chinach, wpływające na sektor bankowy oraz zmienność wolnych przepływów pieniężnych."
+}

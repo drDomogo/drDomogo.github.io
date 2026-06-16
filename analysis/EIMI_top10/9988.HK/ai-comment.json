@@ -1,0 +1,70 @@
+{
+    "ticker": "9988.HK",
+    "short_name": "BABA-W",
+    "analysis_date": "2026-06-15",
+    "current_price": 109.3,
+    "currency": "HKD",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów stabilny. Zyski netto roczne wykazują wzrost, ale z prognozowanym spadkiem w 2026. Kwartalne zyski netto są zmienne.",
+    "fcf_and_operations": "Znaczący spadek rocznych wolnych przepływów pieniężnych i zysku operacyjnego, z prognozowanym ujemnym FCF w 2026. Kwartalne wyniki operacyjne i FCF są bardzo niestabilne, z negatywnymi wartościami w ostatnim kwartale.",
+    "balance_sheet_debt": "Zadłużenie rośnie, a poziom gotówki maleje, co pogarsza wskaźnik pokrycia długu gotówką. Wskaźnik D/E pozostaje na umiarkowanym poziomie.",
+    "dividend_policy": "Spółka wypłaca dywidendę (0.93% yield, 1.03 HKD/akcję), ale brak danych o historycznej polityce i średniej 5-letniej stopie. Dywidenda kwartalna była wypłacona w Q2 2025.",
+    "market_expectations": "Spółka konsekwentnie rozczarowuje wynikami w ostatnich kwartałach, z coraz większymi negatywnymi zaskoczeniami, szczególnie w 2026 roku (-87.72% w ostatnim kwartale).",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (Trailing): 17.18, P/E (Forward): 11.31, PEG Ratio: 0.39, P/B: 1.65",
+    "price_strong_opportunity": 86.9,
+    "price_attractive": 115.9,
+    "price_fair_value": 144.9,
+    "price_overvalued": 193.2,
+    "price_valuation_justification": "Wycena oparta na wskaźniku Forward P/E (obecnie 11.31) oraz bardzo niskim PEG Ratio (0.39), co sugeruje niedowartościowanie względem prognozowanego wzrostu zysków. Poziomy cenowe wyznaczone na podstawie docelowych wskaźników Forward P/E: 9 (Mocna Okazja), 12 (Atrakcyjna), 15 (Fair Value), 20 (Drogo).",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 105.0,
+    "resistance_level": 118.0,
+    "momentum_summary": "Silne negatywne momentum. Cena znajduje się znacznie poniżej obu średnich kroczących, które również wykazują tendencję spadkową. Brak sygnałów odwrócenia trendu.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 5,
+            "reason": "Rosnące zadłużenie i malejąca gotówka, ale D/E wciąż umiarkowane."
+        },
+        {
+            "criterion": "Marże/Zyski",
+            "score": 4,
+            "reason": "Roczny wzrost przychodów, ale prognozowany spadek zysków netto i operacyjnych w 2026. Kwartalna zmienność i negatywny zysk operacyjny w Q1 2026."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 3,
+            "reason": "Znaczący spadek FCF, z prognozowanym ujemnym FCF w 2026 i dużą zmiennością kwartalną."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 8,
+            "reason": "Bardzo atrakcyjny Forward P/E i PEG Ratio, sugerujące niedowartościowanie."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 2,
+            "reason": "Konsekwentne i pogłębiające się negatywne zaskoczenia wynikami."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 2,
+            "reason": "Silny trend spadkowy, cena poniżej SMA50."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 3,
+            "reason": "Trend spadkowy, cena znacznie poniżej SMA200."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 2,
+            "reason": "Brak pozytywnych sygnałów, silne negatywne momentum."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Dalsze pogorszenie wyników operacyjnych i wolnych przepływów pieniężnych, prowadzące do rewizji prognoz zysków w dół i utraty zaufania inwestorów."
+}

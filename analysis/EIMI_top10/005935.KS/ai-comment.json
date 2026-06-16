@@ -1,0 +1,65 @@
+{
+    "ticker": "005935.KS",
+    "short_name": "SamsungElec(1P)",
+    "analysis_date": "2026-06-15",
+    "current_price": 216000.0,
+    "currency": "KRW",
+    "revenue_and_eps_trend": "Przychody i zyski netto wykazują silne odbicie i dynamiczny wzrost po spadku w 2023, szczególnie widoczny w ostatnich kwartałach (2026Q1: +70% r/r przychodów, +145% r/r zysku netto).",
+    "fcf_and_operations": "Przepływy operacyjne i FCF dynamicznie rosną po spadku i ujemnym FCF w 2023, wskazując na poprawę efektywności i zdolności generowania gotówki (FCF 2025: 33T KRW, 2026Q1: 22T KRW).",
+    "balance_sheet_debt": "Zadłużenie rośnie, ale jest wielokrotnie pokryte przez zasoby gotówkowe (Cash 73T KRW vs Debt 28T KRW w 2026Q1). Wskaźnik D/E (5.78) jest wysoki, lecz w kontekście giganta technologicznego i wysokiej płynności, ryzyko zadłużenia jest umiarkowane.",
+    "dividend_policy": "Spółka utrzymuje stabilną politykę dywidendową ze stałymi wypłatami, jednak obecna stopa dywidendy (0.72%) jest niższa od średniej 5-letniej (2.64%), co może sugerować wzrost ceny akcji lub zmianę polityki.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe w ostatnich kwartałach (np. 2026-04-29: +52.96% EPS surprise), co świadczy o niedoszacowaniu potencjału wzrostu lub konserwatywnych prognozach analityków.",
+    "valuation_status": "Bardzo Droga",
+    "key_valuation_metrics": "P/E (forward): 4.09, PEG Ratio: 0.24, ROE: 18.85%",
+    "price_strong_opportunity": 180000.0,
+    "price_attractive": 200000.0,
+    "price_fair_value": 350000.0,
+    "price_overvalued": 500000.0,
+    "price_valuation_justification": "Ekstremalnie niski wskaźnik P/E (4.09) i PEG (0.24) w stosunku do historycznych i sektorowych średnich, przy jednoczesnym silnym wzroście zysków i przepływów pieniężnych, sugeruje głębokie niedowartościowanie. Poziomy wyceny odzwierciedlają potencjał do re-ratingu wskaźników.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 190000.0,
+    "resistance_level": 240000.0,
+    "momentum_summary": "Cena znajduje się wyraźnie powyżej obu średnich kroczących (SMA50: 168770, SMA200: 109895), co wskazuje na silny byczy momentum. Ostatnie ruchy cenowe charakteryzują się wysoką zmiennością, ale utrzymują trend wzrostowy.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 7,
+            "reason": "Wysoka płynność gotówkowa wielokrotnie pokrywa rosnące zadłużenie, mimo wysokiego wskaźnika D/E."
+        },
+        {
+            "criterion": "Marże",
+            "score": 9,
+            "reason": "Dynamiczna poprawa marż operacyjnych i netto po trudnym roku 2023, świadcząca o wzroście efektywności."
+        },
+        {
+            "criterion": "Trend Fundamentalny",
+            "score": 9,
+            "reason": "Silne odbicie i dynamiczny wzrost przychodów i zysków netto po spadku w 2023."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 10,
+            "reason": "Wycena wskaźnikowa (P/E, PEG) wskazuje na głębokie niedowartościowanie w stosunku do potencjału wzrostu."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 6,
+            "reason": "Stabilna polityka dywidendowa, lecz obecna stopa dywidendy poniżej średniej historycznej."
+        },
+        {
+            "criterion": "Zaskoczenia Wynikami",
+            "score": 9,
+            "reason": "Spółka regularnie i znacząco przekracza oczekiwania rynkowe w ostatnich kwartałach."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena wyraźnie powyżej średnich kroczących SMA50 i SMA200."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysoka beta (1.487) i cykliczność sektora technologicznego, co naraża spółkę na zwiększoną zmienność rynkową i potencjalne korekty."
+}

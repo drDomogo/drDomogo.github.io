@@ -1,0 +1,65 @@
+{
+    "ticker": "000660.KS",
+    "short_name": "SK hynix",
+    "analysis_date": "2026-06-15",
+    "current_price": 2288000.0,
+    "currency": "KRW",
+    "revenue_and_eps_trend": "Spółka odnotowała silne odbicie przychodów i zysków netto po spadku w 2023 r., z dynamicznym wzrostem kwartalnym w 2025 i Q1 2026, wskazując na fazę ekspansji.",
+    "fcf_and_operations": "Po dwóch latach ujemnych FCF (2022-2023), spółka generuje znaczące dodatnie wolne przepływy pieniężne i dynamicznie rosnący zysk operacyjny, co świadczy o poprawie efektywności operacyjnej i silnej zdolności do generowania gotówki.",
+    "balance_sheet_debt": "Bilans wykazuje poprawę, z malejącym zadłużeniem i rosnącymi zasobami gotówki w ostatnich kwartałach, co w połączeniu z niskim wskaźnikiem D/E (13.28%) sygnalizuje solidną kondycję finansową i niskie ryzyko zadłużenia.",
+    "dividend_policy": "Polityka dywidendowa jest nieregularna, z historycznymi wahaniami wypłat. Obecna stopa dywidendy (0.14%) jest niska w porównaniu do średniej 5-letniej, co sugeruje, że spółka priorytetyzuje reinwestycje lub wzrost ceny akcji.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe od Q2 2024, z wieloma znaczącymi pozytywnymi zaskoczeniami, co wskazuje na niedoszacowanie jej potencjału przez analityków lub silne momentum operacyjne.",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "Forward P/E, PEG Ratio, Return on Equity, Dynamika Zysków i Przychodów",
+    "price_strong_opportunity": 1900000.0,
+    "price_attractive": 2200000.0,
+    "price_fair_value": 2800000.0,
+    "price_overvalued": 3500000.0,
+    "price_valuation_justification": "Niska wartość wskaźnika Forward P/E (5.57) w kontekście dynamicznego wzrostu przychodów i zysków oraz ekstremalnie wysokiego ROE (61.17%) sugeruje znaczące niedowartościowanie. Poziomy cenowe wyznaczono na podstawie konserwatywnej projekcji wzrostu zysków i normalizacji wskaźników do średnich branżowych dla spółek wzrostowych.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 1911000.0,
+    "resistance_level": 2360000.0,
+    "momentum_summary": "Cena znajduje się znacznie powyżej obu średnich kroczących (SMA50 i SMA200), które wykazują silny trend wzrostowy. Ostatnie sesje charakteryzowały się wysoką zmiennością, z gwałtownym spadkiem i szybkim odbiciem, co wskazuje na silne zainteresowanie kupujących po korekcie. Wolumeny są podwyższone.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 9,
+            "reason": "Niskie zadłużenie, rosnąca gotówka, poprawa wskaźnika D/E."
+        },
+        {
+            "criterion": "Marże/Zyski",
+            "score": 9,
+            "reason": "Dynamiczny wzrost zysków netto i operacyjnych po okresie strat, wysokie ROE."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 9,
+            "reason": "Przejście z ujemnych na silnie dodatnie FCF, świadczące o poprawie generowania gotówki."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 8,
+            "reason": "Niska Forward P/E w stosunku do wzrostu i rentowności, sugeruje niedowartościowanie."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Konsekwentne, znaczące przekraczanie prognoz EPS."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 10,
+            "reason": "Silny, ugruntowany trend wzrostowy, cena znacznie powyżej SMA200."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 5,
+            "reason": "Niska i nieregularna, nie jest to spółka dywidendowa."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Cykliczność branży półprzewodników oraz wysoka zmienność (Beta 2.027), co naraża na większe wahania cen w przypadku zmian sentymentu rynkowego."
+}
