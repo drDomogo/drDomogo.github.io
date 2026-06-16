@@ -1,5 +1,105 @@
 [
     {
+        "group": "EIMI_top10",
+        "ticker": "000660.KS",
+        "short_name": "SK hynix",
+        "verdict": "AKUMULUJ",
+        "price": 2288000.0,
+        "currency": "KRW",
+        "filePath": "analysis/EIMI_top10/000660.KS/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/000660.KS"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "005930.KS",
+        "short_name": "SamsungElec",
+        "verdict": "AKUMULUJ",
+        "price": 337000.0,
+        "currency": "KRW",
+        "filePath": "analysis/EIMI_top10/005930.KS/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/005930.KS"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "005935.KS",
+        "short_name": "SamsungElec(1P)",
+        "verdict": "AKUMULUJ",
+        "price": 216000.0,
+        "currency": "KRW",
+        "filePath": "analysis/EIMI_top10/005935.KS/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/005935.KS"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "0700.HK",
+        "short_name": "TENCENT",
+        "verdict": "TRZYMAJ",
+        "price": 459.6,
+        "currency": "HKD",
+        "filePath": "analysis/EIMI_top10/0700.HK/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/0700.HK"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "0939.HK",
+        "short_name": "CCB",
+        "verdict": "AKUMULUJ",
+        "price": 8.91,
+        "currency": "HKD",
+        "filePath": "analysis/EIMI_top10/0939.HK/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/0939.HK"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "2308.TW",
+        "short_name": "DELTA ELECTRONIC",
+        "verdict": "TRZYMAJ",
+        "price": 2210.0,
+        "currency": "TWD",
+        "filePath": "analysis/EIMI_top10/2308.TW/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/2308.TW"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "2317.TW",
+        "short_name": "HON HAI PRECISION INDUSTRY",
+        "verdict": "AKUMULUJ",
+        "price": 267.5,
+        "currency": "TWD",
+        "filePath": "analysis/EIMI_top10/2317.TW/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/2317.TW"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "2330.TW",
+        "short_name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+        "verdict": "AKUMULUJ",
+        "price": 2375.0,
+        "currency": "TWD",
+        "filePath": "analysis/EIMI_top10/2330.TW/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/2330.TW"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "2454.TW",
+        "short_name": "MEDIATEK INC",
+        "verdict": "REDUKUJ",
+        "price": 4085.0,
+        "currency": "TWD",
+        "filePath": "analysis/EIMI_top10/2454.TW/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/2454.TW"
+    },
+    {
+        "group": "EIMI_top10",
+        "ticker": "9988.HK",
+        "short_name": "BABA-W",
+        "verdict": "TRZYMAJ",
+        "price": 109.3,
+        "currency": "HKD",
+        "filePath": "analysis/EIMI_top10/9988.HK/ai-comment.json",
+        "folderPath": "analysis/EIMI_top10/9988.HK"
+    },
+    {
         "group": "my_portfolio",
         "ticker": "CTRE",
         "short_name": "CareTrust REIT, Inc.",
