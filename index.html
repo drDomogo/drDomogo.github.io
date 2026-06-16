@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Financial Dashboard</title>
-    <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
             --bg-body: #f1f5f9;
@@ -22,8 +22,14 @@
         body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.6; }
         .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
 
-        /* --- WIDOK LISTY --- */
+        /* --- WIDOK LISTY Z GRUPAMI --- */
         .page-title { margin-bottom: 30px; font-weight: 800; font-size: 2rem; color: var(--accent-primary); border-left: 5px solid var(--accent-blue); padding-left: 15px; }
+        
+        /* Nowe style dla kontenerów grup */
+        .group-container { background: #f8fafc; border: 1px solid var(--border); border-radius: 16px; padding: 25px; margin-bottom: 35px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        .group-title { font-size: 1.4rem; font-weight: 700; color: var(--accent-primary); margin-bottom: 20px; display: flex; align-items: center; gap: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+        .group-title i { color: var(--accent-blue); }
+        
         .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
         
         .ticker-card { 
@@ -86,7 +92,7 @@
 <div class="container">
     <div id="list-view">
         <h1 class="page-title">Mój Portfel AI</h1>
-        <div class="portfolio-grid" id="grid-container"></div>
+        <div id="groups-wrapper"></div>
     </div>
 
     <div id="detail-view" class="hidden">
@@ -180,7 +186,6 @@
 </div>
 
 <script>
-    // Ładowanie indeksu startowego
     document.addEventListener("DOMContentLoaded", () => {
         fetch('analysis_index.json')
             .then(res => res.json())
@@ -189,27 +194,63 @@
     });
 
     function buildListView(companies) {
-        const container = document.getElementById('grid-container');
-        container.innerHTML = "";
+        const wrapper = document.getElementById('groups-wrapper');
+        wrapper.innerHTML = "";
+
+        // 1. Grupowanie danych w pamięci podręcznej według pola 'group'
+        // Jeśli spółka nie ma przypisanej grupy, trafi do domyślnej sekcji "Inne"
+        const groups = {};
         companies.forEach(co => {
-            const card = document.createElement('div');
-            card.className = 'ticker-card';
-            card.onclick = () => loadDetails(co.filePath, co.folderPath);
-            
-            const badgeClass = co.verdict ? co.verdict.toLowerCase() : 'trzymaj';
-            
-            card.innerHTML = `
-                <div class="ticker-card-header">
-                    <div>
-                        <span class="ticker-name" style="display:block;">${co.short_name || co.ticker}</span>
-                        <small style="color: var(--text-muted); font-weight: bold;">${co.ticker}</small>
-                    </div>
-                    <span class="badge ${badgeClass}">${co.verdict || 'TRZYMAJ'}</span>
+            const groupName = co.group || "Inne";
+            if (!groups[groupName]) {
+                groups[groupName] = [];
+            }
+            groups[groupName].push(co);
+        });
+
+        // 2. Iteracja po każdej grupie i budowanie dla niej osobnego kontenera HTML
+        Object.keys(groups).forEach(groupName => {
+            // Tworzenie głównego kontenera dla grupy (katalogu)
+            const groupContainer = document.createElement('div');
+            groupContainer.className = 'group-container';
+
+            // Dodanie nagłówka grupy z ikoną folderu
+            const cleanGroupName = groupName.replace('_', ' '); // Opcjonalne upiększenie nazwy
+            groupContainer.innerHTML = `
+                <div class="group-title">
+                    <i class="fa-solid fa-folder-open"></i> ${cleanGroupName}
                 </div>
-                <div style="font-size: 1.2rem; font-weight: 700; margin-top: 5px;">${co.price} ${co.currency}</div>
-                <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 10px;">Kliknij po pełny raport i wykresy →</div>
             `;
-            container.appendChild(card);
+
+            // Utworzenie siatki (grid) dedykowanej dla tej grupy
+            const gridContainer = document.createElement('div');
+            gridContainer.className = 'portfolio-grid';
+
+            // Renderowanie spółek należących do bieżącej grupy
+            groups[groupName].forEach(co => {
+                const card = document.createElement('div');
+                card.className = 'ticker-card';
+                card.onclick = () => loadDetails(co.filePath, co.folderPath);
+                
+                const badgeClass = co.verdict ? co.verdict.toLowerCase() : 'trzymaj';
+                
+                card.innerHTML = `
+                    <div class="ticker-card-header">
+                        <div>
+                            <span class="ticker-name" style="display:block;">${co.short_name || co.ticker}</span>
+                            <small style="color: var(--text-muted); font-weight: bold;">${co.ticker}</small>
+                        </div>
+                        <span class="badge ${badgeClass}">${co.verdict || 'TRZYMAJ'}</span>
+                    </div>
+                    <div style="font-size: 1.2rem; font-weight: 700; margin-top: 5px;">${co.price} ${co.currency}</div>
+                    <div style="color: var(--text-muted); font-size: 0.8rem; margin-top: 10px;">Kliknij po pełny raport i wykresy →</div>
+                `;
+                gridContainer.appendChild(card);
+            });
+
+            // Spięcie elementów razem i dodanie do głównego widoku
+            groupContainer.appendChild(gridContainer);
+            wrapper.appendChild(groupContainer);
         });
     }
 
@@ -222,10 +263,8 @@
             let data;
             
             try {
-                // Bezpośrednia próba parsowania czystego obiektu JSON
                 data = JSON.parse(text.trim());
             } catch (e) {
-                // Tryb zapasowy (fallback) w razie obecności znaczników markdown ```json
                 let cleanText = text;
                 if (text.includes('```json')) {
                     cleanText = text.split('```json')[1].split('```')[0].trim();
@@ -244,19 +283,16 @@
     }
 
     function renderDetails(data, folderPath) {
-        // Dane nagłówkowe
         document.getElementById('det-short-name').innerText = data.short_name || data.ticker;
         document.getElementById('det-ticker').innerText = data.ticker;
         document.getElementById('det-date').innerText = "Raport AI z dnia: " + (data.analysis_date || "--");
         document.getElementById('det-price-large').innerText = (data.current_price || "--") + " " + (data.currency || "");
         
-        // Bezpieczny werdykt chroniący przed błędem toLowerCase()
         const v = document.getElementById('det-verdict');
         const verdictText = data.final_verdict || data.verdict || "TRZYMAJ";
         v.innerText = verdictText;
         v.className = "badge " + verdictText.toLowerCase();
 
-        // Wskaźniki techniczne
         document.getElementById('det-trend-st').innerText = data.trend_short_term || "--";
         document.getElementById('det-trend-lt').innerText = data.trend_long_term || "--";
         document.getElementById('det-sma50').innerText = data.position_vs_sma50 || "--";
@@ -265,13 +301,11 @@
         document.getElementById('det-resistance').innerText = (data.resistance_level || "--") + " " + (data.currency || "");
         document.getElementById('det-momentum').innerText = data.momentum_summary || "--";
 
-        // Przypisanie ścieżek do obrazków wykresów
         document.getElementById('img-tech').src = `${folderPath}/technical_chart.png`;
         document.getElementById('img-fund').src = `${folderPath}/fundamental_chart.png`;
         document.getElementById('img-surprise').src = `${folderPath}/earnings_surprise_chart.png`;
         document.getElementById('img-div').src = `${folderPath}/dividend_history_chart.png`;
 
-        // Ukrywanie sekcji fundamentalnej przy braku danych historycznych
         const fundSection = document.getElementById('fund-section');
         if (!data.revenue_and_eps_trend) {
             fundSection.classList.add('hidden');
@@ -287,7 +321,6 @@
             document.getElementById('det-dividend').innerText = data.dividend_policy;
         }
 
-        // Sekcja wycen modelowych
         document.getElementById('det-p-strong').innerText = data.price_strong_opportunity || "--";
         document.getElementById('det-p-attractive').innerText = data.price_attractive || "--";
         document.getElementById('det-p-fair').innerText = data.price_fair_value || "--";
@@ -295,7 +328,6 @@
         document.getElementById('det-price-justification').innerText = data.price_valuation_justification || "";
         document.getElementById('det-main-risk').innerText = data.main_risk || "Brak zdefiniowanych kluczowych zagrożeń.";
 
-        // Budowanie tabeli Scorecard
         const tbody = document.getElementById('det-scorecard-body');
         tbody.innerHTML = "";
         if (data.scorecard && Array.isArray(data.scorecard)) {
@@ -309,7 +341,6 @@
             });
         }
 
-        // Ukrywanie kontenerów obrazków, jeśli pliki fizycznie nie istnieją (np. brak dywidend)
         const images = ['img-tech', 'img-fund', 'img-surprise', 'img-div'];
         images.forEach(id => {
             const img = document.getElementById(id);

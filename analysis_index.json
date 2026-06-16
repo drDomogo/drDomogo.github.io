@@ -1,146 +1,272 @@
 [
     {
+        "group": "mój_portfel",
         "ticker": "CTRE",
         "short_name": "CareTrust REIT, Inc.",
         "verdict": "TRZYMAJ",
         "price": 37.215,
         "currency": "USD",
-        "filePath": "analysis/CTRE/ai-comment.json",
-        "folderPath": "analysis/CTRE"
+        "filePath": "analysis/mój_portfel/CTRE/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/CTRE"
     },
     {
+        "group": "mój_portfel",
         "ticker": "DIG.WA",
         "short_name": "DIGITANET",
         "verdict": "TRZYMAJ",
         "price": 231.6,
         "currency": "PLN",
-        "filePath": "analysis/DIG.WA/ai-comment.json",
-        "folderPath": "analysis/DIG.WA"
+        "filePath": "analysis/mój_portfel/DIG.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/DIG.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "DLR",
         "short_name": "Digital Realty Trust, Inc.",
         "verdict": "REDUKUJ",
         "price": 183.525,
         "currency": "USD",
-        "filePath": "analysis/DLR/ai-comment.json",
-        "folderPath": "analysis/DLR"
+        "filePath": "analysis/mój_portfel/DLR/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/DLR"
     },
     {
+        "group": "mój_portfel",
         "ticker": "EQIX",
         "short_name": "Equinix, Inc.",
         "verdict": "REDUKUJ",
         "price": 1044.63,
         "currency": "USD",
-        "filePath": "analysis/EQIX/ai-comment.json",
-        "folderPath": "analysis/EQIX"
+        "filePath": "analysis/mój_portfel/EQIX/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/EQIX"
     },
     {
+        "group": "mój_portfel",
         "ticker": "KGH.WA",
         "short_name": "KGHM",
         "verdict": "REDUKUJ",
         "price": 333.8,
         "currency": "PLN",
-        "filePath": "analysis/KGH.WA/ai-comment.json",
-        "folderPath": "analysis/KGH.WA"
+        "filePath": "analysis/mój_portfel/KGH.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/KGH.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "KRU.WA",
         "short_name": "KRUK",
         "verdict": "AKUMULUJ",
         "price": 395.2,
         "currency": "PLN",
-        "filePath": "analysis/KRU.WA/ai-comment.json",
-        "folderPath": "analysis/KRU.WA"
+        "filePath": "analysis/mój_portfel/KRU.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/KRU.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "LPP.WA",
         "short_name": "LPP",
         "verdict": "TRZYMAJ",
         "price": 21920.0,
         "currency": "PLN",
-        "filePath": "analysis/LPP.WA/ai-comment.json",
-        "folderPath": "analysis/LPP.WA"
+        "filePath": "analysis/mój_portfel/LPP.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/LPP.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "MBR.WA",
         "short_name": "MOBRUK",
         "verdict": "TRZYMAJ",
         "price": 357.0,
         "currency": "PLN",
-        "filePath": "analysis/MBR.WA/ai-comment.json",
-        "folderPath": "analysis/MBR.WA"
+        "filePath": "analysis/mój_portfel/MBR.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/MBR.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "NNN",
         "short_name": "NNN REIT, Inc.",
         "verdict": "TRZYMAJ",
         "price": 46.41,
         "currency": "USD",
-        "filePath": "analysis/NNN/ai-comment.json",
-        "folderPath": "analysis/NNN"
+        "filePath": "analysis/mój_portfel/NNN/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/NNN"
     },
     {
+        "group": "mój_portfel",
         "ticker": "PEP.WA",
         "short_name": "PEP",
         "verdict": "REDUKUJ",
         "price": 53.4,
         "currency": "PLN",
-        "filePath": "analysis/PEP.WA/ai-comment.json",
-        "folderPath": "analysis/PEP.WA"
+        "filePath": "analysis/mój_portfel/PEP.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/PEP.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "PKN.WA",
         "short_name": "PKNORLEN",
         "verdict": "TRZYMAJ",
         "price": 148.68,
         "currency": "PLN",
-        "filePath": "analysis/PKN.WA/ai-comment.json",
-        "folderPath": "analysis/PKN.WA"
+        "filePath": "analysis/mój_portfel/PKN.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/PKN.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "WTN.WA",
         "short_name": "WITTCHEN",
         "verdict": "REDUKUJ",
         "price": 12.4,
         "currency": "PLN",
-        "filePath": "analysis/WTN.WA/ai-comment.json",
-        "folderPath": "analysis/WTN.WA"
+        "filePath": "analysis/mój_portfel/WTN.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/WTN.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "WWD",
         "short_name": "Woodward, Inc.",
         "verdict": "REDUKUJ",
         "price": 384.15,
         "currency": "USD",
-        "filePath": "analysis/WWD/ai-comment.json",
-        "folderPath": "analysis/WWD"
+        "filePath": "analysis/mój_portfel/WWD/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/WWD"
     },
     {
+        "group": "mój_portfel",
         "ticker": "WWL.WA",
         "short_name": "WAWEL",
         "verdict": "TRZYMAJ",
         "price": 730.0,
         "currency": "PLN",
-        "filePath": "analysis/WWL.WA/ai-comment.json",
-        "folderPath": "analysis/WWL.WA"
+        "filePath": "analysis/mój_portfel/WWL.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/WWL.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "XTB.WA",
         "short_name": "XTB",
         "verdict": "AKUMULUJ",
         "price": 109.0,
         "currency": "PLN",
-        "filePath": "analysis/XTB.WA/ai-comment.json",
-        "folderPath": "analysis/XTB.WA"
+        "filePath": "analysis/mój_portfel/XTB.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/XTB.WA"
     },
     {
+        "group": "mój_portfel",
         "ticker": "ZEP.WA",
         "short_name": "ZEPAK",
         "verdict": "REDUKUJ",
         "price": 17.5,
         "currency": "PLN",
-        "filePath": "analysis/ZEP.WA/ai-comment.json",
-        "folderPath": "analysis/ZEP.WA"
+        "filePath": "analysis/mój_portfel/ZEP.WA/ai-comment.json",
+        "folderPath": "analysis/mój_portfel/ZEP.WA"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "AAPL",
+        "short_name": "Apple Inc.",
+        "verdict": "TRZYMAJ",
+        "price": 297.24,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/AAPL/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/AAPL"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "AMZN",
+        "short_name": "Amazon.com, Inc.",
+        "verdict": "TRZYMAJ",
+        "price": 246.14,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/AMZN/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/AMZN"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "AVGO",
+        "short_name": "Broadcom Inc.",
+        "verdict": "AKUMULUJ",
+        "price": 393.225,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/AVGO/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/AVGO"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "GOOG",
+        "short_name": "Alphabet Inc.",
+        "verdict": "AKUMULUJ",
+        "price": 369.85,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/GOOG/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/GOOG"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "GOOGL",
+        "short_name": "Alphabet Inc.",
+        "verdict": "AKUMULUJ",
+        "price": 372.05,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/GOOGL/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/GOOGL"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "META",
+        "short_name": "Meta Platforms, Inc.",
+        "verdict": "AKUMULUJ",
+        "price": 566.98,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/META/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/META"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "MSFT",
+        "short_name": "Microsoft Corporation",
+        "verdict": "TRZYMAJ",
+        "price": 400.91,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/MSFT/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/MSFT"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "NVDA",
+        "short_name": "NVIDIA Corporation",
+        "verdict": "AKUMULUJ",
+        "price": 212.39,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/NVDA/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/NVDA"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "SPACEX",
+        "short_name": "SpaceX",
+        "verdict": "TRZYMAJ",
+        "price": 0.0,
+        "currency": "N/A",
+        "filePath": "analysis/NASDAQ_top10/SPACEX/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/SPACEX"
+    },
+    {
+        "group": "NASDAQ_top10",
+        "ticker": "TSLA",
+        "short_name": "Tesla, Inc.",
+        "verdict": "REDUKUJ",
+        "price": 409.935,
+        "currency": "USD",
+        "filePath": "analysis/NASDAQ_top10/TSLA/ai-comment.json",
+        "folderPath": "analysis/NASDAQ_top10/TSLA"
+    },
+    {
+        "group": "obserwowane",
+        "ticker": "SNT.WA",
+        "short_name": "SYNEKTIK",
+        "verdict": "REDUKUJ",
+        "price": 300.8,
+        "currency": "PLN",
+        "filePath": "analysis/obserwowane/SNT.WA/ai-comment.json",
+        "folderPath": "analysis/obserwowane/SNT.WA"
     }
 ]
