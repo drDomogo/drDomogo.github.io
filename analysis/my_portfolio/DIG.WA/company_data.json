@@ -1,0 +1,152 @@
+{
+    "ticker": "DIG.WA",
+    "generated_at": "2026-06-11 20:48:10.326825",
+    "current_snapshot": {
+        "shortName": "DIGITANET",
+        "sector": "Communication Services",
+        "industry": "Broadcasting",
+        "country": "Poland",
+        "currency": "PLN",
+        "currentPrice": 231.6,
+        "marketCap": 964772672,
+        "trailingPE": 24.796574,
+        "forwardPE": null,
+        "trailingEps": 9.34,
+        "forwardEps": null,
+        "pegRatio": null,
+        "priceToBook": 8.589231,
+        "returnOnEquity": 0.58225,
+        "debtToEquity": 176.398,
+        "beta": 0.436,
+        "dividendYield": 1.98,
+        "dividendRate": 4.46,
+        "fiveYearAvgDividendYield": null,
+        "sharesOutstanding": 4165685
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-09-30",
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "PLN",
+            "Revenue": 15395950.73,
+            "NetIncome": 4682950.64,
+            "OperatingIncome": 5553842.89,
+            "Debt": 22251704.63,
+            "Cash": 19975486.27,
+            "FreeCashFlow": 8795135.32,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "PLN",
+            "Revenue": 20469716.96,
+            "NetIncome": 7479793.09,
+            "OperatingIncome": 9879415.15,
+            "Debt": 20781316.97,
+            "Cash": 19414708.52,
+            "FreeCashFlow": 10993915.36,
+            "DividendPaid": 2.41
+        },
+        {
+            "Quarter": "2025-09-30",
+            "Currency": "PLN",
+            "Revenue": 20876663.58,
+            "NetIncome": 8260294.69,
+            "OperatingIncome": 10300357.66,
+            "Debt": 21679591.64,
+            "Cash": 26574391.41,
+            "FreeCashFlow": 5407363.57,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-12-31",
+            "Currency": "PLN",
+            "Revenue": 56176983.31,
+            "NetIncome": 17189933.13,
+            "OperatingIncome": 24776199.26,
+            "Debt": 205662798.82,
+            "Cash": 24130582.08,
+            "FreeCashFlow": 22610099.91,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "PLN",
+            "Revenue": 42918345.8,
+            "NetIncome": 6707873.19,
+            "OperatingIncome": 13138125.25,
+            "Debt": 201199248.25,
+            "Cash": 22729833.97,
+            "FreeCashFlow": 9277674.54,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2021,
+            "Currency": "PLN",
+            "Revenue": 32073598.48,
+            "NetIncome": 8094954.43,
+            "OperatingIncome": 11815403.04,
+            "Debt": 17615674.97,
+            "Cash": 8630117.21,
+            "FreeCashFlow": 14488310.77,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2022,
+            "Currency": "PLN",
+            "Revenue": 48390669.1,
+            "NetIncome": 8524545.78,
+            "OperatingIncome": 15277757.96,
+            "Debt": 19805471.3,
+            "Cash": 12470157.72,
+            "FreeCashFlow": 16291667.0,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2023,
+            "Currency": "PLN",
+            "Revenue": 64282089.9,
+            "NetIncome": 21345647.73,
+            "OperatingIncome": 25162029.72,
+            "Debt": 24197994.52,
+            "Cash": 25377309.43,
+            "FreeCashFlow": 27911008.24,
+            "DividendPaid": 0.73
+        },
+        {
+            "Year": 2024,
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": 6.51
+        },
+        {
+            "Year": 2025,
+            "Currency": "PLN",
+            "Revenue": 112919314.58,
+            "NetIncome": 37612971.55,
+            "OperatingIncome": 50509814.96,
+            "Debt": 205662798.82,
+            "Cash": 24130582.08,
+            "FreeCashFlow": 47806514.16,
+            "DividendPaid": 2.41
+        }
+    ],
+    "earnings_surprises": []
+}

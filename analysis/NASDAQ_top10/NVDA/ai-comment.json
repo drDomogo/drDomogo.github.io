@@ -1,0 +1,70 @@
+{
+    "ticker": "NVDA",
+    "short_name": "NVIDIA Corporation",
+    "analysis_date": "2026-06-15",
+    "current_price": 212.39,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Dynamiczny, wykładniczy wzrost przychodów i zysków netto, z wyraźną akceleracją w ostatnich kwartałach. Marże operacyjne i netto znacząco rosną.",
+    "fcf_and_operations": "Wyjątkowo silna generacja wolnych przepływów pieniężnych (FCF) i zysków operacyjnych, z trendem dynamicznego wzrostu. Operacje wysoce efektywne.",
+    "balance_sheet_debt": "Bilans bardzo mocny, z niskim wskaźnikiem zadłużenia do kapitału własnego (6.55%) i wysoką płynnością. Poziom długu jest stabilny i pokryty gotówką.",
+    "dividend_policy": "Spółka wypłaca symboliczną dywidendę (0.49% yield), co wskazuje na priorytet reinwestowania zysków w dalszy dynamiczny rozwój.",
+    "market_expectations": "Konsekwentne przekraczanie oczekiwań rynkowych w zakresie EPS, co świadczy o silnym momentum operacyjnym i niedoszacowaniu potencjału przez analityków. Jedna niedawna, niewielka wpadka.",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (trailing 32.52, forward 16.69), PEG (0.63), P/B (26.32), ROE (114.29%).",
+    "price_strong_opportunity": 161.25,
+    "price_attractive": 182.75,
+    "price_fair_value": 215.0,
+    "price_overvalued": 247.25,
+    "price_valuation_justification": "Wycena oparta na wskaźniku PEG < 1 (0.63), co sugeruje niedowartościowanie względem tempa wzrostu zysków. Niski forward P/E (16.69) w kontekście dynamicznego wzrostu przychodów i zysków oraz wyjątkowo wysokiego ROE (114%) uzasadnia obecne i wyższe poziomy cenowe.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 199.33,
+    "resistance_level": 225.56,
+    "momentum_summary": "Cena utrzymuje się powyżej obu kluczowych średnich kroczących (SMA50 i SMA200), które wykazują trend wzrostowy. Ostatnie sesje charakteryzują się konsolidacją po silnym rajdzie, z widocznym wsparciem w okolicach 199 USD i oporem na 225 USD. Momentum pozostaje pozytywne, choć z oznakami krótkoterminowego wyhamowania.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 10,
+            "reason": "Wykładniczy wzrost przychodów i zysków netto."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 10,
+            "reason": "Wyjątkowo silna i rosnąca generacja FCF."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 9,
+            "reason": "Bardzo niski dług do kapitału, wysoka płynność."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 8,
+            "reason": "PEG < 1 i atrakcyjny forward P/E przy tak dynamicznym wzroście."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Konsekwentne bicie prognoz, świadczące o sile operacyjnej."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 10,
+            "reason": "Silny, ugruntowany trend wzrostowy, cena nad SMA200."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 7,
+            "reason": "Konsolidacja po rajdzie, ale nadal nad SMA50."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 3,
+            "reason": "Symboliczna dywidenda, spółka skupiona na reinwestowaniu."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysokie oczekiwania rynkowe i potencjalne spowolnienie tempa wzrostu w kluczowych segmentach (AI/Data Center)."
+}

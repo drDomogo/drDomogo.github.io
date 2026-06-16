@@ -1,0 +1,65 @@
+{
+    "ticker": "GOOGL",
+    "short_name": "Alphabet Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 372.05,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Roczne przychody i zyski netto wykazują silny, konsekwentny wzrost (CAGR >15%). Ostatni kwartał (Q1 2026) odnotował wyjątkowy wzrost zysku netto (+94.3% r/r).",
+    "fcf_and_operations": "Wolne przepływy pieniężne (FCF) rosną stabilnie rocznie, choć kwartalnie wykazują zmienność. Zysk operacyjny systematycznie wzrasta, potwierdzając efektywność operacyjną.",
+    "balance_sheet_debt": "Bilans historycznie solidny z niskim zadłużeniem. Odnotowano znaczący wzrost zadłużenia w Q1 2026, jednak wysoka pozycja gotówkowa i kapitał własny utrzymują stabilność.",
+    "dividend_policy": "Spółka niedawno zainicjowała politykę dywidendową, oferując niski, lecz rosnący wskaźnik dywidendy, sygnalizując zwrot kapitału akcjonariuszom.",
+    "market_expectations": "Konsekwentnie przekracza oczekiwania rynkowe dotyczące EPS, z ostatnimi kwartałami charakteryzującymi się znacznymi pozytywnymi zaskoczeniami (do +94.3%).",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (TTM): 28.42, P/E (Forward): 25.69, PEG: 1.42, P/B: 9.42, ROE: 38.88%",
+    "price_strong_opportunity": 280.0,
+    "price_attractive": 330.0,
+    "price_fair_value": 372.05,
+    "price_overvalued": 430.0,
+    "price_valuation_justification": "Obecna wycena jest zgodna z historycznymi wskaźnikami dla spółek technologicznych o wysokim wzroście. Wskaźnik P/E (Forward) na poziomie 25.69 jest uzasadniony prognozowanym wzrostem zysków, zwłaszcza po ostatnich, silnych zaskoczeniach wynikami. Poziomy dyskontowe oferują atrakcyjniejsze punkty wejścia.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 350.0,
+    "resistance_level": 400.0,
+    "momentum_summary": "Silne momentum, cena powyżej kluczowych średnich kroczących. Wskaźniki techniczne sugerują kontynuację trendu wzrostowego po krótkiej korekcie.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysków",
+            "score": 9,
+            "reason": "Silny, konsekwentny wzrost przychodów i zysków netto, z wyjątkowym wzrostem EPS w ostatnim kwartale."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Stabilny roczny wzrost FCF i zysku operacyjnego, pomimo kwartalnej zmienności FCF."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 7,
+            "reason": "Historycznie solidny bilans, jednak znaczący wzrost zadłużenia w Q1 2026 wymaga monitorowania, choć jest wspierany przez wysoką gotówkę."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 6,
+            "reason": "Wycena godziwa, ale nie tania, uzasadniona wysokim wzrostem, lecz wskaźnik PEG > 1."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Konsekwentne i znaczące przekraczanie oczekiwań rynkowych dotyczących EPS."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 8,
+            "reason": "Silny długoterminowy trend wzrostowy, cena powyżej kluczowych średnich kroczących, krótkoterminowy rebound."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 6,
+            "reason": "Niedawno zainicjowana, niska, ale rosnąca dywidenda, co jest pozytywnym sygnałem dla akcjonariuszy."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Znaczący wzrost zadłużenia w ostatnim kwartale oraz potencjalne spowolnienie wzrostu w kluczowych segmentach (np. reklama, AI)."
+}

@@ -1,0 +1,75 @@
+{
+    "ticker": "GOOG",
+    "short_name": "Alphabet Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 369.85,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Spółka wykazuje silny, konsekwentny wzrost przychodów i zysków netto w ujęciu rocznym. Kwartalny wzrost przychodów jest stabilny, a zysk netto w Q1 2026 odnotował wyjątkowy skok.",
+    "fcf_and_operations": "Roczny wolny przepływ pieniężny (FCF) stabilnie rośnie. Kwartalne FCF wykazują zmienność z okresowymi spadkami (Q2 2025, Q1 2026), co wymaga monitorowania. Zyski operacyjne konsekwentnie rosną.",
+    "balance_sheet_debt": "Wskaźnik zadłużenia do kapitału własnego (D/E) jest niski. Odnotowano jednak znaczący wzrost zadłużenia w 2025 roku oraz w Q1 2026, co wymaga analizy przyczyn. Pozycja gotówkowa jest silna i rosnąca.",
+    "dividend_policy": "Spółka rozpoczęła wypłatę dywidend w 2024 roku, z tendencją wzrostową w 2025 roku. Polityka dywidendowa jest nowa, ale wykazuje konsekwencję w kwartalnych wypłatach.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe dotyczące zysków na akcję (EPS), z ostatnimi kwartałami wykazującymi bardzo wysokie pozytywne zaskoczenia (np. Q1 2026 +94.3%).",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E Trailing: 28.21, P/E Forward: 25.54, P/B: 9.36, PEG: 1.41, ROE: 38.88%",
+    "price_strong_opportunity": 290.0,
+    "price_attractive": 330.0,
+    "price_fair_value": 370.0,
+    "price_overvalued": 450.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E Forward, który jest zgodny z historycznymi poziomami dla spółek technologicznych o silnym wzroście. Poziomy cenowe uwzględniają potencjał wzrostu EPS oraz ostatnie pozytywne zaskoczenia wynikami.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 355.0,
+    "resistance_level": 400.0,
+    "momentum_summary": "Cena znajduje się powyżej obu kluczowych średnich kroczących (SMA50 i SMA200), co wskazuje na silne momentum wzrostowe. Ostatnie ruchy cenowe są dynamiczne, wspierane przez pozytywne zaskoczenia wynikami.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 7,
+            "reason": "Niskie D/E, silna pozycja gotówkowa, lecz odnotowano znaczący wzrost zadłużenia w ostatnich kwartałach."
+        },
+        {
+            "criterion": "Marże",
+            "score": 9,
+            "reason": "Konsekwentny wzrost zysków operacyjnych i netto, z wyjątkowym wzrostem zysku netto w ostatnim kwartale."
+        },
+        {
+            "criterion": "Trend Przychodów",
+            "score": 9,
+            "reason": "Stabilny i dynamiczny wzrost przychodów kwartalnych i rocznych."
+        },
+        {
+            "criterion": "FCF",
+            "score": 7,
+            "reason": "Roczny FCF rośnie, ale kwartalne przepływy są zmienne, z okresowymi spadkami."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 6,
+            "reason": "Nowa polityka dywidendowa, ale z konsekwentnymi i rosnącymi wypłatami."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Spółka regularnie i znacząco przekracza oczekiwania rynkowe dotyczące zysków."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Wycena wskaźnikowa jest wysoka, ale uzasadniona silnym wzrostem i perspektywami."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy w krótkim i długim terminie, cena powyżej kluczowych średnich kroczących."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 8,
+            "reason": "Silne momentum wzrostowe, wspierane przez pozytywne zaskoczenia wynikami."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysoka wycena wskaźnikowa oraz znaczący wzrost zadłużenia w ostatnich kwartałach."
+}

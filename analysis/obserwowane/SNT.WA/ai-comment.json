@@ -1,0 +1,65 @@
+{
+    "ticker": "SNT.WA",
+    "short_name": "SYNEKTIK",
+    "analysis_date": "2026-06-15",
+    "current_price": 300.8,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Silny wzrost przychodów i zysków netto w ostatnich latach. Q1 2026 wykazuje anomalię w zysku netto (znaczący wzrost, prawdopodobnie jednorazowy). Prognoza EPS na przyszłość wskazuje na spadek z 18.02 do 11.9, co jest kluczowym odchyleniem od historycznego trendu wzrostowego.",
+    "fcf_and_operations": "Zysk operacyjny rośnie konsekwentnie. Wolne przepływy pieniężne są zmienne, z okresowymi ujemnymi wartościami (Q1 2025, Q1 2026), co wskazuje na nieregularne zapotrzebowanie na kapitał obrotowy lub inwestycje.",
+    "balance_sheet_debt": "Bilans wykazuje zdrową pozycję gotówkową przewyższającą zadłużenie w większości okresów. W Q1 2026 dług wzrósł, a gotówka spadła, ale poziom zadłużenia pozostaje zarządzalny.",
+    "dividend_policy": "Spółka konsekwentnie zwiększa dywidendę, z wyraźnym przyspieszeniem wzrostu w ostatnich latach. Obecna stopa dywidendy (3.67%) jest atrakcyjna i powyżej średniej 5-letniej (2.06%).",
+    "market_expectations": null,
+    "valuation_status": "Bardzo Droga",
+    "key_valuation_metrics": "P/E (TTM): 16.69, P/E (Forward): 25.28, P/B: 36.26",
+    "price_strong_opportunity": 140.0,
+    "price_attractive": 170.0,
+    "price_fair_value": 200.0,
+    "price_overvalued": 250.0,
+    "price_valuation_justification": "Obecna cena implikuje wysoki forward P/E (25.28) pomimo prognozowanego spadku EPS (z 18.02 do 11.9). Ekstremalnie wysoki P/B (36.26) sugeruje znaczną premię. Poziomy wyceny oparte na konserwatywnym P/E dla przyszłych, niższych zysków.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 270.0,
+    "resistance_level": 305.0,
+    "momentum_summary": "Cena powyżej obu średnich kroczących, sygnalizując siłę. Długoterminowy trend wzrostowy jest kontynuowany. Ostatnie wzrosty wolumenu przy odbiciu po korekcie.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 6,
+            "reason": "Silny historyczny wzrost, ale zaniepokojenie prognozą spadku EPS i anomalią w Q1 2026."
+        },
+        {
+            "criterion": "Rentowność Operacyjna",
+            "score": 7,
+            "reason": "Stabilny wzrost zysku operacyjnego."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 7,
+            "reason": "Gotówka przewyższa dług w większości okresów, zadłużenie zarządzalne."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 5,
+            "reason": "Zmienne FCF, z okresowymi ujemnymi wartościami."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 8,
+            "reason": "Konsekwentny i rosnący trend dywidendowy, atrakcyjna obecna stopa."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 2,
+            "reason": "Bardzo wysoki P/E forward i P/B, szczególnie przy prognozowanym spadku EPS."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 7,
+            "reason": "Cena powyżej kluczowych średnich, długoterminowy trend wzrostowy."
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Znaczący spadek prognozowanego EPS (z 18.02 do 11.9) przy wysokiej wycenie forward P/E (25.28) oraz ekstremalnie wysokim P/B (36.26), co sugeruje silne przewartościowanie. Anomalia w zysku netto Q1 2026 wymaga wyjaśnienia."
+}

@@ -1,0 +1,292 @@
+{
+    "ticker": "0700.HK",
+    "generated_at": "2026-06-15 18:36:02.351067",
+    "current_snapshot": {
+        "shortName": "TENCENT",
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "country": "China",
+        "currency": "HKD",
+        "currentPrice": 459.6,
+        "marketCap": 4144511582208,
+        "trailingPE": 16.437769,
+        "forwardPE": 11.996161,
+        "trailingEps": 27.96,
+        "forwardEps": 38.312256,
+        "pegRatio": 1.38,
+        "priceToBook": 3.1837697,
+        "returnOnEquity": 0.20515,
+        "debtToEquity": 33.468,
+        "beta": 0.741,
+        "dividendYield": 1.14,
+        "dividendRate": 5.3,
+        "fiveYearAvgDividendYield": 0.67,
+        "sharesOutstanding": 9017648718
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "HKD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "HKD",
+            "Revenue": 184504000000.0,
+            "NetIncome": 55628000000.0,
+            "OperatingIncome": 64942000000.0,
+            "Debt": 412486000000.0,
+            "Cash": 182057000000.0,
+            "FreeCashFlow": null,
+            "DividendPaid": 4.5
+        },
+        {
+            "Quarter": "2025-09-30",
+            "Currency": "HKD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-12-31",
+            "Currency": "HKD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "HKD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2021,
+            "Currency": "HKD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": 1.6
+        },
+        {
+            "Year": 2022,
+            "Currency": "HKD",
+            "Revenue": 554552000000.0,
+            "NetIncome": 188243000000.0,
+            "OperatingIncome": 113940000000.0,
+            "Debt": null,
+            "Cash": 156739000000.0,
+            "FreeCashFlow": 95241000000.0,
+            "DividendPaid": 1.6
+        },
+        {
+            "Year": 2023,
+            "Currency": "HKD",
+            "Revenue": 609015000000.0,
+            "NetIncome": 115216000000.0,
+            "OperatingIncome": 165658000000.0,
+            "Debt": null,
+            "Cash": 172320000000.0,
+            "FreeCashFlow": 174555000000.0,
+            "DividendPaid": 2.4
+        },
+        {
+            "Year": 2024,
+            "Currency": "HKD",
+            "Revenue": 660257000000.0,
+            "NetIncome": 194073000000.0,
+            "OperatingIncome": 208786000000.0,
+            "Debt": null,
+            "Cash": 132519000000.0,
+            "FreeCashFlow": 162473000000.0,
+            "DividendPaid": 3.4
+        },
+        {
+            "Year": 2025,
+            "Currency": "HKD",
+            "Revenue": 751766000000.0,
+            "NetIncome": 224842000000.0,
+            "OperatingIncome": 248767000000.0,
+            "Debt": null,
+            "Cash": 141041000000.0,
+            "FreeCashFlow": 190171000000.0,
+            "DividendPaid": 4.5
+        }
+    ],
+    "earnings_surprises": [
+        {
+            "EarningsDate": "2020-08-12 05:00:00",
+            "EPSEstimate": 3.03,
+            "EPSActual": 3.13,
+            "SurprisePercent": 3.2
+        },
+        {
+            "EarningsDate": "2020-11-12 06:00:00",
+            "EPSEstimate": 3.27,
+            "EPSActual": 3.31,
+            "SurprisePercent": 1.43
+        },
+        {
+            "EarningsDate": "2021-03-24 05:00:00",
+            "EPSEstimate": 3.47,
+            "EPSActual": 3.41,
+            "SurprisePercent": -1.5
+        },
+        {
+            "EarningsDate": "2021-05-20 06:00:00",
+            "EPSEstimate": 3.55,
+            "EPSActual": 3.42,
+            "SurprisePercent": -3.89
+        },
+        {
+            "EarningsDate": "2021-08-18 05:00:00",
+            "EPSEstimate": 3.43,
+            "EPSActual": 3.5,
+            "SurprisePercent": 2.09
+        },
+        {
+            "EarningsDate": "2021-11-10 05:00:00",
+            "EPSEstimate": 3.23,
+            "EPSActual": 3.27,
+            "SurprisePercent": 1.27
+        },
+        {
+            "EarningsDate": "2022-03-23 04:00:00",
+            "EPSEstimate": 2.95,
+            "EPSActual": 2.55,
+            "SurprisePercent": -13.63
+        },
+        {
+            "EarningsDate": "2022-05-18 05:00:00",
+            "EPSEstimate": 2.81,
+            "EPSActual": 2.62,
+            "SurprisePercent": -6.7
+        },
+        {
+            "EarningsDate": "2022-08-17 04:00:00",
+            "EPSEstimate": 2.57,
+            "EPSActual": 2.9,
+            "SurprisePercent": 12.88
+        },
+        {
+            "EarningsDate": "2022-11-16 03:00:00",
+            "EPSEstimate": 2.99,
+            "EPSActual": 3.31,
+            "SurprisePercent": 10.56
+        },
+        {
+            "EarningsDate": "2023-03-22 04:00:00",
+            "EPSEstimate": 3.03,
+            "EPSActual": 3.04,
+            "SurprisePercent": 0.5
+        },
+        {
+            "EarningsDate": "2023-05-17 04:00:00",
+            "EPSEstimate": 3.25,
+            "EPSActual": 3.35,
+            "SurprisePercent": 3.05
+        },
+        {
+            "EarningsDate": "2023-08-16 04:00:00",
+            "EPSEstimate": 3.75,
+            "EPSActual": 3.88,
+            "SurprisePercent": 3.46
+        },
+        {
+            "EarningsDate": "2023-11-15 03:00:00",
+            "EPSEstimate": 4.2,
+            "EPSActual": 4.66,
+            "SurprisePercent": 10.76
+        },
+        {
+            "EarningsDate": "2024-03-20 04:00:00",
+            "EPSEstimate": 4.42,
+            "EPSActual": 4.44,
+            "SurprisePercent": 0.58
+        },
+        {
+            "EarningsDate": "2024-05-14 04:00:00",
+            "EPSEstimate": 4.45,
+            "EPSActual": 5.26,
+            "SurprisePercent": 18.33
+        },
+        {
+            "EarningsDate": "2024-08-14 04:00:00",
+            "EPSEstimate": 5.13,
+            "EPSActual": 6.01,
+            "SurprisePercent": 17.15
+        },
+        {
+            "EarningsDate": "2024-11-13 03:00:00",
+            "EPSEstimate": 5.7,
+            "EPSActual": 6.34,
+            "SurprisePercent": 11.17
+        },
+        {
+            "EarningsDate": "2025-03-19 04:00:00",
+            "EPSEstimate": 5.6,
+            "EPSActual": 5.91,
+            "SurprisePercent": 5.57
+        },
+        {
+            "EarningsDate": "2025-05-14 04:00:00",
+            "EPSEstimate": 6.34,
+            "EPSActual": 6.58,
+            "SurprisePercent": 3.85
+        },
+        {
+            "EarningsDate": "2025-08-13 04:00:00",
+            "EPSEstimate": 6.49,
+            "EPSActual": 6.79,
+            "SurprisePercent": 4.62
+        },
+        {
+            "EarningsDate": "2025-11-13 03:00:00",
+            "EPSEstimate": 7.03,
+            "EPSActual": 7.58,
+            "SurprisePercent": 7.71
+        },
+        {
+            "EarningsDate": "2026-03-18 04:00:00",
+            "EPSEstimate": 6.86,
+            "EPSActual": 6.97,
+            "SurprisePercent": 1.48
+        },
+        {
+            "EarningsDate": "2026-05-13 04:00:00",
+            "EPSEstimate": 7.23,
+            "EPSActual": 7.36,
+            "SurprisePercent": 1.79
+        },
+        {
+            "EarningsDate": "2026-08-12 04:00:00",
+            "EPSEstimate": 7.33,
+            "EPSActual": null,
+            "SurprisePercent": null
+        }
+    ]
+}

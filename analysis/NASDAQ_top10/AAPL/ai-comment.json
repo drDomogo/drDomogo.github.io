@@ -1,0 +1,70 @@
+{
+    "ticker": "AAPL",
+    "short_name": "Apple Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 297.24,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów i zysków netto po przejściowym spadku w latach 2023-2024, z silnym odbiciem w 2025. Kwartały wykazują sezonowość z solidnymi wynikami.",
+    "fcf_and_operations": "Wolne przepływy pieniężne wykazują silną sezonowość i zmienność roczną, ale pozostają na wysokim poziomie. Zyski operacyjne rosną po krótkotrwałym spadku.",
+    "balance_sheet_debt": "Spółka konsekwentnie redukuje zadłużenie od 2022 roku, jednocześnie zwiększając pozycję gotówkową. Wskaźnik D/E na umiarkowanym poziomie. Bilans poprawia się.",
+    "dividend_policy": "Stabilna polityka dywidendowa z corocznym wzrostem wypłat, choć bieżąca stopa dywidendy jest niska.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe dotyczące zysków na akcję, co świadczy o silnym zarządzaniu i/lub konserwatywnych prognozach analityków.",
+    "valuation_status": "Droga",
+    "key_valuation_metrics": "P/E, Forward P/E, PEG Ratio, P/B",
+    "price_strong_opportunity": 190.0,
+    "price_attractive": 225.0,
+    "price_fair_value": 280.0,
+    "price_overvalued": 345.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku C/Z (Forward P/E), z założeniem godziwej wartości w przedziale 28-30x zysków, co odzwierciedla stabilność i markę, ale także dojrzałość spółki. Obecne wskaźniki C/Z są powyżej historycznych średnich dla spółek o podobnym profilu wzrostu.",
+    "trend_short_term": "Boczny",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 290.0,
+    "resistance_level": 313.0,
+    "momentum_summary": "Cena powyżej obu średnich kroczących, co wskazuje na siłę. Ostatnia korekta po osiągnięciu lokalnych szczytów, ale momentum długoterminowe pozostaje wzrostowe.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 7,
+            "reason": "Roczny wzrost po przejściowym spadku, silne odbicie w 2025, konsekwentne przekraczanie oczekiwań."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Wysokie FCF, choć sezonowe, oraz rosnąca pozycja gotówkowa."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 9,
+            "reason": "Konsekwentna redukcja zadłużenia, zdrowy bilans, umiarkowany D/E."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 6,
+            "reason": "Stabilny wzrost dywidendy, ale niska stopa dywidendy."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 3,
+            "reason": "Wysokie wskaźniki C/Z i C/WK, sugerujące przewartościowanie."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena powyżej SMA200."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 5,
+            "reason": "Korekta po szczytach, choć nadal powyżej SMA50."
+        },
+        {
+            "criterion": "Momentum Techniczne",
+            "score": 7,
+            "reason": "Cena nad kluczowymi średnimi, ale z ostatnią słabością."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Wysoka wycena w stosunku do historycznych średnich i tempa wzrostu."
+}

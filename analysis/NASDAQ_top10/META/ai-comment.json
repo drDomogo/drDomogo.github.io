@@ -1,0 +1,70 @@
+{
+    "ticker": "META",
+    "short_name": "Meta Platforms, Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 566.98,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Silny wzrost przychodów i zysków netto w ostatnich latach. Kwartał Q3 2025 wykazał anomalię w danych o zysku netto, jednak raportowany EPS za ten okres był zgodny z trendem wzrostowym i przekroczył oczekiwania.",
+    "fcf_and_operations": "Wysoka i rosnąca generacja wolnych przepływów pieniężnych (FCF), wspierana przez solidne zyski operacyjne. Spadek FCF w 2025 r. względem 2024 r. wymaga uwagi.",
+    "balance_sheet_debt": "Znaczący wzrost zadłużenia w 2025 r., przy jednoczesnym spadku gotówki. Wskaźnik D/E na umiarkowanym poziomie, ale trend wzrostowy zadłużenia wymaga monitorowania.",
+    "dividend_policy": "Spółka rozpoczęła wypłatę dywidendy w 2024 r. i utrzymuje stabilny, lekko rosnący trend kwartalnych wypłat. Niska stopa dywidendy.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe dotyczące zysku na akcję (EPS) w ostatnich kwartałach, co świadczy o silnym zarządzaniu oczekiwaniami lub konserwatywnych prognozach analityków.",
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (trailing/forward), PEG Ratio, P/B, ROE",
+    "price_strong_opportunity": 507.44,
+    "price_attractive": 579.94,
+    "price_fair_value": 688.67,
+    "price_overvalued": 869.9,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E (forward) oraz PEG Ratio. Aktualny P/E (forward) 15.64 jest poniżej historycznych średnich dla spółek wzrostowych w sektorze technologicznym. PEG Ratio < 1 wskazuje na niedowartościowanie względem tempa wzrostu zysków.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 560.0,
+    "resistance_level": 620.0,
+    "momentum_summary": "Cena znajduje się wyraźnie poniżej obu kluczowych średnich kroczących (SMA50 i SMA200), co wskazuje na silne negatywne momentum. Wskaźniki techniczne sugerują presję sprzedażową.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 9,
+            "reason": "Konsekwentny wzrost przychodów i zysków netto, z wyjątkiem jednorazowej anomalii w Q3 2025, która nie wpłynęła na raportowany EPS."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Solidna i rosnąca generacja FCF, choć z lekkim spadkiem w 2025 r."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 6,
+            "reason": "Wzrost zadłużenia w 2025 r. wymaga uwagi, choć D/E jest umiarkowane."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 7,
+            "reason": "Nowa polityka dywidendowa, stabilne, rosnące wypłaty, ale niska stopa."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 9,
+            "reason": "Atrakcyjny forward P/E i PEG Ratio < 1 wskazują na niedowartościowanie."
+        },
+        {
+            "criterion": "Trend Krótkoterm.",
+            "score": 3,
+            "reason": "Silny trend spadkowy, cena poniżej SMA50."
+        },
+        {
+            "criterion": "Trend Długoterm.",
+            "score": 4,
+            "reason": "Trend spadkowy, cena poniżej SMA200."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 3,
+            "reason": "Negatywne momentum, wskaźniki techniczne wskazują na presję sprzedażową."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Dalsza presja sprzedażowa wynikająca z negatywnego momentum technicznego oraz ryzyka związane z wysokimi inwestycjami w projekty długoterminowe (np. Metaverse)."
+}

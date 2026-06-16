@@ -1,0 +1,70 @@
+{
+    "ticker": "MSFT",
+    "short_name": "Microsoft Corporation",
+    "analysis_date": "2026-06-15",
+    "current_price": 400.91,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Spółka wykazuje konsekwentny, silny wzrost przychodów i zysków netto w ujęciu rocznym i kwartalnym, z wyjątkiem krótkotrwałego spadku zysku netto w 2023 r. oraz kwartalnego w Q1 2026, które nie zmieniają ogólnego trendu wzrostowego.",
+    "fcf_and_operations": "Zyski operacyjne wykazują stabilny, silny wzrost. Wolne przepływy pieniężne są solidne, choć odnotowano znaczący kwartalny spadek w Q4 2025, częściowo odrobiony w Q1 2026.",
+    "balance_sheet_debt": "Poziom zadłużenia jest stabilny, z tendencją spadkową w ostatnich kwartałach, i jest dobrze zarządzany. Wskaźnik długu do kapitału własnego jest umiarkowany, wspierany przez silną pozycję gotówkową.",
+    "dividend_policy": "Spółka konsekwentnie zwiększa dywidendę rocznie i kwartalnie, oferując stabilny i rosnący dochód dla akcjonariuszy. Obecna stopa dywidendy jest powyżej średniej 5-letniej.",
+    "market_expectations": "Microsoft konsekwentnie przekracza oczekiwania rynkowe dotyczące zysków na akcję, co świadczy o silnej realizacji operacyjnej i efektywnym zarządzaniu prognozami.",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (trailing i forward), PEG Ratio, P/B",
+    "price_strong_opportunity": 310.0,
+    "price_attractive": 350.0,
+    "price_fair_value": 405.0,
+    "price_overvalued": 485.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E forward, gdzie 21x Fwd P/E uznano za wartość godziwą dla spółki o wysokiej jakości i stabilnym wzroście. Poziomy atrakcyjne i mocnej okazji wyznaczono przy niższych mnożnikach (18x i 16x), a przewartościowanie przy 25x Fwd P/E.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Spadkowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 380.0,
+    "resistance_level": 415.0,
+    "momentum_summary": "Momentum jest negatywne. Cena znajduje się poniżej obu kluczowych średnich kroczących (SMA50 i SMA200), które również wykazują tendencję spadkową. Wzrost wolumenu na spadkach sugeruje presję sprzedażową.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk",
+            "score": 9,
+            "reason": "Konsekwentny, silny wzrost przychodów i zysków netto w ujęciu rocznym."
+        },
+        {
+            "criterion": "FCF/Operacje",
+            "score": 8,
+            "reason": "Solidne przepływy operacyjne i FCF, z wyjątkiem jednorazowego kwartalnego spadku FCF."
+        },
+        {
+            "criterion": "Bilans/Dług",
+            "score": 9,
+            "reason": "Stabilny, dobrze zarządzany dług z tendencją spadkową, wsparty silną gotówką."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 8,
+            "reason": "Regularny wzrost dywidendy, stopa powyżej średniej 5-letniej."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Spółka konsekwentnie przekracza prognozy EPS."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 6,
+            "reason": "Wycena jest godziwa, ale nie oferuje znaczącej okazji przy obecnych mnożnikach."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 3,
+            "reason": "Krótko- i długoterminowy trend spadkowy, cena poniżej kluczowych średnich."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 4,
+            "reason": "Słabe momentum, presja sprzedażowa widoczna na wolumenie."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Pogorszenie sentymentu rynkowego wobec sektora technologicznego oraz potencjalne spowolnienie wzrostu w kluczowych segmentach chmurowych."
+}

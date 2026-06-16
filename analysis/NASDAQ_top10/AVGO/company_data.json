@@ -1,0 +1,314 @@
+{
+    "ticker": "AVGO",
+    "generated_at": "2026-06-15 18:13:06.837543",
+    "current_snapshot": {
+        "shortName": "Broadcom Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "country": "United States",
+        "currency": "USD",
+        "currentPrice": 393.225,
+        "marketCap": 1870775713792,
+        "trailingPE": 65.53667,
+        "forwardPE": 20.320965,
+        "trailingEps": 6.0,
+        "forwardEps": 19.35046,
+        "pegRatio": 0.69,
+        "priceToBook": 21.335865,
+        "returnOnEquity": 0.37280998,
+        "debtToEquity": 74.018,
+        "beta": 1.433,
+        "dividendYield": 0.68,
+        "dividendRate": 2.6,
+        "fiveYearAvgDividendYield": 1.87,
+        "sharesOutstanding": 4757580198
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-10-31",
+            "Currency": "USD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-01-31",
+            "Currency": "USD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-04-30",
+            "Currency": "USD",
+            "Revenue": 15004000000.0,
+            "NetIncome": 4965000000.0,
+            "OperatingIncome": 5915000000.0,
+            "Debt": 67282000000.0,
+            "Cash": 9472000000.0,
+            "FreeCashFlow": 6411000000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-07-31",
+            "Currency": "USD",
+            "Revenue": 15952000000.0,
+            "NetIncome": 4140000000.0,
+            "OperatingIncome": 6074000000.0,
+            "Debt": 64229000000.0,
+            "Cash": 10718000000.0,
+            "FreeCashFlow": 7024000000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-10-31",
+            "Currency": "USD",
+            "Revenue": 18015000000.0,
+            "NetIncome": 8518000000.0,
+            "OperatingIncome": 7654000000.0,
+            "Debt": 65136000000.0,
+            "Cash": 16178000000.0,
+            "FreeCashFlow": 7466000000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-01-31",
+            "Currency": "USD",
+            "Revenue": 19311000000.0,
+            "NetIncome": 7349000000.0,
+            "OperatingIncome": 8666000000.0,
+            "Debt": 66057000000.0,
+            "Cash": 14174000000.0,
+            "FreeCashFlow": 8010000000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-04-30",
+            "Currency": "USD",
+            "Revenue": 22187000000.0,
+            "NetIncome": 9310000000.0,
+            "OperatingIncome": 10859000000.0,
+            "Debt": 64907000000.0,
+            "Cash": 19628000000.0,
+            "FreeCashFlow": 10262000000.0,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2021,
+            "Currency": "USD",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": 1.08
+        },
+        {
+            "Year": 2022,
+            "Currency": "USD",
+            "Revenue": 33203000000.0,
+            "NetIncome": 11495000000.0,
+            "OperatingIncome": 14282000000.0,
+            "Debt": 39515000000.0,
+            "Cash": 12416000000.0,
+            "FreeCashFlow": 16312000000.0,
+            "DividendPaid": 1.23
+        },
+        {
+            "Year": 2023,
+            "Currency": "USD",
+            "Revenue": 35819000000.0,
+            "NetIncome": 14082000000.0,
+            "OperatingIncome": 16451000000.0,
+            "Debt": 39229000000.0,
+            "Cash": 14189000000.0,
+            "FreeCashFlow": 17633000000.0,
+            "DividendPaid": 1.3800000000000001
+        },
+        {
+            "Year": 2024,
+            "Currency": "USD",
+            "Revenue": 51574000000.0,
+            "NetIncome": 5895000000.0,
+            "OperatingIncome": 14996000000.0,
+            "Debt": 67566000000.0,
+            "Cash": 9348000000.0,
+            "FreeCashFlow": 19414000000.0,
+            "DividendPaid": 1.58
+        },
+        {
+            "Year": 2025,
+            "Currency": "USD",
+            "Revenue": 63887000000.0,
+            "NetIncome": 23126000000.0,
+            "OperatingIncome": 26075000000.0,
+            "Debt": 65136000000.0,
+            "Cash": 16178000000.0,
+            "FreeCashFlow": 26914000000.0,
+            "DividendPaid": 1.77
+        }
+    ],
+    "earnings_surprises": [
+        {
+            "EarningsDate": "2020-09-03 16:00:00",
+            "EPSEstimate": 0.52,
+            "EPSActual": 0.54,
+            "SurprisePercent": 4.0
+        },
+        {
+            "EarningsDate": "2020-12-10 16:00:00",
+            "EPSEstimate": 0.62,
+            "EPSActual": 0.64,
+            "SurprisePercent": 2.42
+        },
+        {
+            "EarningsDate": "2021-03-04 16:00:00",
+            "EPSEstimate": 0.66,
+            "EPSActual": 0.66,
+            "SurprisePercent": 0.58
+        },
+        {
+            "EarningsDate": "2021-06-03 16:00:00",
+            "EPSEstimate": 0.65,
+            "EPSActual": 0.66,
+            "SurprisePercent": 2.47
+        },
+        {
+            "EarningsDate": "2021-09-02 16:00:00",
+            "EPSEstimate": 0.69,
+            "EPSActual": 0.7,
+            "SurprisePercent": 0.72
+        },
+        {
+            "EarningsDate": "2021-12-09 16:00:00",
+            "EPSEstimate": 0.78,
+            "EPSActual": 0.78,
+            "SurprisePercent": 0.51
+        },
+        {
+            "EarningsDate": "2022-03-03 16:00:00",
+            "EPSEstimate": 0.81,
+            "EPSActual": 0.84,
+            "SurprisePercent": 3.01
+        },
+        {
+            "EarningsDate": "2022-05-26 07:00:00",
+            "EPSEstimate": 0.87,
+            "EPSActual": 0.91,
+            "SurprisePercent": 4.05
+        },
+        {
+            "EarningsDate": "2022-09-01 16:00:00",
+            "EPSEstimate": 0.95,
+            "EPSActual": 0.97,
+            "SurprisePercent": 1.92
+        },
+        {
+            "EarningsDate": "2022-12-08 16:00:00",
+            "EPSEstimate": 1.03,
+            "EPSActual": 1.05,
+            "SurprisePercent": 1.64
+        },
+        {
+            "EarningsDate": "2023-03-02 16:00:00",
+            "EPSEstimate": 1.02,
+            "EPSActual": 1.03,
+            "SurprisePercent": 1.65
+        },
+        {
+            "EarningsDate": "2023-06-01 16:00:00",
+            "EPSEstimate": 1.01,
+            "EPSActual": 1.03,
+            "SurprisePercent": 1.75
+        },
+        {
+            "EarningsDate": "2023-08-31 16:00:00",
+            "EPSEstimate": 1.04,
+            "EPSActual": 1.05,
+            "SurprisePercent": 1.03
+        },
+        {
+            "EarningsDate": "2023-12-07 16:00:00",
+            "EPSEstimate": 1.1,
+            "EPSActual": 1.11,
+            "SurprisePercent": 0.94
+        },
+        {
+            "EarningsDate": "2024-03-07 16:00:00",
+            "EPSEstimate": 1.04,
+            "EPSActual": 1.1,
+            "SurprisePercent": 5.44
+        },
+        {
+            "EarningsDate": "2024-06-12 16:00:00",
+            "EPSEstimate": 1.08,
+            "EPSActual": 1.1,
+            "SurprisePercent": 1.08
+        },
+        {
+            "EarningsDate": "2024-09-05 16:00:00",
+            "EPSEstimate": 1.21,
+            "EPSActual": 1.24,
+            "SurprisePercent": 2.79
+        },
+        {
+            "EarningsDate": "2024-12-12 16:00:00",
+            "EPSEstimate": 1.39,
+            "EPSActual": 1.42,
+            "SurprisePercent": 2.04
+        },
+        {
+            "EarningsDate": "2025-03-06 16:00:00",
+            "EPSEstimate": 1.51,
+            "EPSActual": 1.6,
+            "SurprisePercent": 6.11
+        },
+        {
+            "EarningsDate": "2025-06-05 16:00:00",
+            "EPSEstimate": 1.57,
+            "EPSActual": 1.58,
+            "SurprisePercent": 0.59
+        },
+        {
+            "EarningsDate": "2025-09-04 16:00:00",
+            "EPSEstimate": 1.66,
+            "EPSActual": 1.69,
+            "SurprisePercent": 1.6
+        },
+        {
+            "EarningsDate": "2025-12-11 16:00:00",
+            "EPSEstimate": 1.12,
+            "EPSActual": 1.74,
+            "SurprisePercent": 55.45
+        },
+        {
+            "EarningsDate": "2026-03-04 16:00:00",
+            "EPSEstimate": 1.42,
+            "EPSActual": 1.5,
+            "SurprisePercent": 5.61
+        },
+        {
+            "EarningsDate": "2026-06-03 16:00:00",
+            "EPSEstimate": 2.4,
+            "EPSActual": 2.44,
+            "SurprisePercent": 1.78
+        },
+        {
+            "EarningsDate": "2026-09-03 16:00:00",
+            "EPSEstimate": 3.24,
+            "EPSActual": null,
+            "SurprisePercent": null
+        }
+    ]
+}

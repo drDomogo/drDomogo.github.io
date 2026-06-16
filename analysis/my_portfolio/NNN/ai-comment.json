@@ -1,0 +1,65 @@
+{
+    "ticker": "NNN",
+    "short_name": "NNN REIT, Inc.",
+    "analysis_date": "2026-06-11",
+    "current_price": 46.41,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów stabilny. Zyski netto roczne rosły do 2024, z lekkim spadkiem w 2025. Kwartalne zyski netto stabilne, z niewielkim spadkiem w ostatnim kwartale.",
+    "fcf_and_operations": "Wolne przepływy pieniężne i zyski operacyjne wykazują stabilny wzrost w ujęciu rocznym. Kwartalny FCF zmienny, ale operacje generują stałe dochody.",
+    "balance_sheet_debt": "Wysoki wskaźnik zadłużenia do kapitału własnego (110.44%), typowy dla REIT-ów. Zadłużenie rośnie, a poziom gotówki jest niski, co wymaga monitorowania.",
+    "dividend_policy": "Spółka ma stabilną i rosnącą politykę dywidendową, z obecną stopą dywidendy (5.18%) zgodną ze średnią 5-letnią.",
+    "market_expectations": "Spółka w 2025 roku konsekwentnie przekraczała oczekiwania rynkowe, jednak ostatni kwartał (2026-04-30) przyniósł negatywne zaskoczenie (-4.08%).",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E, Forward P/E, P/B, PEG Ratio, Dividend Yield",
+    "price_strong_opportunity": 38.0,
+    "price_attractive": 42.0,
+    "price_fair_value": 46.5,
+    "price_overvalued": 51.0,
+    "price_valuation_justification": "Wycena oparta na bieżącym wskaźniku P/E (22.6) i EPS (2.05) dla wartości godziwej. Poziomy atrakcyjne i okazji wyznaczone jako 10-20% dyskonta od wartości godziwej, uwzględniając historyczne wsparcia. Poziom przewartościowania to 10% premia. Wysoki wskaźnik PEG (4.79) sugeruje, że spółka jest droga w stosunku do tempa wzrostu zysków, jednak stabilna stopa dywidendy (5.18%) jest zgodna ze średnią 5-letnią, co wspiera obecną wycenę jako godziwą dla inwestorów dywidendowych.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 43.0,
+    "resistance_level": 47.0,
+    "momentum_summary": "Cena znajduje się wyraźnie powyżej obu średnich kroczących (SMA50 i SMA200), które wykazują tendencję wzrostową. Wskazuje to na silne momentum wzrostowe. Ostatnie ruchy cenowe sugerują kontynuację trendu wzrostowego, z ceną zbliżającą się do nowych maksimów.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysków",
+            "score": 7,
+            "reason": "Stabilny wzrost przychodów rocznych, zyski netto roczne rosły do 2024, lekkie spowolnienie w 2025. Kwartalne zyski stabilne, ale ostatnio lekki spadek."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Konsekwentny wzrost rocznych wolnych przepływów pieniężnych i zysków operacyjnych."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 5,
+            "reason": "Wysoki wskaźnik zadłużenia do kapitału własnego (110.44%), rosnące zadłużenie i niski poziom gotówki, choć typowe dla REIT-ów, wymaga uwagi."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 9,
+            "reason": "Stabilna i rosnąca polityka dywidendowa, wysoka stopa dywidendy zgodna ze średnią 5-letnią."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 6,
+            "reason": "Większość ostatnich zaskoczeń wynikami pozytywna, ale ostatni kwartał negatywny."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 6,
+            "reason": "Wycena godziwa z perspektywy dywidendy, ale wysoki wskaźnik PEG sugeruje, że spółka jest droga w stosunku do tempa wzrostu zysków."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy krótko- i długoterminowy, cena powyżej SMA50 i SMA200."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Wzrost stóp procentowych i wysokie zadłużenie."
+}

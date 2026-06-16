@@ -1,0 +1,303 @@
+{
+    "ticker": "000660.KS",
+    "generated_at": "2026-06-15 18:35:52.210288",
+    "current_snapshot": {
+        "shortName": "SK hynix",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "country": "South Korea",
+        "currency": "KRW",
+        "currentPrice": 2288000.0,
+        "marketCap": 1624148056997888,
+        "trailingPE": null,
+        "forwardPE": 5.5739446,
+        "trailingEps": null,
+        "forwardEps": null,
+        "pegRatio": 3.04,
+        "priceToBook": null,
+        "returnOnEquity": 0.61172,
+        "debtToEquity": 13.282,
+        "beta": 2.027,
+        "dividendYield": 0.14,
+        "dividendRate": 3000.0,
+        "fiveYearAvgDividendYield": 1.08,
+        "sharesOutstanding": 709854891
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-09-30",
+            "Currency": "KRW",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": 300.0
+        },
+        {
+            "Quarter": "2024-12-31",
+            "Currency": "KRW",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "KRW",
+            "Revenue": 17639141000000.0,
+            "NetIncome": 8107081000000.0,
+            "OperatingIncome": 7440504000000.0,
+            "Debt": 25983766000000.0,
+            "Cash": 12558069000000.0,
+            "FreeCashFlow": 2568984000000.0,
+            "DividendPaid": 1304.0
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "KRW",
+            "Revenue": 22231952000000.0,
+            "NetIncome": 6997228000000.0,
+            "OperatingIncome": 9212851000000.0,
+            "Debt": 24369171000000.0,
+            "Cash": 9075311000000.0,
+            "FreeCashFlow": 4544681000000.0,
+            "DividendPaid": 375.0
+        },
+        {
+            "Quarter": "2025-09-30",
+            "Currency": "KRW",
+            "Revenue": 24448929000000.0,
+            "NetIncome": 12595195000000.0,
+            "OperatingIncome": 11383390000000.0,
+            "Debt": 26583924000000.0,
+            "Cash": 10814515000000.0,
+            "FreeCashFlow": 9064138000000.0,
+            "DividendPaid": 375.0
+        },
+        {
+            "Quarter": "2025-12-31",
+            "Currency": "KRW",
+            "Revenue": 32826653000000.0,
+            "NetIncome": 15219783000000.0,
+            "OperatingIncome": 19169574000000.0,
+            "Debt": 24757848000000.0,
+            "Cash": 14923766000000.0,
+            "FreeCashFlow": 8615980000000.0,
+            "DividendPaid": 375.0
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "KRW",
+            "Revenue": 52576287000000.0,
+            "NetIncome": 40330176000000.0,
+            "OperatingIncome": 37610283000000.0,
+            "Debt": 21832416000000.0,
+            "Cash": 21166904000000.0,
+            "FreeCashFlow": 18464753000000.0,
+            "DividendPaid": 1875.0
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2022,
+            "Currency": "KRW",
+            "Revenue": 44621568000000.0,
+            "NetIncome": 2229560000000.0,
+            "OperatingIncome": 6809417000000.0,
+            "Debt": 24791685000000.0,
+            "Cash": 4977007000000.0,
+            "FreeCashFlow": -4968365000000.0,
+            "DividendPaid": 1200.0
+        },
+        {
+            "Year": 2023,
+            "Currency": "KRW",
+            "Revenue": 32765719000000.0,
+            "NetIncome": -9112428000000.0,
+            "OperatingIncome": -7730313000000.0,
+            "Debt": 32498506000000.0,
+            "Cash": 7587329000000.0,
+            "FreeCashFlow": -4501657000000.0,
+            "DividendPaid": 1200.0
+        },
+        {
+            "Year": 2024,
+            "Currency": "KRW",
+            "Revenue": 66192960000000.0,
+            "NetIncome": 19788681000000.0,
+            "OperatingIncome": 23467319000000.0,
+            "Debt": 25452109000000.0,
+            "Cash": 11205117000000.0,
+            "FreeCashFlow": 13133245000000.0,
+            "DividendPaid": 900.0
+        },
+        {
+            "Year": 2025,
+            "Currency": "KRW",
+            "Revenue": 97146675000000.0,
+            "NetIncome": 42919287000000.0,
+            "OperatingIncome": 47206319000000.0,
+            "Debt": 24757848000000.0,
+            "Cash": 14923766000000.0,
+            "FreeCashFlow": 24793783000000.0,
+            "DividendPaid": 2429.0
+        }
+    ],
+    "earnings_surprises": [
+        {
+            "EarningsDate": "2020-07-22 19:00:00",
+            "EPSEstimate": 1630.14,
+            "EPSActual": 1846.0,
+            "SurprisePercent": 13.24
+        },
+        {
+            "EarningsDate": "2020-11-03 18:00:00",
+            "EPSEstimate": 1427.02,
+            "EPSActual": 1575.0,
+            "SurprisePercent": 10.37
+        },
+        {
+            "EarningsDate": "2021-03-22 03:00:00",
+            "EPSEstimate": 1028.03,
+            "EPSActual": 2582.0,
+            "SurprisePercent": 151.16
+        },
+        {
+            "EarningsDate": "2021-05-17 01:00:00",
+            "EPSEstimate": 1432.8,
+            "EPSActual": 1447.0,
+            "SurprisePercent": 0.99
+        },
+        {
+            "EarningsDate": "2021-08-17 03:00:00",
+            "EPSEstimate": 2757.77,
+            "EPSActual": 2890.0,
+            "SurprisePercent": 4.79
+        },
+        {
+            "EarningsDate": "2021-11-15 02:00:00",
+            "EPSEstimate": 4380.05,
+            "EPSActual": 4813.0,
+            "SurprisePercent": 9.88
+        },
+        {
+            "EarningsDate": "2022-03-11 19:00:00",
+            "EPSEstimate": 4392.2,
+            "EPSActual": 4825.0,
+            "SurprisePercent": 9.85
+        },
+        {
+            "EarningsDate": "2022-04-26 19:00:00",
+            "EPSEstimate": 3396.73,
+            "EPSActual": 2877.0,
+            "SurprisePercent": -15.3
+        },
+        {
+            "EarningsDate": "2022-08-16 03:00:00",
+            "EPSEstimate": 4287.05,
+            "EPSActual": 4175.0,
+            "SurprisePercent": -2.61
+        },
+        {
+            "EarningsDate": "2022-10-25 19:00:00",
+            "EPSEstimate": 2750.68,
+            "EPSActual": 1609.0,
+            "SurprisePercent": -41.51
+        },
+        {
+            "EarningsDate": "2023-02-22 17:00:00",
+            "EPSEstimate": -984.49,
+            "EPSActual": -5419.0,
+            "SurprisePercent": -450.44
+        },
+        {
+            "EarningsDate": "2023-05-15 03:00:00",
+            "EPSEstimate": -3530.9,
+            "EPSActual": -3751.0,
+            "SurprisePercent": -6.23
+        },
+        {
+            "EarningsDate": "2023-07-26 02:00:00",
+            "EPSEstimate": -3081.82,
+            "EPSActual": -4347.0,
+            "SurprisePercent": -41.05
+        },
+        {
+            "EarningsDate": "2023-10-26 02:00:00",
+            "EPSEstimate": -2422.83,
+            "EPSActual": -3174.0,
+            "SurprisePercent": -31.0
+        },
+        {
+            "EarningsDate": "2024-01-25 01:00:00",
+            "EPSEstimate": -479.46,
+            "EPSActual": -1972.0,
+            "SurprisePercent": -311.3
+        },
+        {
+            "EarningsDate": "2024-04-24 19:00:00",
+            "EPSEstimate": 1832.15,
+            "EPSActual": 2788.0,
+            "SurprisePercent": 52.17
+        },
+        {
+            "EarningsDate": "2024-07-24 20:00:00",
+            "EPSEstimate": 5417.03,
+            "EPSActual": 5938.0,
+            "SurprisePercent": 9.62
+        },
+        {
+            "EarningsDate": "2024-10-23 20:00:00",
+            "EPSEstimate": 7275.18,
+            "EPSActual": 7924.0,
+            "SurprisePercent": 8.92
+        },
+        {
+            "EarningsDate": "2025-01-22 19:00:00",
+            "EPSEstimate": 8544.13,
+            "EPSActual": 11571.0,
+            "SurprisePercent": 35.43
+        },
+        {
+            "EarningsDate": "2025-04-23 20:00:00",
+            "EPSEstimate": 6916.46,
+            "EPSActual": 11411.0,
+            "SurprisePercent": 64.98
+        },
+        {
+            "EarningsDate": "2025-07-23 20:00:00",
+            "EPSEstimate": 9338.13,
+            "EPSActual": 9572.0,
+            "SurprisePercent": 2.5
+        },
+        {
+            "EarningsDate": "2025-10-28 20:00:00",
+            "EPSEstimate": 13533.65,
+            "EPSActual": 17850.0,
+            "SurprisePercent": 31.89
+        },
+        {
+            "EarningsDate": "2026-01-28 19:00:00",
+            "EPSEstimate": 17822.42,
+            "EPSActual": 21522.0,
+            "SurprisePercent": 20.76
+        },
+        {
+            "EarningsDate": "2026-04-22 20:00:00",
+            "EPSEstimate": 37310.01,
+            "EPSActual": 56670.0,
+            "SurprisePercent": 51.89
+        },
+        {
+            "EarningsDate": "2026-07-29 02:00:00",
+            "EPSEstimate": 71064.06,
+            "EPSActual": null,
+            "SurprisePercent": null
+        }
+    ]
+}

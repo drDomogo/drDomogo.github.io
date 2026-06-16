@@ -1,0 +1,75 @@
+{
+    "ticker": "AVGO",
+    "short_name": "Broadcom Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 393.225,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Silny wzrost przychodów rocznych i kwartalnych. Zyski netto wykazują zmienność, z anomalią spadku w 2024 r., po której nastąpiło dynamiczne odbicie i kontynuacja wzrostu.",
+    "fcf_and_operations": "Spółka generuje bardzo silne i konsekwentnie rosnące wolne przepływy pieniężne. Zysk operacyjny dynamicznie rośnie po jednorazowym spadku w 2024 r.",
+    "balance_sheet_debt": "Znaczący wzrost zadłużenia w 2024 r., prawdopodobnie związany z akwizycjami, jednak poziom gotówki jest solidny i rośnie. Wskaźnik D/E na umiarkowanym poziomie (74.02).",
+    "dividend_policy": "Spółka konsekwentnie zwiększa dywidendę roczną. Obecna stopa dywidendy (0.68%) jest niższa od średniej pięcioletniej (1.87%), co sugeruje silny wzrost kursu akcji.",
+    "market_expectations": "Spółka konsekwentnie przekracza oczekiwania rynkowe dotyczące zysków na akcję, co świadczy o solidnym zarządzaniu i/lub konserwatywnych prognozach.",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "Forward P/E: 20.32, PEG Ratio: 0.69, P/B: 21.34, ROE: 37.28%",
+    "price_strong_opportunity": 300.0,
+    "price_attractive": 350.0,
+    "price_fair_value": 393.0,
+    "price_overvalued": 450.0,
+    "price_valuation_justification": "Wycena godziwa oparta na wskaźniku Forward P/E (20.3x) i prognozowanym EPS, co jest wspierane przez niski wskaźnik PEG (0.69). Wysoki P/B jest typowy dla spółek technologicznych z wysokim ROE.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 370.0,
+    "resistance_level": 460.0,
+    "momentum_summary": "Krótkoterminowo momentum spadkowe, cena poniżej SMA50. Długoterminowo silne momentum wzrostowe, cena utrzymuje się powyżej SMA200. Ostatnie spadki mogą być korektą w trendzie wzrostowym.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 9,
+            "reason": "Silny wzrost przychodów, zyski netto rosną po jednorazowym spadku."
+        },
+        {
+            "criterion": "FCF & Operacje",
+            "score": 9,
+            "reason": "Bardzo silne i konsekwentnie rosnące wolne przepływy pieniężne."
+        },
+        {
+            "criterion": "Bilans & Dług",
+            "score": 7,
+            "reason": "Dług wzrósł znacząco po akwizycji, ale jest zarządzalny, a gotówka rośnie."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 7,
+            "reason": "Konsekwentny wzrost dywidendy, ale niska obecna stopa."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 9,
+            "reason": "Konsekwentne przekraczanie prognoz EPS."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 8,
+            "reason": "Atrakcyjny Forward P/E i PEG, choć wysoki P/B."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena znacznie powyżej SMA200."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 5,
+            "reason": "Obecna korekta, cena poniżej SMA50."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 7,
+            "reason": "Krótkoterminowa słabość, ale długoterminowa siła."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Ryzyko związane z integracją dużych akwizycji (np. VMware) oraz zarządzaniem zwiększonym zadłużeniem."
+}

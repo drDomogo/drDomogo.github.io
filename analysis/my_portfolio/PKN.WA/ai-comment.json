@@ -1,0 +1,75 @@
+{
+    "ticker": "PKN.WA",
+    "short_name": "PKNORLEN",
+    "analysis_date": "2026-06-11",
+    "current_price": 148.68,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczny spadek przychodów i zysków netto po 2023 roku. Kwartalne przychody zmienne, ale zysk netto w 2026Q1 odnotował silne odbicie.",
+    "fcf_and_operations": "Wolne przepływy pieniężne (FCF) silnie odbiły w 2025 roku. Zysk operacyjny wykazuje zmienność, z wyraźną poprawą w ostatnim kwartale 2026Q1. Kwartalne FCF są wysoce zmienne.",
+    "balance_sheet_debt": "Zadłużenie rośnie kwartalnie i rocznie, jednak gotówka znacząco wzrosła w 2025 i kontynuuje wzrost, poprawiając pozycję zadłużenia netto. Wskaźnik Dług/Kapitał (D/E) na umiarkowanym poziomie 26.22%.",
+    "dividend_policy": "Spółka jest konsekwentnym płatnikiem dywidend, z rosnącym trendem wypłat w ostatnich latach. Obecna stopa dywidendy (5.55%) jest nieznacznie niższa od średniej 5-letniej (6.24%).",
+    "market_expectations": "Po okresie negatywnych zaskoczeń wynikami w latach 2023-2025, ostatnie kwartały (2025Q1, 2026Q1) przyniosły pozytywne zaskoczenia zyskiem na akcję (EPS).",
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (trailing), P/E (forward), P/B, PEG Ratio",
+    "price_strong_opportunity": 105.0,
+    "price_attractive": 119.0,
+    "price_fair_value": 132.0,
+    "price_overvalued": 152.0,
+    "price_valuation_justification": "Wycena oparta na średniej ważonej wskaźników P/E (forward 12x EPS) oraz P/B (1.0x wartość księgowa), uwzględniając prognozowane odbicie zysków i wartość aktywów. Obecny kurs 148.68 jest powyżej wartości godziwej.",
+    "trend_short_term": "Wzrostowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "nad",
+    "support_level": 140.0,
+    "resistance_level": 150.0,
+    "momentum_summary": "Silne momentum wzrostowe, cena utrzymuje się wyraźnie powyżej obu średnich kroczących (SMA50 na 136.73, SMA200 na 108.31). Wolumeny wspierają ruch.",
+    "scorecard": [
+        {
+            "criterion": "Bilans",
+            "score": 7,
+            "reason": "Zwiększone zadłużenie kwartalne, ale silny wzrost gotówki poprawia pozycję netto; D/E na umiarkowanym poziomie."
+        },
+        {
+            "criterion": "Marże",
+            "score": 5,
+            "reason": "Niska rentowność kapitału własnego (ROE), zmienność marż operacyjnych, choć ostatni kwartał silny."
+        },
+        {
+            "criterion": "Trend przychodów/zysków",
+            "score": 6,
+            "reason": "Roczny spadek przychodów i zysków po 2023, ale ostatnie wyniki kwartalne wskazują na odbicie."
+        },
+        {
+            "criterion": "Przepływy pieniężne",
+            "score": 6,
+            "reason": "Silne roczne FCF w 2025, ale duża zmienność i ostatni spadek kwartalnych przepływów."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 8,
+            "reason": "Stabilna i rosnąca polityka dywidendowa, atrakcyjny yield."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 7,
+            "reason": "Atrakcyjny P/B i forward P/E, ale wysokie trailing P/E z uwagi na słabe wyniki historyczne."
+        },
+        {
+            "criterion": "Oczekiwania rynkowe",
+            "score": 7,
+            "reason": "Ostatnie pozytywne zaskoczenia wynikami po okresie niedoszacowania."
+        },
+        {
+            "criterion": "Trend techniczny",
+            "score": 9,
+            "reason": "Silny trend wzrostowy, cena wyraźnie powyżej kluczowych średnich kroczących."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 8,
+            "reason": "Silne momentum wzrostowe, wsparte pozycją ceny względem średnich."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Zmienność cen surowców i ryzyko braku realizacji prognozowanego odbicia zysków."
+}

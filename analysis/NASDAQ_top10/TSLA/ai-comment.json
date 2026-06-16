@@ -1,0 +1,75 @@
+{
+    "ticker": "TSLA",
+    "short_name": "Tesla, Inc.",
+    "analysis_date": "2026-06-15",
+    "current_price": 409.935,
+    "currency": "USD",
+    "revenue_and_eps_trend": "Dynamika przychodów spowalnia, z rocznym spadkiem w 2025. Zyski netto wykazują silny trend spadkowy od 2023, sygnalizując erozję marż.",
+    "fcf_and_operations": "Zysk operacyjny systematycznie spada od 2022, wskazując na pogarszającą się efektywność operacyjną. Wolne przepływy pieniężne są zmienne, z odbiciem w 2025, lecz poniżej szczytowych poziomów.",
+    "balance_sheet_debt": "Zadłużenie rośnie, lecz jest solidnie pokryte przez wysokie rezerwy gotówkowe. Wskaźnik D/E na niskim poziomie (18.74%) świadczy o zdrowym bilansie.",
+    "dividend_policy": "Spółka nie wypłaca dywidend.",
+    "market_expectations": "Wyniki spółki często rozczarowują rynek, z licznymi negatywnymi zaskoczeniami EPS w latach 2024-2026, w tym dwoma znaczącymi spadkami o ponad 30%.",
+    "valuation_status": "Bardzo Droga",
+    "key_valuation_metrics": "P/E (372.6x), Forward P/E (164.0x), P/B (18.7x), PEG (5.6x)",
+    "price_strong_opportunity": 150.0,
+    "price_attractive": 200.0,
+    "price_fair_value": 250.0,
+    "price_overvalued": 450.0,
+    "price_valuation_justification": "Wycena rynkowa opiera się na ekstremalnie wysokich wskaźnikach P/E i P/B, znacznie przewyższających średnie rynkowe i historyczne dla spółek wzrostowych, pomimo spadającej dynamiki zysków. Wskazuje na bardzo wysokie oczekiwania rynkowe dotyczące przyszłego wzrostu, które nie znajdują potwierdzenia w ostatnich wynikach.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "nad",
+    "position_vs_sma200": "pod",
+    "support_level": 380.0,
+    "resistance_level": 430.0,
+    "momentum_summary": "Cena powyżej SMA50, lecz poniżej SMA200, co sygnalizuje krótkoterminową siłę w ramach długoterminowego osłabienia. Wysoka zmienność cenowa.",
+    "scorecard": [
+        {
+            "criterion": "Przychody i Zyski",
+            "score": 3,
+            "reason": "Spadek dynamiki przychodów i ostry spadek zysków netto w ostatnich latach."
+        },
+        {
+            "criterion": "FCF i Operacje",
+            "score": 4,
+            "reason": "Spadający zysk operacyjny, zmienny FCF, choć z ostatnim odbiciem."
+        },
+        {
+            "criterion": "Bilans i Dług",
+            "score": 8,
+            "reason": "Niskie zadłużenie, wysokie rezerwy gotówkowe, zdrowy bilans."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 1,
+            "reason": "Brak dywidend."
+        },
+        {
+            "criterion": "Oczekiwania Rynkowe",
+            "score": 3,
+            "reason": "Częste negatywne zaskoczenia wynikami, wskazujące na trudności w spełnianiu prognoz."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 1,
+            "reason": "Ekstremalnie wysokie wskaźniki wyceny, nieuzasadnione spadającą dynamiką zysków."
+        },
+        {
+            "criterion": "Trend Krótkoterminowy",
+            "score": 4,
+            "reason": "Spadkowy trend od majowego szczytu, wysoka zmienność."
+        },
+        {
+            "criterion": "Trend Długoterminowy",
+            "score": 6,
+            "reason": "Wzrostowy trend długoterminowy, ale z silną korektą od szczytów."
+        },
+        {
+            "criterion": "Momentum",
+            "score": 5,
+            "reason": "Cena powyżej SMA50, ale poniżej SMA200, co wskazuje na mieszane sygnały."
+        }
+    ],
+    "final_verdict": "REDUKUJ",
+    "main_risk": "Ekstremalne przewartościowanie w obliczu spadającej dynamiki zysków i częstych rozczarowań rynkowych. Ryzyko znaczącej korekty wyceny w przypadku niespełnienia wygórowanych oczekiwań wzrostowych."
+}
