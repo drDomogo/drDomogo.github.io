@@ -1,0 +1,141 @@
+{
+    "ticker": "VRC.WA",
+    "generated_at": "2026-06-21 18:27:13.750590",
+    "current_snapshot": {
+        "shortName": "VERCOM",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "country": "Poland",
+        "currency": "PLN",
+        "currentPrice": 115.0,
+        "marketCap": 2531265280,
+        "trailingPE": 27.777779,
+        "forwardPE": 16.78832,
+        "trailingEps": 4.14,
+        "forwardEps": null,
+        "pegRatio": null,
+        "priceToBook": 6.695389,
+        "returnOnEquity": 0.21364,
+        "debtToEquity": 17.874,
+        "beta": 0.331,
+        "dividendYield": 2.37,
+        "dividendRate": 2.73,
+        "fiveYearAvgDividendYield": null,
+        "sharesOutstanding": 22011002
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-09-30",
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2024-12-31",
+            "Currency": "PLN",
+            "Revenue": 130641000.0,
+            "NetIncome": 22441000.0,
+            "OperatingIncome": 27495000.0,
+            "Debt": 95726000.0,
+            "Cash": 106235000.0,
+            "FreeCashFlow": 37248000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "PLN",
+            "Revenue": 110759000.0,
+            "NetIncome": 22530000.0,
+            "OperatingIncome": 24839000.0,
+            "Debt": 91173000.0,
+            "Cash": 112234000.0,
+            "FreeCashFlow": 14036000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "PLN",
+            "Revenue": 114073000.0,
+            "NetIncome": 22568000.0,
+            "OperatingIncome": 28718000.0,
+            "Debt": 89035000.0,
+            "Cash": 81256000.0,
+            "FreeCashFlow": 21283000.0,
+            "DividendPaid": 2.03
+        },
+        {
+            "Quarter": "2025-12-31",
+            "Currency": "PLN",
+            "Revenue": 129791000.0,
+            "NetIncome": 24846000.0,
+            "OperatingIncome": 30605000.0,
+            "Debt": 80932000.0,
+            "Cash": 105519000.0,
+            "FreeCashFlow": 41040000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "PLN",
+            "Revenue": 122928000.0,
+            "NetIncome": 23949000.0,
+            "OperatingIncome": 29928000.0,
+            "Debt": 78548000.0,
+            "Cash": 100376000.0,
+            "FreeCashFlow": 25238000.0,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2022,
+            "Currency": "PLN",
+            "Revenue": 260318000.0,
+            "NetIncome": 31416000.0,
+            "OperatingIncome": 43173000.0,
+            "Debt": 161940000.0,
+            "Cash": 49040000.0,
+            "FreeCashFlow": 44728000.0,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2023,
+            "Currency": "PLN",
+            "Revenue": 337377000.0,
+            "NetIncome": 70397000.0,
+            "OperatingIncome": 71500000.0,
+            "Debt": 114211000.0,
+            "Cash": 63261000.0,
+            "FreeCashFlow": 76376000.0,
+            "DividendPaid": 1.13
+        },
+        {
+            "Year": 2024,
+            "Currency": "PLN",
+            "Revenue": 495885000.0,
+            "NetIncome": 76288000.0,
+            "OperatingIncome": 94095000.0,
+            "Debt": 95726000.0,
+            "Cash": 106235000.0,
+            "FreeCashFlow": 100508000.0,
+            "DividendPaid": 1.6
+        },
+        {
+            "Year": 2025,
+            "Currency": "PLN",
+            "Revenue": 471152000.0,
+            "NetIncome": 89866000.0,
+            "OperatingIncome": 112145000.0,
+            "Debt": 80932000.0,
+            "Cash": 105519000.0,
+            "FreeCashFlow": 101535000.0,
+            "DividendPaid": 2.03
+        }
+    ],
+    "earnings_surprises": []
+}

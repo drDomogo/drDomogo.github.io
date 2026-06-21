@@ -1,0 +1,60 @@
+{
+    "ticker": "ATR.WA",
+    "short_name": "ATREM",
+    "analysis_date": "2026-06-21",
+    "current_price": 55.2,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów stabilny. Zysk netto po okresie zmienności, wykazuje silną dynamikę wzrostową w 2024 i utrzymuje solidne poziomy kwartalne w 2025/2026.",
+    "fcf_and_operations": "Zysk operacyjny wykazuje stabilny wzrost. Wolne przepływy pieniężne są kwartalnie zmienne, z okresami ujemnymi, lecz rocznie silnie dodatnie i z dynamicznym odbiciem w Q1 2026.",
+    "balance_sheet_debt": "Historycznie wysoki wskaźnik zadłużenia do kapitału własnego (D/E 4.788) i rosnące zadłużenie. Q1 2026 przynosi jednak znaczną redukcję długu i skokowy wzrost gotówki, poprawiając płynność.",
+    "dividend_policy": "Dywidendy wypłacane nieregularnie, lecz z tendencją wzrostową i atrakcyjną bieżącą stopą dywidendy (3.91%).",
+    "market_expectations": null,
+    "valuation_status": "Fair Value",
+    "key_valuation_metrics": "P/E (13.02), P/B (6.40), ROE (57.53%)",
+    "price_strong_opportunity": 38.0,
+    "price_attractive": 46.0,
+    "price_fair_value": 55.2,
+    "price_overvalued": 68.0,
+    "price_valuation_justification": "Wycena oparta na wskaźniku P/E (obecnie 13.02) skorygowanym o wysoką rentowność kapitału własnego (ROE 57.53%). Poziomy cenowe wyznaczone na podstawie historycznych i sektorowych zakresów P/E, z uwzględnieniem dynamicznego wzrostu zysków.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 53.5,
+    "resistance_level": 59.0,
+    "momentum_summary": "Cena znajduje się w krótkoterminowym trendzie spadkowym, poniżej SMA50, co wskazuje na osłabienie momentum. Długoterminowo trend wzrostowy utrzymany, z ceną powyżej rosnącej SMA200. Wskaźniki momentum wykazują korektę po wcześniejszych wzrostach.",
+    "scorecard": [
+        {
+            "criterion": "Revenue/EPS Trend",
+            "score": 8,
+            "reason": "Silny roczny wzrost przychodów, dynamiczny wzrost zysków netto w 2024 i stabilizacja kwartalna."
+        },
+        {
+            "criterion": "FCF/Operations",
+            "score": 7,
+            "reason": "Stabilny wzrost zysku operacyjnego, roczne FCF silnie dodatnie, lecz kwartalnie wysoka zmienność."
+        },
+        {
+            "criterion": "Balance Sheet/Debt",
+            "score": 7,
+            "reason": "Historycznie wysokie D/E, ale znacząca poprawa płynności i redukcja długu w Q1 2026."
+        },
+        {
+            "criterion": "Dividend Policy",
+            "score": 6,
+            "reason": "Nieregularne, ale rosnące dywidendy z atrakcyjnym bieżącym yieldem."
+        },
+        {
+            "criterion": "Valuation",
+            "score": 7,
+            "reason": "Wycena godziwa (P/E 13) uzasadniona wysokim ROE i perspektywami wzrostu."
+        },
+        {
+            "criterion": "Technical Trend",
+            "score": 5,
+            "reason": "Krótkoterminowa korekta, cena poniżej SMA50, ale długoterminowy trend wzrostowy zachowany."
+        }
+    ],
+    "final_verdict": "TRZYMAJ",
+    "main_risk": "Wysoki historyczny wskaźnik zadłużenia do kapitału własnego (D/E) oraz kwartalna zmienność wolnych przepływów pieniężnych."
+}

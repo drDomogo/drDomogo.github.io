@@ -1,0 +1,65 @@
+{
+    "ticker": "VRC.WA",
+    "short_name": "VERCOM",
+    "analysis_date": "2026-06-21",
+    "current_price": 116.8,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczne przychody rosły dynamicznie do 2024 r. (46.9% r/r), lecz w 2025 r. odnotowano spadek o 5%. Mimo to, zyski netto konsekwentnie rosną (17.7% w 2025 r.), co wskazuje na poprawę marż lub efektywności operacyjnej. Implikowany forward EPS sugeruje silny wzrost zysków.",
+    "fcf_and_operations": "Wolne przepływy pieniężne (FCF) wykazują silny, stabilny wzrost rocznie (101.5M w 2025 r.), co potwierdza zdolność spółki do generowania gotówki. Zyski operacyjne również rosną, wspierając rentowność.",
+    "balance_sheet_debt": "Bilans jest bardzo zdrowy. Wskaźnik zadłużenia do kapitału własnego (Debt/Equity) wynosi niskie 17.87%. Gotówka (100.3M) przewyższa zadłużenie (78.5M) w ostatnim kwartale, zapewniając wysoką płynność i niskie ryzyko finansowe.",
+    "dividend_policy": "Spółka regularnie wypłaca dywidendy, ze wzrostem stawki rocznie (2.03 PLN w 2025 r.). Obecna stopa dywidendy wynosi 2.37%, co jest atrakcyjne.",
+    "market_expectations": null,
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (trailing): 27.78, P/E (forward): 16.79 (implikowany), P/B: 6.70, ROE: 21.36%",
+    "price_strong_opportunity": 85.0,
+    "price_attractive": 105.0,
+    "price_fair_value": 125.0,
+    "price_overvalued": 170.0,
+    "price_valuation_justification": "Wycena oparta na implikowanym forward P/E (16.79), który jest atrakcyjny w kontekście silnego wzrostu zysków netto i FCF, oraz niskiego zadłużenia. Pomimo spadku przychodów w 2025 r., poprawa marż i perspektywy wzrostu EPS uzasadniają wyższą wycenę. Poziomy cenowe skalowane na podstawie docelowych mnożników P/E do implikowanego forward EPS.",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Boczny",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "pod",
+    "support_level": 107.0,
+    "resistance_level": 120.0,
+    "momentum_summary": "Cena znajduje się w krótkoterminowym trendzie spadkowym, notując spadek od końca maja. Kurs jest poniżej obu średnich kroczących (SMA50 i SMA200), co sygnalizuje presję sprzedażową. Objętość obrotu wzrosła podczas ostatnich spadków.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 7,
+            "reason": "Spadek przychodów w 2025 r. jest niepokojący, ale zyski netto i FCF rosną, a forward P/E implikuje silny wzrost EPS."
+        },
+        {
+            "criterion": "Rentowność",
+            "score": 8,
+            "reason": "Wysokie marże operacyjne i zysku netto, wysokie ROE (21.36%) świadczą o efektywności."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 8,
+            "reason": "Silny i stabilny wzrost FCF rocznie, choć kwartalnie zmienny, potwierdza zdolność do generowania gotówki."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 9,
+            "reason": "Niskie zadłużenie (D/E 17.87%) i wysoka płynność (gotówka przewyższa dług) zapewniają stabilność finansową."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 6,
+            "reason": "Atrakcyjny forward P/E (16.79) w kontekście implikowanego wzrostu EPS, ale wysoki trailing P/E (27.78) i spadek przychodów w 2025 r. Cena obecna poniżej wartości godziwej."
+        },
+        {
+            "criterion": "Polityka Dywidendowa",
+            "score": 7,
+            "reason": "Regularne i rosnące dywidendy, z atrakcyjną stopą dywidendy."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 4,
+            "reason": "Krótkoterminowy trend spadkowy, cena poniżej SMA50 i SMA200. Długoterminowo boczny z presją spadkową."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Głównym ryzykiem jest spadek rocznych przychodów w 2025 r., który może sygnalizować spowolnienie wzrostu organicznego lub intensyfikację konkurencji, pomimo rosnących zysków netto i FCF."
+}

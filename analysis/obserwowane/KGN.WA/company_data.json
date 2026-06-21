@@ -1,0 +1,163 @@
+{
+    "ticker": "KGN.WA",
+    "generated_at": "2026-06-21 18:27:33.002795",
+    "current_snapshot": {
+        "shortName": "KOGENERA",
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "country": "Poland",
+        "currency": "PLN",
+        "currentPrice": 71.9,
+        "marketCap": 1071310016,
+        "trailingPE": 2.9527721,
+        "forwardPE": 1.94482,
+        "trailingEps": 24.35,
+        "forwardEps": 36.97,
+        "pegRatio": null,
+        "priceToBook": 0.38110888,
+        "returnOnEquity": 0.13755,
+        "debtToEquity": 13.985,
+        "beta": 0.618,
+        "dividendYield": 9.04,
+        "dividendRate": 6.71,
+        "fiveYearAvgDividendYield": null,
+        "sharesOutstanding": 14900000
+    },
+    "quarterly_fundamentals": [
+        {
+            "Quarter": "2024-09-30",
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2024-12-31",
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-03-31",
+            "Currency": "PLN",
+            "Revenue": 884512000.0,
+            "NetIncome": 127196000.0,
+            "OperatingIncome": 157632000.0,
+            "Debt": 438241000.0,
+            "Cash": 2306000.0,
+            "FreeCashFlow": 168195000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-06-30",
+            "Currency": "PLN",
+            "Revenue": 446043000.0,
+            "NetIncome": 22383000.0,
+            "OperatingIncome": 27883000.0,
+            "Debt": 419753000.0,
+            "Cash": 2335000.0,
+            "FreeCashFlow": 161645000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-09-30",
+            "Currency": "PLN",
+            "Revenue": 407201000.0,
+            "NetIncome": -14979000.0,
+            "OperatingIncome": -20482000.0,
+            "Debt": 410728000.0,
+            "Cash": 2371000.0,
+            "FreeCashFlow": -215554000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2025-12-31",
+            "Currency": "PLN",
+            "Revenue": 892529000.0,
+            "NetIncome": 142424000.0,
+            "OperatingIncome": 178280000.0,
+            "Debt": 403011000.0,
+            "Cash": 2763000.0,
+            "FreeCashFlow": 367913000.0,
+            "DividendPaid": null
+        },
+        {
+            "Quarter": "2026-03-31",
+            "Currency": "PLN",
+            "Revenue": 1070359000.0,
+            "NetIncome": 213056000.0,
+            "OperatingIncome": 259511000.0,
+            "Debt": 393112000.0,
+            "Cash": 3111000.0,
+            "FreeCashFlow": 291689000.0,
+            "DividendPaid": null
+        }
+    ],
+    "annual_fundamentals": [
+        {
+            "Year": 2021,
+            "Currency": "PLN",
+            "Revenue": null,
+            "NetIncome": null,
+            "OperatingIncome": null,
+            "Debt": null,
+            "Cash": null,
+            "FreeCashFlow": null,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2022,
+            "Currency": "PLN",
+            "Revenue": 1812201000.0,
+            "NetIncome": 149534000.0,
+            "OperatingIncome": 159476000.0,
+            "Debt": 112431000.0,
+            "Cash": 3616000.0,
+            "FreeCashFlow": -122981000.0,
+            "DividendPaid": 0.32
+        },
+        {
+            "Year": 2023,
+            "Currency": "PLN",
+            "Revenue": 3164375000.0,
+            "NetIncome": 255697000.0,
+            "OperatingIncome": 309482000.0,
+            "Debt": 433572000.0,
+            "Cash": 34277000.0,
+            "FreeCashFlow": 26489000.0,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2024,
+            "Currency": "PLN",
+            "Revenue": 2556899000.0,
+            "NetIncome": 201755000.0,
+            "OperatingIncome": 220076000.0,
+            "Debt": 437931000.0,
+            "Cash": 2509000.0,
+            "FreeCashFlow": 566521000.0,
+            "DividendPaid": null
+        },
+        {
+            "Year": 2025,
+            "Currency": "PLN",
+            "Revenue": 2650467000.0,
+            "NetIncome": 277024000.0,
+            "OperatingIncome": 343610000.0,
+            "Debt": 403011000.0,
+            "Cash": 2763000.0,
+            "FreeCashFlow": 482199000.0,
+            "DividendPaid": null
+        }
+    ],
+    "earnings_surprises": []
+}

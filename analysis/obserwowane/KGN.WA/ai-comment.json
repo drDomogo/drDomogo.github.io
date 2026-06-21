@@ -1,0 +1,60 @@
+{
+    "ticker": "KGN.WA",
+    "short_name": "KOGENERA",
+    "analysis_date": "2026-06-21",
+    "current_price": 71.9,
+    "currency": "PLN",
+    "revenue_and_eps_trend": "Roczny wzrost przychodów i zysków netto, z kwartalną zmiennością i silnym Q1 2026. Q3 2025 odnotował stratę netto.",
+    "fcf_and_operations": "Znacząca poprawa rocznych wolnych przepływów pieniężnych, choć kwartalnie są one bardzo zmienne (ujemne w Q3 2025, silne w Q4 2025 i Q1 2026). Marże operacyjne stabilne w silnych kwartałach.",
+    "balance_sheet_debt": "Bardzo wysoki wskaźnik zadłużenia do kapitału własnego (D/E 13.985) i niskie zasoby gotówki. Widoczna tendencja do lekkiej redukcji długu w ostatnich kwartałach.",
+    "dividend_policy": "Wysoka bieżąca stopa dywidendy (9.04%), jednak historyczne dane wskazują na nieregularne wypłaty, co sugeruje zmienną politykę dywidendową.",
+    "market_expectations": null,
+    "valuation_status": "Tania",
+    "key_valuation_metrics": "P/E (TTM): 2.95, P/E (FWD): 1.94, P/B: 0.38",
+    "price_strong_opportunity": 88.0,
+    "price_attractive": 99.0,
+    "price_fair_value": 110.0,
+    "price_overvalued": 132.0,
+    "price_valuation_justification": "Ekstremalnie niskie wskaźniki P/E (2.95x TTM, 1.94x FWD) oraz P/B (0.38x) sugerują głęboką niedowartościowanie. Wycena godziwa oparta na konserwatywnym P/E FWD na poziomie 3.0x (36.97 * 3.0 = 110.91 PLN).",
+    "trend_short_term": "Spadkowy",
+    "trend_long_term": "Wzrostowy",
+    "position_vs_sma50": "pod",
+    "position_vs_sma200": "nad",
+    "support_level": 69.0,
+    "resistance_level": 74.5,
+    "momentum_summary": "Cena spadła poniżej SMA50, wskazując na krótkoterminową słabość. Długoterminowy trend wzrostowy utrzymany, z ceną powyżej rosnącej SMA200. Wskaźniki momentum wykazują osłabienie po ostatnich spadkach.",
+    "scorecard": [
+        {
+            "criterion": "Wzrost Przych./Zysk.",
+            "score": 7,
+            "reason": "Roczny wzrost przychodów i zysków netto, choć z kwartalną zmiennością i silnym Q1 2026."
+        },
+        {
+            "criterion": "Przepływy Pieniężne",
+            "score": 7,
+            "reason": "Znacząca poprawa rocznych FCF, jednak kwartalnie są one bardzo zmienne."
+        },
+        {
+            "criterion": "Bilans/Zadłużenie",
+            "score": 3,
+            "reason": "Bardzo wysoki wskaźnik D/E (13.985) i niskie zasoby gotówki, mimo lekkiej redukcji długu."
+        },
+        {
+            "criterion": "Wycena",
+            "score": 9,
+            "reason": "Ekstremalnie niskie wskaźniki P/E i P/B sugerują głęboką niedowartościowanie."
+        },
+        {
+            "criterion": "Dywidenda",
+            "score": 8,
+            "reason": "Wysoka bieżąca stopa dywidendy (9.04%), atrakcyjna dla inwestorów dochodowych."
+        },
+        {
+            "criterion": "Trend Techniczny",
+            "score": 6,
+            "reason": "Długoterminowy trend wzrostowy, ale krótkoterminowo cena poniżej SMA50."
+        }
+    ],
+    "final_verdict": "AKUMULUJ",
+    "main_risk": "Wysokie zadłużenie (D/E 13.985) i jego wpływ na stabilność finansową oraz zmienność wyników kwartalnych."
+}
